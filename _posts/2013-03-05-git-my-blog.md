@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "GitHub 博客搭建成功"
-description: ""
-category: 
+description: "Start Blog My Life."
+category: blog
 tags: [git, blog, aizhan, alexa, iwebchoice]
 ---
 {% include JB/setup %}
