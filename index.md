@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Hello World!
+title: 萍水相逢
 ---
 
-<h2>{{ page.title }}</h2>
+### 陈自新的博客
 
 <p>最新文章</p>
 
