@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "First Blog"
-description: ""
-category: 
-tags: [test,demo]
+description: "A Test Post."
+category: test
+tags: [test, demo]
 ---
 {% include JB/setup %}
 
