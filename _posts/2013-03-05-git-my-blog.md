@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Git My Blog"
+title: "GitHub 博客搭建成功"
 description: ""
 category: 
-tags: []
+tags: [git, blog, aizhan, alexa, iwebchoice]
 ---
 {% include JB/setup %}
 
