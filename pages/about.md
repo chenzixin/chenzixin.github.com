@@ -5,12 +5,12 @@ description: ""
 ---
 {% include JB/setup %}
 
-Christen
+Christen / 陈自新
 
 ----
 
 
-A NEWBIE OF PYTHON IN PCGROUP, TRY MY BEST TO KEEP [WRITING](http://chenzixin.sinaapp.com/).
+A NEWBIE OF PYTHON IN PCGROUP, TRY MY BEST TO KEEP [WRITING](http://chenzixin.sinaapp.com/). Follow me @ [Weibo](http://weibo.com/chenzixin).
 
 __Focus__
 
@@ -29,20 +29,23 @@ __Brief__
 
 
 <table>
-    <tr>
-        <td>姓名</td>
-		<td>=</td>
-		<td>chenzixin</td>
-    <tr>
-        <td>微博</td>
-        <td>=</td>
-        <td>http://weibo.com/chenzixin</td>
+	<tr>
+        <td>太平洋网络集团</td>
+        <td>2007 - 至今	</td>
+        <td>北京 ，海淀区</td>
+        <td>北京研发中心 经理</td>
     </tr>
+	<tr>
+        <td>太平洋电脑网</td>
+        <td>2004 - 2006	</td>
+        <td>北京 ，海淀区</td>
+        <td>北京编辑部 技术协调</td>
     </tr>
-        <tr>
-        <td>博客</td>
-        <td>=</td>
-        <td>http://chenzixin.sinaapp.com</td>
+    <tr>
+        <td>太平洋游戏网</td>
+        <td>2004 - 2006	</td>
+        <td>上海 ，徐汇区</td>
+        <td>广州网络游戏编辑 上海单机游戏编辑</td>
     </tr>
 
 </table>
