@@ -15,14 +15,13 @@ A NEWBIE OF PYTHON IN PCGROUP, TRY MY BEST TO KEEP [WRITING](http://chenzixin.si
 __Focus__
 
 * Python
-* Java
-* Scala
+* Java / Scala
 * HTML5
 * JavaScript
 * CSS
 * SEO
-* ADS
-* CAC
+* Advertising Supported
+* Chinese Ancient Culture
 * English
 
 
@@ -47,4 +46,10 @@ __Brief__
     </tr>
 
 </table>
+
+__Code__
+
+{% highlight ruby %}
+print 'Hello, World!'
+{% endhighlight %}
 
