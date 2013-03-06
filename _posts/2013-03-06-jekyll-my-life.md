@@ -7,6 +7,155 @@ tags: [jekyll]
 ---
 {% include JB/setup %}
 
-我知道网上有很多这样的日志，绝不少我这一篇，但网传三分钟建一个 Jekyll Blog，我认为那只是理想状况，现实生活中，往往是有很多意外的。
+我知道网上有很多这样的日志，绝不少我这一篇，但网传三分钟建一个 Jekyll Blog，窃以为那只是理想状况，现实生活中，往往是有很多意外的。
 
 我不知道你是从哪里结识 Jekyll，一个好的引路人，也能节约你不少的时间，比如 [JekyllBootstrap](http://jekyllbootstrap.com/)，用他的Repository快速生成，比执照[阮一峰](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)的步骤手工搭建，要快上不少。不过，后者更能让你理解 Jekyll 的运作原理。
+
+我的工作环境：Mac OS X 10.8.2
+
+## 第一步 Hosted Jekyll
+
+
+访问 [Jekyll Bootstrap](http://jekyllbootstrap.com/)，按照指引操作（注册 Git 账号这里就不不说了，非常简单），如果这一步出错：
+
+```
+$ git push origin master
+```
+{% highlight ruby%}
+Permission denied (publickey).
+fatal: The remote end hung up unexpectedly
+{% endhighlight %}
+
+你可能要生成 SSH Keys，参考文章：
+
+[Generating SSH Keys](https://help.github.com/articles/generating-ssh-keys)
+
+[Git Permission Denied Publickey](http://www.celticwolf.com/blog/2011/02/08/git-permission-denied-publickey/)
+
+顺利的话，大概两三分钟，你就能看到[自己的页面](http://USERNAME.github.com)。
+
+## 第二步 Run Jekyll Locally
+
+你需要一点点[Ruby](http://www.ruby-lang.org/en/)的基础知识，至少要了解 [RubyGems](http://rubygems.org/)，[rake](http://rubygems.org/gems/rake) 等工具。
+
+安装命令很简单：
+
+```
+$ gem install jekyll
+```
+
+不过你很可能会遇到以下错误：
+
+{% highlight ruby%}
+ERROR:  Error installing jekyll:
+	ERROR: Failed to build gem native extension.
+
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby extconf.rb
+creating Makefile
+...
+Results logged to /Library/Ruby/Gems/1.8/gems/fast-stemmer-1.0.2/ext/gem_make.out
+{% endhighlight %}
+
+原因：Ruby 版本 1.8.7，太低，推荐升级到 1.9.3 。
+
+建议使用 [RVM](https://rvm.io/)，然而执行安装命令
+
+```
+\curl -L https://get.rvm.io | bash -s stable --ruby
+```
+
+RVM 会自动安装 Ruby 2.0，然后 Gem 安装不错，绕了弯路。
+
+解决方法：
+
+```
+rvm pkg install openssl
+```
+
+注意，成功之后，不要直接遵照提示执行：
+
+```
+rvm reinstall all --force
+```
+
+openssl 的问题会依旧。
+
+如果你已经安装了 2.0.0，卸载：
+
+```
+rvm remove 2.0.0
+```
+
+重新安装1.9.3：
+
+```
+rvm install 1.9.3 -C --with-openssl-dir=$HOME/.rvm/usr
+```
+
+成功之后，再安装 jekyll，以下 11 个工具会安装：
+
+{% highlight ruby%}
+Successfully installed liquid-2.4.1
+Successfully installed fast-stemmer-1.0.2
+Successfully installed classifier-1.3.3
+Successfully installed directory_watcher-1.4.1
+Successfully installed syntax-1.0.0
+Successfully installed maruku-0.6.1
+Successfully installed kramdown-0.14.2
+Successfully installed yajl-ruby-1.1.0
+Successfully installed posix-spawn-0.3.6
+Successfully installed pygments.rb-0.3.7
+Successfully installed jekyll-0.12.1
+11 gems installed
+{% endhighlight %}
+
+接下来，你就可以使用
+
+```
+jekyll --sever
+```
+
+本地测试。
+
+发表博客：
+
+```
+$ rake post title="Hello World"
+```
+
+更多命令，请参考[这里](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)。
+
+## 第三步 Enhance Jekyll
+
+
+### 语法高亮
+
+参考[这里](https://github.com/mojombo/jekyll/wiki/Install)的 Pygments Usage 。
+
+似乎 显示行号 的功能不好用，参数：linenos 。
+
+### 定义域名
+
+如果你不想用 http://chenzixin.github.com 这个域名，可以换成自己的域名。
+
+具体方法是在 Repositories 的根目录，新建一个名为CNAME的文本文件，写入你要绑定的域名，比如 www.chenzixin.com 。
+
+如果绑定的是顶级域名，则DNS要新建一条A记录，指向 204.232.175.78 。
+
+修改 _config.yml
+
+```
+production_url : http://www.chenzixin.com
+```
+
+就 OK 了。
+
+至于评论、主题、监测、插件等话题，暂不讨论，目前就想专注写作，以后再看。
+
+全文完。
+
+
+
+
+
+
