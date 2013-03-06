@@ -16,7 +16,7 @@ tags: [jekyll]
 ## 第一步 Hosted Jekyll
 
 
-访问 [Jekyll Bootstrap](http://jekyllbootstrap.com/)，按照指引操作（注册 Git 账号这里就不不说了，非常简单），如果这一步出错：
+访问 [Jekyll Bootstrap](http://jekyllbootstrap.com/)，按照指引操作（注册 GitHub 账号这里就不说了，非常简单），如果这一步出错：
 
 ```
 $ git push origin master
@@ -149,6 +149,10 @@ production_url : http://www.chenzixin.com
 ```
 
 就 OK 了。
+
+如果你有多个域名，可以注册多个 GitHub 账号，然后在授权给一个主账号提交项目即可。
+
+settings -> Manage Collaborators
 
 至于评论、主题、监测、插件等话题，暂不讨论，目前就想专注写作，以后再看。
 
