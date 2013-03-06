@@ -52,7 +52,7 @@ __Brief__
 
 __Code__
 
-{% highlight ruby linenos %}
+{% highlight ruby %}
 # -*- coding: utf-8 -*-
 print 'Hello, 世界!'
 {% endhighlight %}
