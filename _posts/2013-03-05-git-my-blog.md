@@ -23,7 +23,7 @@ tags: [git, blog, aizhan, alexa, iwebchoice]
 
 其实最近挺低落的，老婆昨天在电话中和人说，感觉我们公司快倒闭了，有些夸张，不过，网络广告的增长点，的确不好找了。
 
-![可能想多了]({{/images/2013/01/think-more.jpeg "可能想多了吧")
+<img src="/images/2013/01/think-more.jpeg" alt="想多了" title="你想多了"/>
 
 同事问我是不是想跳，我说暂时还没有这个想法，但是我至少要有跳的实力。
 
