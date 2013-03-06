@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "First Blog"
+title: "第一篇日志"
 description: "A Test Post."
 category: test
 tags: [test, demo]
