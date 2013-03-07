@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>CSS3 Box Shadow Effect #02</title>
+  <link rel="shortcut icon" href="http://www.hongkiat.com/favicon.ico">
+  <link rel="icon" href="http://www.hongkiat.com/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arbutus+Slab">
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style type="text/css">
+/* inline css styles */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+}
+html { height: 200%; }
+body { font-size: 62.5%; line-height: 1; padding: 20px 0px; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong { font-weight: bold; } 
+
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+p { font-weight: normal; font-size: 1.5em; line-height: 1.35em; color: #454545; }
+
+h1 { font-size: 2.1em; line-height: 1.4em; margin-bottom: 15px; color: #444; font-weight: normal; font-family: 'Arbutus Slab', Arial, sans-serif; }
+
+.w { width: 900px; margin: 0 auto; margin-bottom: 40px; }
+
+/*----- shadow #02 -----*/
+#bar { display: block; height: 45px; background: #22385a; padding-top: 5px; margin-bottom: 150px; position: relative; }
+#bar ul { margin: 0px 15px; font-family: Candara, Calibri, "Segoe UI", Segoe, Arial, sans-serif; }
+#bar ul li {  background: #22385a; display: block; font-size: 1.2em; position: relative; float: left; }
+#bar ul li a { 
+display: block; 
+color: #fffff7; 
+line-height: 45px; 
+font-weight: bold; 
+padding: 0px 10px; 
+text-decoration: none;
+z-index: 9999;
+}
+
+#bar ul li a:hover, #bar ul li a.selected {
+color: #365977;
+background: #fff;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+-webkit-border-top-left-radius: 3px;
+-webkit-border-top-right-radius: 3px;
+-moz-border-radius-topleft: 3px;
+-moz-border-radius-topright: 3px;
+}
+
+#bar ul .subnav {
+display: block;
+left: 14px;
+top: 48px;
+z-index: -1;
+width: 500px;
+position: absolute;
+height: 90px;
+border: 1px solid #edf0f3;
+border-top: 0;
+padding: 10px 0 10px 10px; 
+overflow: hidden;
+-moz-border-radius-bottomleft: 3px;
+-moz-border-radius-bottomleft: 3px;
+-webkit-border-bottom-left-radius: 3px;
+-webkit-border-bottom-right-radius: 3px;
+border-bottom-right-radius: 3px;
+border-bottom-right-radius: 3px;
+-moz-box-shadow: 0px 2px 7px rgba(0,0,0,0.25);
+-webkit-box-shadow: 0px 2px 7px rgba(0,0,0,0.25);
+box-shadow: 0px 2px 7px rgba(0,0,0,0.25);
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=180, Color='#333333')";
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=180, Color='#333333');
+}
+</style>
+</head>
+
+<body>
+	<div class="w">
+		<h1>#02 Sub-Navigation Dropdown</h1>
+		<nav id="bar">
+			<ul>
+				<li>
+					<a href="#" class="selected">Startups</a>
+				</li>
+                <div class="subnav">
+					<h3>Here is some dummy content</h3>
+				</div>
+									
+			  <li><a href="#">Internet Culture</a></li>
+			  <li><a href="#">Making Money</a></li>
+			  <li><a href="#">Marketing</a></li>
+			  <li><a href="#">Technology</a></li>
+		  </ul>
+		</nav>
+	</div>
+</body>
+</html>

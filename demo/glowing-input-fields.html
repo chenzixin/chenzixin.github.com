@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>CSS3 Box Shadow Effect #09</title>
+  <link rel="shortcut icon" href="http://www.hongkiat.com/favicon.ico">
+  <link rel="icon" href="http://www.hongkiat.com/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arbutus+Slab">
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style type="text/css">
+/* inline css styles */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+}
+html { height: 200%; }
+body { font-size: 62.5%; line-height: 1; padding: 20px 0px; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong { font-weight: bold; } 
+
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+p { font-weight: normal; font-size: 1.5em; line-height: 1.35em; color: #454545; }
+
+h1 { font-size: 2.1em; line-height: 1.4em; margin-bottom: 15px; color: #444; font-weight: normal; font-family: 'Arbutus Slab', Arial, sans-serif; }
+
+.w { width: 900px; margin: 0 auto; margin-bottom: 40px; }
+
+/*----- shadow #09 -----*/
+.formwrap {
+display: block;
+margin-bottom: 9px;
+}
+
+.formwrap label { 
+display: inline-block; 
+width: 80px; 
+font-size: 1.1em; 
+font-weight: bold; 
+color: #444; 
+font-family: Arial, Tahoma, sans-serif; 
+}
+
+.formwrap .shadowfield {
+position: relative;
+width: 250px;
+font-size: 17px;
+font-family: "Helvetica Neue", Arial, sans-serif;
+font-weight: normal;
+background: #f7f8f8;
+color: #7c7c7c;
+line-height: 1.4;
+padding: 6px 12px;
+outline: none;
+transition: all 0.2s ease-in-out 0s;
+-webkit-transition: all 0.2s ease-in-out 0s;
+-moz-transition: all 0.2s ease-in-out 0s;
+border: 1px solid #ad9c9c;
+border-radius: 6px 6px 6px 6px;
+box-shadow: 0 1px rgba(34, 25, 25, 0.2) inset, 0 1px #fff;
+}
+.formwrap .shadowfield:focus {
+border-color: #930; 
+background: #fff;
+color: #5d5d5d;
+box-shadow: inset 0 1px rgba(34, 25, 25, 0.2), 0 1px rgba(255, 255, 255, 0.6), 0 0 7px rgba(235, 82, 82, 0.5); 
+-moz-box-shadow: inset 0 1px rgba(34, 25, 25, 0.2), 0 1px rgba(255, 255, 255, 0.6), 0 0 7px rgba(235, 82, 82, 0.5); 
+-webkit-box-shadow: inset 0 1px rgba(34, 25, 25, 0.2), 0 1px rgba(255, 255, 255, 0.6), 0 0 7px rgba(235, 82, 82, 0.5);
+}
+</style>
+</head>
+
+<body>
+	<div class="w">
+		<h1>#09 Glowing Input Fields</h1>
+			<div class="formwrap">
+		    <label for="email">Email</label>
+		    <input type="text" name="email" id="email" placeholder="" class="shadowfield">
+		  </div>
+		
+		<div class="formwrap">
+		  <label for="password">Password</label>
+		  <input type="password" name="password" id="password" placeholder="" class="shadowfield">
+		</div>
+	</div>
+</body>
+</html>

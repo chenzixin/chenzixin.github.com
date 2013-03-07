@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>CSS3 Box Shadow Effect #10</title>
+  <link rel="shortcut icon" href="http://www.hongkiat.com/favicon.ico">
+  <link rel="icon" href="http://www.hongkiat.com/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arbutus+Slab">
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style type="text/css">
+/* inline css styles */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+}
+html { height: 200%; }
+body { font-size: 62.5%; line-height: 1; padding: 20px 0px; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong { font-weight: bold; } 
+
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+p { font-weight: normal; font-size: 1.5em; line-height: 1.35em; color: #454545; }
+
+h1 { font-size: 2.1em; line-height: 1.4em; margin-bottom: 15px; color: #444; font-weight: normal; font-family: 'Arbutus Slab', Arial, sans-serif; }
+
+.w { width: 900px; margin: 0 auto; margin-bottom: 40px; }
+
+/*----- shadow #10 -----*/
+.btn-container { display: inline-block; margin-right: 15px; }
+
+.blu-btn {
+display: inline-block;
+-moz-border-radius: .25em;
+border-radius: .25em;
+-webkit-box-shadow: 0 2px 0 0 rgba(0,0,0,0.1), inset 0 -2px 0 0 rgba(0,0,0,0.2);
+-moz-box-shadow: 0 2px 0 0 rgba(0,0,0,0.1), inset 0 -2px 0 0 rgba(0,0,0,0.2);
+box-shadow: 0 2px 0 0 rgba(0,0,0,0.1), inset 0 -2px 0 0 rgba(0,0,0,0.2);
+background-color: #276195;
+background-image: -khtml-gradient(linear,left top,left bottom,from(#3c88cc),to(#276195));
+background-image: -moz-linear-gradient(#3c88cc,#276195);
+background-image: -ms-linear-gradient(#3c88cc,#276195);
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#3c88cc),color-stop(100%,#276195));
+background-image: -webkit-linear-gradient(#3c88cc,#276195);
+background-image: -o-linear-gradient(#3c88cc,#276195);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3c88cc',endColorstr='#276195',GradientType=0);
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#3c88cc', endColorstr='#276195', GradientType=0)";
+background-image: linear-gradient(#3c88cc,#276195);
+border: 0;
+cursor: pointer;
+color: #fff;
+text-decoration: none;
+text-align: center;
+font-size: 16px;
+padding: 0px 20px;
+height: 40px;
+line-height: 40px;
+min-width: 100px;
+text-shadow: 0 1px 0 rgba(0,0,0,0.35);
+font-family: Arial, Tahoma, sans-serif;
+-webkit-transition: all linear .2s;
+-moz-transition: all linear .2s;
+-o-transition: all linear .2s;
+-ms-transition: all linear .2s;
+transition: all linear .2s
+}
+.blu-btn:hover, .blu-btn:focus {
+-webkit-box-shadow: 0 2px 0 0 rgba(0,0,0,0.1), inset 0 -2px 0 0 rgba(0,0,0,0.3), inset 0 12px 20px 2px #3089d8;
+-moz-box-shadow: 0 2px 0 0 rgba(0,0,0,0.1), inset 0 -2px 0 0 rgba(0,0,0,0.3), inset 0 12px 20px 2px #3089d8;
+box-shadow: 0 2px 0 0 rgba(0,0,0,0.1), inset 0 -2px 0 0 rgba(0,0,0,0.3), inset 0 12px 20px 2px #3089d8;
+}
+.blu-btn:active {
+-webkit-box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.2), inset 0 12px 20px 6px rgba(0,0,0,0.2), inset 0 0 2px 2px rgba(0,0,0,0.3);
+-moz-box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.2), inset 0 12px 20px 6px rgba(0,0,0,0.2), inset 0 0 2px 2px rgba(0,0,0,0.3);
+box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.2), inset 0 12px 20px 6px rgba(0,0,0,0.2), inset 0 0 2px 2px rgba(0,0,0,0.3);
+}
+
+
+.grn-btn {
+display: inline-block;
+-moz-border-radius: .25em;
+border-radius: .25em;
+-webkit-box-shadow: 0 2px 0 0 rgba(0,0,0,0.1), inset 0 -2px 0 0 rgba(0,0,0,0.2);
+-moz-box-shadow: 0 2px 0 0 rgba(0,0,0,0.1), inset 0 -2px 0 0 rgba(0,0,0,0.2);
+box-shadow: 0 2px 0 0 rgba(0,0,0,0.1), inset 0 -2px 0 0 rgba(0,0,0,0.2);
+background-color: #659324;
+background-image: -khtml-gradient(linear,left top,left bottom,from(#81bc2e),to(#659324));
+background-image: -moz-linear-gradient(#81bc2e,#659324);
+background-image: -ms-linear-gradient(#81bc2e,#659324);
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#81bc2e),color-stop(100%,#659324));
+background-image: -webkit-linear-gradient(#81bc2e,#659324);
+background-image: -o-linear-gradient(#81bc2e,#659324);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#81bc2e',endColorstr='#659324',GradientType=0);
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#81bc2e', endColorstr='#659324', GradientType=0)";
+background-image: linear-gradient(#81bc2e,#659324);
+border: 0;
+cursor: pointer;
+color: #fff;
+text-decoration: none;
+text-align: center;
+font-size: 16px;
+padding: 0px 20px;
+height: 40px;
+line-height: 40px;
+min-width: 100px;
+text-shadow: 0 1px 0 rgba(0,0,0,0.35);
+font-family: Arial, Tahoma, sans-serif;
+-webkit-transition: all linear .2s;
+-moz-transition: all linear .2s;
+-o-transition: all linear .2s;
+-ms-transition: all linear .2s;
+transition: all linear .2s;
+}
+.grn-btn:hover, .grn-btn:focus {
+-webkit-box-shadow: 0 2px 0 0 rgba(0,0,0,0.1), inset 0 -2px 0 0 rgba(0,0,0,0.3), inset 0 12px 20px 2px #85ca26;
+-moz-box-shadow: 0 2px 0 0 rgba(0,0,0,0.1), inset 0 -2px 0 0 rgba(0,0,0,0.3), inset 0 12px 20px 2px #85ca26;
+box-shadow: 0 2px 0 0 rgba(0,0,0,0.1), inset 0 -2px 0 0 rgba(0,0,0,0.3), inset 0 12px 20px 2px #85ca26;
+}
+.grn-btn:active {
+-webkit-box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.2), inset 0 12px 20px 6px rgba(0,0,0,0.2), inset 0 0 2px 2px rgba(0,0,0,0.3);
+-moz-box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.2), inset 0 12px 20px 6px rgba(0,0,0,0.2), inset 0 0 2px 2px rgba(0,0,0,0.3);
+box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.2), inset 0 12px 20px 6px rgba(0,0,0,0.2), inset 0 0 2px 2px rgba(0,0,0,0.3);
+}
+</style>
+</head>
+
+<body>
+	<div class="w">
+		<h1>#10 Elastic Shadow Buttons</h1>
+		<div class="btn-container">
+			<a href="javascript:void(0)" class="blu-btn">Blue Button</a>
+		</div>
+		
+		<div class="btn-container">
+			<a href="javascript:void(0)" class="grn-btn">Greenie</a>
+		</div>
+	</div>
+</body>
+</html>

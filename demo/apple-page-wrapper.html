@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>CSS3 Box Shadow Effect #05</title>
+  <link rel="shortcut icon" href="http://www.hongkiat.com/favicon.ico">
+  <link rel="icon" href="http://www.hongkiat.com/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arbutus+Slab">
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style type="text/css">
+/* inline css styles */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+}
+html { height: 200%; }
+body { font-size: 62.5%; line-height: 1; padding: 20px 0px; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong { font-weight: bold; } 
+
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+p { font-weight: normal; font-size: 1.1em; padding-right: 10px; line-height: 1.35em; color: #454545; }
+
+h1 { font-size: 2.1em; line-height: 1.4em; margin-bottom: 15px; color: #444; font-weight: normal; font-family: 'Arbutus Slab', Arial, sans-serif; }
+
+.w { width: 900px; margin: 0 auto; margin-bottom: 40px; }
+
+/*----- shadow #05 -----*/
+.applewrap {
+width: 100%;
+display: block;
+height: 150px;
+background: white;
+border: 1px solid;
+border-color: #e5e5e5 #dbdbdb #d2d2d2;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+-moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+}
+
+
+.applewrap .col {
+float: left;
+box-sizing: border-box;
+width: 250px;
+height: 150px;
+padding: 16px 0 6px 22px;
+font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+color: #343434;
+border-right: 1px solid #dadada;
+}
+.applewrap .col.last { width: 350px; border-right-color: #fff; }
+.applewrap .col.last img { float: right; position: relative; top: -20px; }
+.applewrap .col h2 { font-size: 15px; margin-bottom: 4px; font-weight: bold; }
+</style>
+</head>
+
+<body>
+	<div class="w">
+		<h1>#05 Apple Page Wrapper</h1>
+		<div class="applewrap">
+			<div class="col"><img src="images/buystrip_hero.png" alt="Apple strip"></div>
+			
+			<div class="col">
+				<h2>Some Text</h2>
+				<p>This demonstration has to contain some type of content. So, here it is. I'm sure it all looks real fancy.</p>
+			</div>
+			
+			<div class="col last">
+				<h2>OSX Release Promo</h2>
+				<img src="images/promo_mountain_lion.png" alt="OSX Mountain Lion">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
