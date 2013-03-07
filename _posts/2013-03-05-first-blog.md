@@ -32,3 +32,5 @@ tags: [test, demo]
 一定要紧缩战线，不要盲目扩张，职场不太喜欢万金油，只青睐某些领域的专家。
 
 本地 DokuWiki + Confluence，线上 SAE + Github，坚持，成就实力。
+
+全文完。
