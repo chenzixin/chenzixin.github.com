@@ -17,7 +17,7 @@ tags: [html, css3]
 
 # 固定顶部工具栏
 
-演示: [Fixed Top Toolbar](/demo/box-shadow/fixed-top-toolbar.html)
+演示：[Fixed Top Toolbar](/demo/box-shadow/fixed-top-toolbar.html)
 
 分析：
 
