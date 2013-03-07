@@ -85,7 +85,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : chenzixin
     livefyre :
       site_id : 123
     intensedebate :
@@ -103,7 +103,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-39101310-1'
     getclicky :
       site_id : 
     mixpanel :
