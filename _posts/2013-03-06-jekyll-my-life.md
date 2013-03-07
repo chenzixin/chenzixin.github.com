@@ -152,7 +152,27 @@ production_url : http://www.chenzixin.com
 
 >settings -> Manage Collaborators
 
-至于评论、主题、监测、插件等话题，暂不讨论，目前就想专注写作，以后再看。
+### 配置评论
+
+注册一个 [Disqus](http://www.disqus.com/) 账号，个性 \_config.yml，如：
+
+`
+short_name : chenzixin 
+`
+
+即可。
+
+### 添加监测
+
+在 [Google Analytics](https://www.google.com/analytics/) 新增监测，配置
+
+`
+tracking_id : 'UA-39101310-1'
+`
+
+即可。
+
+至于主题、插件等话题，暂不讨论，目前就想专注写作，以后再看。
 
 全文完。
 
