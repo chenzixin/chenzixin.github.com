@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "小团队开发的困境"
+title: "分部小团队开发的困境"
 description: ""
-category: 
-tags: []
+category: program
+tags: [pmp]
 ---
 {% include JB/setup %}
 
