@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jekyll 安装日志"
+title: "Mac OS X 安装 Jekyll 记录"
 description: ""
 category: program
 tags: [jekyll]
@@ -9,7 +9,7 @@ tags: [jekyll]
 
 我知道网上有很多这样的日志，绝不少我这一篇，但网传三分钟建一个 Jekyll Blog，窃以为那只是理想状况，现实生活中，往往是有很多意外的。
 
-我不知道你是从哪里结识 Jekyll，一个好的引路人，也能节约你不少的时间，比如 [JekyllBootstrap](http://jekyllbootstrap.com/)，用他的Repository快速生成，比执照[阮一峰](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)的步骤手工搭建，要快上不少。不过，后者更能让你理解 Jekyll 的运作原理。
+我不知道你是从哪里结识 Jekyll，一个好的引路人，也能节约你不少的时间，比如 [JekyllBootstrap](http://jekyllbootstrap.com/)，用他的 Repository 快速生成，比按照[阮一峰](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)的步骤手工搭建，要快上不少。不过，后者更能让你理解 Jekyll 的运作原理。
 
 我的工作环境：Mac OS X 10.8.2
 
@@ -18,9 +18,9 @@ tags: [jekyll]
 
 访问 [Jekyll Bootstrap](http://jekyllbootstrap.com/)，按照指引操作（注册 GitHub 账号这里就不说了，非常简单），如果这一步出错：
 
-```
+`
 $ git push origin master
-```
+`
 {% highlight ruby%}
 Permission denied (publickey).
 fatal: The remote end hung up unexpectedly
@@ -30,7 +30,7 @@ fatal: The remote end hung up unexpectedly
 
 [Generating SSH Keys](https://help.github.com/articles/generating-ssh-keys)
 
-[Git Permission Denied Publickey](http://www.celticwolf.com/blog/2011/02/08/git-permission-denied-publickey/)
+[Git Permission Denied Publickey](http://www.celticwolf.com/blog/2011/02/08/git-permission-denied-publickey/) （可能需要翻墙）
 
 顺利的话，大概两三分钟，你就能看到[自己的页面](http://USERNAME.github.com)。
 
@@ -40,18 +40,15 @@ fatal: The remote end hung up unexpectedly
 
 安装命令很简单：
 
-```
+`
 $ gem install jekyll
-```
+`
 
 不过你很可能会遇到以下错误：
 
 {% highlight ruby%}
 ERROR:  Error installing jekyll:
 	ERROR: Failed to build gem native extension.
-
-    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby extconf.rb
-creating Makefile
 ...
 Results logged to /Library/Ruby/Gems/1.8/gems/fast-stemmer-1.0.2/ext/gem_make.out
 {% endhighlight %}
@@ -60,37 +57,37 @@ Results logged to /Library/Ruby/Gems/1.8/gems/fast-stemmer-1.0.2/ext/gem_make.ou
 
 建议使用 [RVM](https://rvm.io/)，然而执行安装命令
 
-```
-\curl -L https://get.rvm.io | bash -s stable --ruby
-```
+`
+$ \curl -L https://get.rvm.io | bash -s stable --ruby
+`
 
 RVM 会自动安装 Ruby 2.0，然后 Gem 安装不错，绕了弯路。
 
 解决方法：
 
-```
-rvm pkg install openssl
-```
+`
+$ rvm pkg install openssl
+`
 
 注意，成功之后，不要直接遵照提示执行：
 
-```
-rvm reinstall all --force
-```
+`
+$ rvm reinstall all --force
+`
 
 openssl 的问题会依旧。
 
 如果你已经安装了 2.0.0，卸载：
 
-```
-rvm remove 2.0.0
-```
+`
+$ rvm remove 2.0.0
+`
 
 重新安装1.9.3：
 
-```
-rvm install 1.9.3 -C --with-openssl-dir=$HOME/.rvm/usr
-```
+`
+$ rvm install 1.9.3 -C --with-openssl-dir=$HOME/.rvm/usr
+`
 
 成功之后，再安装 jekyll，以下 11 个工具会安装：
 
@@ -111,17 +108,17 @@ Successfully installed jekyll-0.12.1
 
 接下来，你就可以使用
 
-```
-jekyll --sever
-```
+`
+$ jekyll --sever
+`
 
 本地测试。
 
 发表博客：
 
-```
+`
 $ rake post title="Hello World"
-```
+`
 
 更多命令，请参考[这里](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)。
 
@@ -142,17 +139,18 @@ $ rake post title="Hello World"
 
 如果绑定的是顶级域名，则DNS要新建一条A记录，指向 204.232.175.78 。
 
-修改 _config.yml
+修改 \_config.yml
 
-```
+
+`
 production_url : http://www.chenzixin.com
-```
+`
 
 就 OK 了。
 
 如果你有多个域名，可以注册多个 GitHub 账号，然后在授权给一个主账号提交项目即可。
 
-settings -> Manage Collaborators
+>settings -> Manage Collaborators
 
 至于评论、主题、监测、插件等话题，暂不讨论，目前就想专注写作，以后再看。
 
