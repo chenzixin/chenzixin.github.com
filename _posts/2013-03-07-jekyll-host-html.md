@@ -17,7 +17,7 @@ tags: [html, css3]
 
 # 固定顶部工具栏
 
-demo: [http://www.chenzixin.com/demo/fixed-top-toolbar.html](http://www.chenzixin.com/demo/fixed-top-toolbar.html)
+demo: [Fixed Top Toolbar](/demo/box-shadow/fixed-top-toolbar.html)
 
 分析：
 
