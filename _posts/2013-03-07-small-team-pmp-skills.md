@@ -2,7 +2,7 @@
 layout: post
 title: "小团队的管理技巧"
 description: ""
-category: 
+category: program
 tags: [pmp, team]
 ---
 {% include JB/setup %}
