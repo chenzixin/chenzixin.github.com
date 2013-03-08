@@ -67,6 +67,6 @@ __Code__
 
 {% highlight ruby %}
 # -*- coding: utf-8 -*-
-print 'Hello, 世界!'
+print '关山难越，谁悲失路之人；萍水相逢，尽是他乡之客。'
 {% endhighlight %}
 
