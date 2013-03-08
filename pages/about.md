@@ -26,15 +26,15 @@ __Focus__
 
 __Works__
 
-* Dopod Touch Flow 2D Emulator (ActionScript 3.0)
-* [Meeting Room](http://ioa.pc.com.cn/admin/index.htm) (Java + Spring2.5 + ExtJS + jQuery + MySQL)
-* Work Orders (Java + Spring2.5 + OpenJPA + Resin + Oracle)
-* [PCbaby Healthlib](http://health.pcbaby.com.cn/) (Java + Spring2.5 + MySQL + Memcache)
-* [PCbaby Product 2](http://product.pcbaby.com.cn/) (Java + Spring + EAV + ExtJS + MySQL + Memcache)
-* NetBench (Java + Spring3.0 + ExtJS + MySQL)
-* [Lucky5](https://github.com/chenzixin/Lucky5) (HTML5 + CSS3 + Impress)
-* [JeeCtrl](https://github.com/chenzixin/JeeCtrl) (Python + PyQt)
-* [PyKite](https://github.com/chenzixin/PyKite) (Python + PyQt + Webkit)
+* Dopod Touch Flow 2D Emulator (ActionScript 3.0) [Code]
+* [Meeting Room](http://ioa.pc.com.cn/admin/index.htm) (Java + Spring2.5 + ExtJS + jQuery + MySQL) [Code PM]
+* Work Orders (Java + Spring2.5 + OpenJPA + Resin + Oracle) [Code PM]
+* [PCbaby Healthlib](http://health.pcbaby.com.cn/) (Java + Spring2.5 + MySQL + Memcache) [Code PM]
+* [PCbaby Product 2](http://product.pcbaby.com.cn/) (Java + Spring + EAV + ExtJS + MySQL + Memcache) [Code PM]
+* NetBench (Java + Spring3.0 + ExtJS + MySQL) [Code PM]
+* [Lucky5](https://github.com/chenzixin/Lucky5) (HTML5 + CSS3 + Impress) [Code PM]
+* [JeeCtrl](https://github.com/chenzixin/JeeCtrl) (Python + PyQt) [Code PM]
+* [PyKite](https://github.com/chenzixin/PyKite) (Python + PyQt + Webkit) [Code PM]
 
 
 __Brief__
