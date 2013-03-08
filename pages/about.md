@@ -26,21 +26,62 @@ __Focus__
 
 __Works__
 
-* Dopod Touch Flow 2D Emulator (ActionScript 3.0)【Code】
-* [Meeting Room](http://ioa.pc.com.cn/admin/index.htm) (Java + Spring2.5 + ExtJS + jQuery + MySQL)【Code PM】
-* Work Orders (Java + Spring2.5 + OpenJPA + Resin + Oracle)【PM】
-* [PCbaby Healthlib](http://health.pcbaby.com.cn/) (Java + Spring2.5 + MySQL + Memcache)【PM】
-* [PCbaby Product 2](http://product.pcbaby.com.cn/) (Java + Spring + EAV + ExtJS + MySQL + Memcache)【PM】
-* NetBench (Java + Spring3.0 + ExtJS + MySQL)【PM】
-* [Lucky5](https://github.com/chenzixin/Lucky5) (HTML5 + CSS3 + Impress)【PM】
-* [JeeCtrl](https://github.com/chenzixin/JeeCtrl) (Python + PyQt)【PM】
-* [PyKite](https://github.com/chenzixin/PyKite) (Python + PyQt + Webkit)【PM】
+<table class="table table-striped">
+
+<tbody>
+<tr>
+<td>Dopod Touch Flow 2D Emulator</td>
+<td>ActionScript 3.0</td>
+<td>Code</td>
+</tr>
+<tr>
+<td><a href="http://ioa.pc.com.cn/admin/index.htm" target="_blank">Meeting Room</a></td>
+<td>Java + Spring2.5 + ExtJS + jQuery + MySQL</td>
+<td>Code PM</td>
+</tr>
+<tr>
+<td>Work Orders</td>
+<td> Java + Spring2.5 + OpenJPA + Resin + Oracle</td>
+<td>PM</td>
+</tr>
+<tr>
+<td><a href="http://health.pcbaby.com.cn/" target="_blank">PCbaby Healthlib</a></td>
+<td>Java + Spring2.5 + MySQL + Memcache</td>
+<td>PM</td>
+</tr>
+<tr>
+<td><a href="http://product.pcbaby.com.cn/" target="_blank">PCbaby Product 2</a></td>
+<td>Java + Spring2.5 + EAV + ExtJS + MySQL + Memcache</td>
+<td>PM</td>
+</tr>
+<tr>
+<td>NetBench</td>
+<td>Java + Spring3.0 + ExtJS + MySQL</td>
+<td>PM</td>
+</tr>
+<tr>
+<td><a href="https://github.com/chenzixin/Lucky5" target="_blank">Lucky5</a></td>
+<td>HTML5 + CSS3 + Impress</td>
+<td>PM</td>
+</tr>
+<tr>
+<td><a href="https://github.com/chenzixin/JeeCtrl" target="_blank">JeeCtrl</a></td>
+<td>Python + PyQt</td>
+<td>PM</td>
+</tr>
+<tr>
+<td><a href="https://github.com/chenzixin/PyKite" target="_blank">PyKite</a></td>
+<td>Python + PyQt + Webkit</td>
+<td>PM</td>
+</tr>
+</tbody></table>
+
 
 
 __Brief__
 
 
-<table class="table table-bordered table-striped table-hover">
+<table class="table table-bordered table-hover">
 	<tr>
         <td>太平洋网络集团</td>
         <td>2007 - 至今	</td>
