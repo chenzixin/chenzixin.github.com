@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "分部小团队开发的困境"
+title: "分部小团队研发的困境"
 description: ""
 category: program
 tags: [pmp]
