@@ -10,7 +10,7 @@ Christen / 陈自新
 ----
 
 
-A NEWBIE OF PYTHON IN [PCGROUP](http://www.pconline.cn/), TRY MY BEST TO KEEP [WRITING](http://www.pyivy.com/). Follow me @ [Weibo](http://weibo.com/chenzixin).
+A newbie of [Python](http://www.pyivy.com/) in [PConline](http://www.pconline.cn/), try my best to keep writing. Follow me @ [Weibo](http://weibo.com/chenzixin).
 
 __Focus__
 
@@ -27,53 +27,79 @@ __Focus__
 __Works__
 
 <table class="table table-striped">
-<tbody>
 <tr>
-<td>Dopod Touch Flow 2D Emulator</td>
+<td>Tenement</td>
+<td>Java + Struts + Versant Open Access JDO + Resin</td>
+<td>Code</td>
+</tr>
+
+<tr>
+<td>iTouch</td>
+<td>Java + Struts + JDO + Spring1.2 + AS2.0 + Resin</td>
+<td>Code</td>
+</tr>
+
+<tr>
+<td>Play</td>
+<td>Java + Struts + JDO + AS3.0 + Resin</td>
+<td>Code</td>
+</tr>
+
+
+<tr>
+<td><a href="http://mobile.pconline.com.cn/review/0806/1325149.html"  target="_blank">Dopod Touch Diamond</a> Emulator</td>
 <td>ActionScript 3.0</td>
 <td>Code</td>
 </tr>
+
 <tr>
 <td><a href="http://ioa.pc.com.cn/admin/index.htm" target="_blank">Meeting Room</a></td>
 <td>Java + Spring2.5 + ExtJS + jQuery + MySQL</td>
-<td>Code PM</td>
+<td>Code</td>
 </tr>
+
 <tr>
 <td>Work Orders</td>
 <td> Java + Spring2.5 + OpenJPA + Resin + Oracle</td>
 <td>PM</td>
 </tr>
+
 <tr>
 <td><a href="http://health.pcbaby.com.cn/" target="_blank">PCbaby Healthlib</a></td>
 <td>Java + Spring2.5 + MySQL + Memcache</td>
 <td>PM</td>
 </tr>
+
 <tr>
 <td><a href="http://product.pcbaby.com.cn/" target="_blank">PCbaby Product 2</a></td>
 <td>Java + Spring2.5 + EAV + ExtJS + MySQL + Memcache</td>
 <td>PM</td>
 </tr>
+
 <tr>
 <td>NetBench</td>
 <td>Java + Spring3.0 + ExtJS + MySQL</td>
 <td>PM</td>
 </tr>
+
 <tr>
 <td><a href="https://github.com/chenzixin/Lucky5" target="_blank">Lucky5</a></td>
-<td>HTML5 + CSS3 + Impress</td>
+<td>HTML5 + CSS3 + Impress + jQuery</td>
 <td>PM</td>
 </tr>
+
 <tr>
 <td><a href="https://github.com/chenzixin/JeeCtrl" target="_blank">JeeCtrl</a></td>
 <td>Python + PyQt</td>
 <td>PM</td>
 </tr>
+
 <tr>
 <td><a href="https://github.com/chenzixin/PyKite" target="_blank">PyKite</a></td>
 <td>Python + PyQt + Webkit</td>
 <td>PM</td>
 </tr>
-</tbody></table>
+</table>
 
 
 

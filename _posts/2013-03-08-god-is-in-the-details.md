@@ -9,6 +9,8 @@ tags: [code]
 
 恕和孤陋寡闻，今天第一次听到这个说法，之前比较流行是：细节决定成败。
 
+[插件](https://github.com/kamens/jQuery-menu-aim)
+
 ----
 
 原文摘要：
