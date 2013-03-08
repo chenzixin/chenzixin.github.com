@@ -10,14 +10,14 @@ Christen / 陈自新
 ----
 
 
-A NEWBIE OF PYTHON IN PCGROUP, TRY MY BEST TO KEEP [WRITING](http://chenzixin.sinaapp.com/). Follow me @ [Weibo](http://weibo.com/chenzixin).
+A NEWBIE OF PYTHON IN [PCGROUP](http://www.pconline.cn/), TRY MY BEST TO KEEP [WRITING](http://www.pyivy.com/). Follow me @ [Weibo](http://weibo.com/chenzixin).
 
 __Focus__
 
 * Python
-* Java / Scala
+* Java / [Scala](http://www.scalac.com/)
 * HTML5
-* JavaScript
+* [JavaScript](http://www.jsoops.com/)
 * CSS
 * SEO
 * English
@@ -27,7 +27,6 @@ __Focus__
 __Works__
 
 <table class="table table-striped">
-
 <tbody>
 <tr>
 <td>Dopod Touch Flow 2D Emulator</td>
