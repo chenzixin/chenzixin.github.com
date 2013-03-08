@@ -24,11 +24,23 @@ __Focus__
 * Advertising Supported
 * Chinese Ancient Culture
 
+__Works__
+
+* Dopod Touch Flow 2D Emulator (ActionScript 3.0)
+* [Meeting Room](http://ioa.pc.com.cn/admin/index.htm) (Java + Spring2.5 + ExtJS + jQuery + MySQL)
+* Work Orders (Java + Spring2.5 + OpenJPA + Resin + Oracle)
+* [PCbaby Healthlib](http://health.pcbaby.com.cn/) (Java + Spring2.5 + MySQL + Memcache)
+* [PCbaby Product 2](http://product.pcbaby.com.cn/) (Java + Spring + EAV + ExtJS + MySQL + Memcache)
+* NetBench (Java + Spring3.0 + ExtJS + MySQL)
+* [Lucky5](https://github.com/chenzixin/Lucky5) (HTML5 + CSS3 + Impress)
+* [JeeCtrl]() (Python + PyQt)
+* [PyKite]() (Python + PyQt + Webkit)
+
 
 __Brief__
 
 
-<table>
+<table class="table table-bordered table-striped table-hover">
 	<tr>
         <td>太平洋网络集团</td>
         <td>2007 - 至今	</td>
