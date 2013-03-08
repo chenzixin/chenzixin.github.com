@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "上帝在细节中"
-description: ""
+description: "恕和孤陋寡闻，今天第一次听到这个说法，之前比较流行是：细节决定成败。"
 category: program
 tags: [code]
 ---
