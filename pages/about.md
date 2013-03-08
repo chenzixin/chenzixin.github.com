@@ -33,8 +33,8 @@ __Works__
 * [PCbaby Product 2](http://product.pcbaby.com.cn/) (Java + Spring + EAV + ExtJS + MySQL + Memcache)
 * NetBench (Java + Spring3.0 + ExtJS + MySQL)
 * [Lucky5](https://github.com/chenzixin/Lucky5) (HTML5 + CSS3 + Impress)
-* [JeeCtrl]() (Python + PyQt)
-* [PyKite]() (Python + PyQt + Webkit)
+* [JeeCtrl](https://github.com/chenzixin/JeeCtrl) (Python + PyQt)
+* [PyKite](https://github.com/chenzixin/PyKite) (Python + PyQt + Webkit)
 
 
 __Brief__
