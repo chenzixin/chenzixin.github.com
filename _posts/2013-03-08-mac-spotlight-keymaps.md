@@ -3,7 +3,7 @@ layout: post
 title: "Mac OS X Spotlight 快捷键"
 description: "Mac OS X Spotlight 快捷键"
 category: program
-tags: [spotlight, key, mac]
+tags: [spotlight, key, mac, finder]
 ---
 {% include JB/setup %}
 
