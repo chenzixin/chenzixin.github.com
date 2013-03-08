@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "分部小团队研发的困境"
-description: ""
+description: "2013，对自己的过去，说声对不起，从今以后，头脑清醒的面对未来。"
 category: program
 tags: [pmp]
 ---
