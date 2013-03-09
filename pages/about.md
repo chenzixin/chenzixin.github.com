@@ -47,7 +47,7 @@ __Works__
 
 
 <tr>
-<td><a href="http://mobile.pconline.com.cn/review/0806/1325149.html"  target="_blank">Dopod Touch Diamond</a> Emulator</td>
+<td><a href="http://mobile.pconline.com.cn/review/0806/1325149.html"  target="_blank">Dopod Diamond Emulator</a></td>
 <td>ActionScript 3.0</td>
 <td>Code</td>
 </tr>
