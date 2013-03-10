@@ -1,11 +1,21 @@
 ---
 layout: post
-title: "Wamp 配置备忘"
-description: "Wamp 配置备忘"
+title: "Wamp 备忘"
+description: "从 2005 年开始直到今天，我一直在使用 WampServer，感情很深。"
 category: program
 tags: [wamp]
 ---
 {% include JB/setup %}
+
+[WampServer](http://www.wampserver.com/en/) is a Windows web development environment. 
+
+It allows you to create web applications with Apache2, PHP and a MySQL database.
+
+以上文字摘录于 WampServer 的官网，从 2005 年开始直到今天，我一直在使用 WampServer，感情很深。
+
+我以自己的视角来写这款软件，也是对网事的回忆。
+
+待续...
 
 ### Apache 列表页 不能显示ICONS
 

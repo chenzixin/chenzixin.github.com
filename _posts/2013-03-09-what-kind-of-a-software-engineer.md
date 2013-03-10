@@ -7,6 +7,14 @@ tags: [engineer, software]
 ---
 {% include JB/setup %}
 
+三月不是我们的考评月，但是今年三月，对北京研发来说，是非常关键的时间。
+
+Nickloas 的文章，写得太及时了，原文很长，摘录精髓，铭记在心，于我一生，都将受益。
+
+Nickolas 是畅销书[《Professional JavaScript for Web Developers》](http://www.amazon.com/Professional-JavaScript-Developers-Nicholas-Zakas/dp/1118026691/)的作者，本人一直非常仰慕。
+
+----
+
 英文原文：[这里](http://www.nczonline.net/blog/2013/02/26/what-kind-of-a-software-engineer-do-you-want-to-be-known-as/)
 
 OSChina 翻译：[这里](http://my.oschina.net/hmj/blog/111467)
