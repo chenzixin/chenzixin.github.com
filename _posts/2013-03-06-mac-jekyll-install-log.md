@@ -131,6 +131,8 @@ $ rake post title="Hello World"
 
 似乎 显示行号 的功能不好用，参数：linenos 。
 
+Pygments 支持的[语言](http://pygments.org/languages/)列表。
+
 ### 定义域名
 
 如果你不想用 http://chenzixin.github.com 这个域名，可以换成自己的域名。
@@ -174,6 +176,15 @@ tracking_id : 'UA-39101310-1'
 即可。
 
 至于主题、插件等话题，暂不讨论，目前就想专注写作，以后再看。
+
+### 微软平台
+
+1. 安装 Ruby 1.9.3：rubyinstaller-1.9.3-p392.exe
+2. 安装 Ruby Dev Kit：DevKit-tdm-32-4.5.2-20111229-1559-sfx.exe
+3. 安装 jekyll
+
+Windows 7 下测试通过。
+
 
 全文完。
 
