@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wamp 备忘"
+title: "Wamp 备忘 TBC"
 description: "从 2005 年开始直到今天，我一直在使用 WampServer，感情很深。"
 category: program
 tags: [wamp]

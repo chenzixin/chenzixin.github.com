@@ -9,9 +9,9 @@ tags: [code]
 
 恕和孤陋寡闻，今天第一次听到这个说法，之前比较流行是：细节决定成败。
 
-[插件](https://github.com/kamens/jQuery-menu-aim)
+字面有细微的差别，我们要体会这种差别，成败很多时候，是你自己的事情，而上帝，则隐喻沟通、交际，侧重于客户对你的评价，在服务行业，这个显然更有价值。
 
-待续...
+我一直是做技术支持的，上帝在细节中，切记。
 
 ----
 
@@ -29,7 +29,11 @@ tags: [code]
 
 >上帝在细节中（God is in the details）。揭秘一个前端细节，我们看到的不仅是一个精妙的算法，而是一个科技巨头对于产品和用户体验的态度。Amazon 的数百亿市值有多少是从这些很小很小，但是明显很用心的产品细节中积累起来的呢？
 
+[插件](https://github.com/kamens/jQuery-menu-aim)
+
 [36kr](http://www.36kr.com/p/201751.html) 翻译自 [bjk5.com](http://bjk5.com/post/44698559168/breaking-down-amazons-mega-dropdown)
+
+全文完。
 
 
 
