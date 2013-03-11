@@ -37,19 +37,19 @@ tags: [baidu]
 
 **网站优质资源分布：**
 
-33% 社交网络 14% 商品供求 12% 综合社区 7% 图片 7% 新闻 7% 小说 5% 视频 
-
-15% 其它
-
-1\.6% 下载 1.3% 文档 0.9% 游戏 0.5% 音乐 3.2% 分类信息 7.9% 其它
+>33% 社交网络 14% 商品供求 12% 综合社区 7% 图片 7% 新闻 7% 小说 5% 视频 
+>
+>15% 其它
+>
+>1\.6% 下载 1.3% 文档 0.9% 游戏 0.5% 音乐 3.2% 分类信息 7.9% 其它
 
 **用户主动检索分布：**
 
-12% 商品供求 12% 视频 8% 新闻 8% 图片 8% 游戏 6% 小说 5% 综合社区 
-
-41% 其它
-
-3\.7% 文档 3.2% 社交网络 3.2% 分类信息 3.2% 音乐 2.8% 下载 25.2% 其它
+>12% 商品供求 12% 视频 8% 新闻 8% 图片 8% 游戏 6% 小说 5% 综合社区 
+>
+>41% 其它
+>
+>3\.7% 文档 3.2% 社交网络 3.2% 分类信息 3.2% 音乐 2.8% 下载 25.2% 其它
 
 低质网站以采集站为主。
 
@@ -89,7 +89,7 @@ ZAC 博客推荐，[Search Quality Evaluator Guidelines.pdf](http://www.seozac.c
 
 * 301 
 * keyword 
-* robots.txt 
+* robots
 * sitemap 
 
 基础一直很重要。
@@ -100,7 +100,7 @@ ZAC 博客推荐，[Search Quality Evaluator Guidelines.pdf](http://www.seozac.c
 
 [提高关键词排名的28个SEO技巧](http://www.seowhy.com/5_71_zh.html)
 
-[Robot是什么](http://www.seowhy.com/42_13_zh.html)
+[Robot](http://www.seowhy.com/42_13_zh.html)
 
 搜索引擎使用Spider程序自动访问互联网上的网页并获取网页信息。Spider在访问一个网站时，会首先会检查该网站的根域下是否有一个叫做 robots.txt的纯文本文件，这个文件用于指定Spider在您网站上的抓取范围。您可以在您的网站中创建一个robots.txt，在文件中声明 该网站中不想被搜索引擎收录的部分或者指定搜索引擎只收录特定的部分。
 
@@ -108,13 +108,13 @@ ZAC 博客推荐，[Search Quality Evaluator Guidelines.pdf](http://www.seozac.c
 
 参考 [http://www.w3.org/robots.txt](http://www.w3.org/robots.txt)
 
-[Sitemap-网站地图](http://www.seowhy.com/43_20_zh.html)
+[Sitemap](http://www.seowhy.com/43_20_zh.html)
 
 一般情况下，Sitemap-网站地图，分为两种：
 
 1、普通Html格式的网站地图，类似 [http://www.seowhy.com/sitemap-A_zh.html](http://www.seowhy.com/sitemap-A_zh.html) ，它的目的是帮助用户对站点的整体有个把握。Html格式的网站地图根据网站结构特征制定，尽量把网站的功能结构和服务内容富有条理地列出来。一般来说，网站首页有一个链接指向该格式的网站地图。
 
-2、XML Sitemap 通常称为Sitemap（首字母大写 S），而不叫“网站地图”。类似：[http://seowhy.com/sitemap.txt](http://seowhy.com/sitemap.txt)  简单来讲，Sitemap 就是网站上链接的列表。制作Sitemap，并提交给搜索引擎可以使网站的内容完全被收录，包括那些隐藏比较深的页面。这是一种网站与搜索引擎对话的好方式。
+2、XML Sitemap 通常称为Sitemap（首字母大写 S），而不叫“网站地图”。类似：[http://seowhy.com/sitemap.txt](http://seowhy.com/sitemap.txt)，简单来讲，Sitemap 就是网站上链接的列表。制作Sitemap，并提交给搜索引擎可以使网站的内容完全被收录，包括那些隐藏比较深的页面。这是一种网站与搜索引擎对话的好方式。
 
 ###会议花絮
 
