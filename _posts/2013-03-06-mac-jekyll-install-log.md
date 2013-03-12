@@ -175,7 +175,7 @@ If you use linenos, you might want to include an additional CSS class definition
 
 Pygments 支持的[语言](http://pygments.org/languages/)列表。
 
-注：Windows 下 invalid byte sequence in GBK 解决方法：
+注：Windows 下 `invalid byte sequence in GBK` 解决方法：
 
 修改
 
@@ -191,7 +191,7 @@ convertible.rb 27 行
 
 `self.content = File.read(File.join(base, name), :encoding => "utf-8")`
 
-确保 post.md 保存为 UTF-8 无 BOM 格式才行。(EmEditor UTF-8 无签名)
+确保 post.md 保存为 UTF-8 无 BOM 格式才行(EmEditor UTF-8 无签名)。
 
 有些同学在 Win7 下还需要设置环境变量：
 
