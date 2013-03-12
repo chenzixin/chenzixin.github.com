@@ -131,7 +131,7 @@ $ rake post title="Hello World"
 
 注：安装 Jekyll 的时候，已经装好了 Pygments 。
 
-第一步：生成 样式文件
+第一：生成 样式文件
 
 `$ pygmentize -S default -f html > pygments.css`
 
@@ -143,14 +143,14 @@ $ rake post title="Hello World"
 
 ` <link href="{{ ASSET_PATH }}/css/pygments.css" rel="stylesheet" type="text/css" media="all">`
 
-第二步：测试 代码高亮
+第二：测试 代码高亮
 
 
 ![代码高亮](/assets/images/2013/01/highlight.png)
 
 注：目前还不知道怎样在 Jekyll 中贴 模版代码，只能截图，还不太清晰。
 
-第三步：检查 \_config.yml
+第三：检查 \_config.yml
 
 `pygments: true`
 
