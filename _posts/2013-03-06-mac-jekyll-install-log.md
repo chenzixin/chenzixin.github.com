@@ -129,6 +129,27 @@ $ rake post title="Hello World"
 
 参考[这里](https://github.com/mojombo/jekyll/wiki/Install)的 Pygments Usage 。
 
+注：安装 Jekyll 的时候，已经装好了 Pygments 。
+
+第一步：生成 样式文件
+
+`$ pygmentize -S default -f html > pygments.css`
+
+拷贝 pygments.css 至 assets/themes/twitter/css
+
+修改 \_includes/themes/twitter/default.html
+
+添加
+
+` <link href="{{ ASSET_PATH }}/css/pygments.css" rel="stylesheet" type="text/css" media="all">`
+
+第二步：测试 代码高亮
+
+
+![代码高亮](/assets/images/2013/01/highlight.png)
+
+注：目前还不知道怎样在 Jekyll 中贴 模版代码，只能截图，还不太清晰。
+
 似乎 显示行号 的功能不好用，参数：linenos 。
 
 Pygments 支持的[语言](http://pygments.org/languages/)列表。
