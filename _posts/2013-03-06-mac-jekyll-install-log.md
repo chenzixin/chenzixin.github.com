@@ -150,6 +150,10 @@ $ rake post title="Hello World"
 
 注：目前还不知道怎样在 Jekyll 中贴 模版代码，只能截图，还不太清晰。
 
+第三步：检查 \_config.yml
+
+`pygments: true`
+
 似乎 显示行号 的功能不好用，参数：linenos 。
 
 Pygments 支持的[语言](http://pygments.org/languages/)列表。
