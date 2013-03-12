@@ -135,13 +135,26 @@ $ rake post title="Hello World"
 
 `$ pygmentize -S default -f html > pygments.css`
 
+注：Windows 下安装 Jekyll 的时候，提示 Pygments 安装成功，但可能无法使用 pygmentize 命令。
+
+解决办法：
+
+`cd c:\Ruby193\lib\ruby\gems\1.9.1\gems\pygments.rb-0.3.7\vendor\pygments-main\
+` 
+
+`python stepup.py install`
+
+会在 Python\scripts 目录下 生成 pygmentize.exe
+
 拷贝 pygments.css 至 assets/themes/twitter/css
 
 修改 \_includes/themes/twitter/default.html
 
+>任何不以下划线开头的文件和目录都会被复制到生成的网站。
+
 添加
 
-` <link href="{{ ASSET_PATH }}/css/pygments.css" rel="stylesheet" type="text/css" media="all">`
+`<link href="{{ ASSET_PATH }}css/pygments.css" rel="stylesheet" type="text/css" media="all">`
 
 第二：测试 代码高亮
 
@@ -156,7 +169,39 @@ $ rake post title="Hello World"
 
 似乎 显示行号 的功能不好用，参数：linenos 。
 
+找到原因了：
+
+If you use linenos, you might want to include an additional CSS class definition for `lineno` in syntax.css to distinguish the line numbers from the highlighted code.
+
 Pygments 支持的[语言](http://pygments.org/languages/)列表。
+
+注：Windows 下 invalid byte sequence in GBK 解决方法：
+
+修改
+
+`c:\Ruby193\lib\ruby\gems\1.9.1\gems\pygments.rb-0.3.7\vendor\pygments-main\`
+
+convertible.rb 27 行
+
+将
+
+`self.content = File.read(File.join(base, name))`
+
+改为：
+
+`self.content = File.read(File.join(base, name), :encoding => "utf-8")`
+
+确保 post.md 保存为 UTF-8 无 BOM 格式才行。(EmEditor UTF-8 无签名)
+
+有些同学在 Win7 下还需要设置环境变量：
+
+{% highlight tex %}
+export LC_ALL=zh_CN.UTF-8
+export LANG=zh_CN.UTF-8
+{% endhighlight %}
+
+在 gitbash 下直接执行即可。
+
 
 ### 定义域名
 
@@ -209,6 +254,12 @@ tracking_id : 'UA-39101310-1'
 3. 安装 jekyll
 
 Windows 7 下测试通过。
+
+###延伸阅读
+
+[Template Data](https://github.com/mojombo/jekyll/wiki/Template-Data)
+
+[Liquid Extensions](https://github.com/mojombo/jekyll/wiki/Liquid-Extensions)
 
 
 全文完。
