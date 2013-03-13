@@ -1,17 +1,25 @@
 ---
-layout: default
+layout: page
 title: 萍水相逢
+tagline: 陈自新的博客
 ---
 
-### 陈自新的博客
-
-<p>最新文章</p>
+**Latest Posts**
 
 <ul>
 　　　　{% for post in site.posts %}
 　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 　　　　{% endfor %}
 </ul>
+
+----
+
+**Links** 
+
+* [4what](http://4what.github.com/cn/)
+* [Python](http://www.pyivy.com/)
+* [JavaScript](http://www.jsoops.com/)
+* [Scala](http://www.scalac.com/)
 
 ----
 
