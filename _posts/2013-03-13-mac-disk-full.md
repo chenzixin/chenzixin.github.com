@@ -71,6 +71,9 @@ du命令显示用于文件的块的数量。如果指定的 File 参数实际上
 
 3、如果du得不到文件属性，或者无法读取目录，它就报告一个错误，并且会影响命令的退出状态。
 
+
+命令参数：
+
 <table class='table table-bordered table-hover table-striped'>
 <tbody>
 <tr>
