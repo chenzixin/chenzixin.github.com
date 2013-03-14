@@ -135,7 +135,7 @@ du命令显示用于文件的块的数量。如果指定的 File 参数实际上
 df \[-b | -H | -h | -k | -m | -g | -P] \[-ailn] \[-T type] \[-t] \[filesystem ...]
 
 
-参数
+**参数**
 
 -a 包含全部的文件系统。
 
@@ -167,6 +167,6 @@ df \[-b | -H | -h | -k | -m | -g | -P] \[-ailn] \[-T type] \[-t] \[filesystem ..
 
 `df -h /opt`
 
-[参考](http://wiki.51osos.com/wiki/Df)
+[参考51开源社区](http://wiki.51osos.com/wiki/Df)
 
 全文完。
