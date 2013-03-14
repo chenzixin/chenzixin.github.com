@@ -15,6 +15,8 @@ tags: [html, css3]
 
 这里用 [HONGKIAT](http://www.hongkiat.com/blog/) 写的十个漂亮的 CSS3 效果作为例子，演示效果，顺便学习CSS3。以后该主题的博文，将会发表在 [JS Oops!](http://www.jsoops.com/) 中。
 
+原文：[Here](http://www.hongkiat.com/blog/css3-box-shadows-effects/)
+
 # 固定顶部工具栏
 
 演示：[Fixed Top Toolbar](/demo/box-shadow/fixed-top-toolbar.html)
