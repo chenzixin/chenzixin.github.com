@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello GoogleGroups and Goodbye GoogleReader"
+title: "你好 GoogleGroups 再见 GoogleReader"
 description: ""
 category: google
 tags: [google, reader, bbs, rss]
