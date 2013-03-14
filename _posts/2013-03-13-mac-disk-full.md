@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linux 磁盘空间管理"
-description: ""
+description: "Linux 磁盘空间管理的两个命令 du df"
 category: mac
 tags: [mac, linux]
 ---
@@ -126,4 +126,47 @@ du命令显示用于文件的块的数量。如果指定的 File 参数实际上
 
 ----
 
-[待续](http://wiki.51osos.com/wiki/Df)...
+**功能**
+
+显示磁盘相关信息
+
+**语法**
+
+df \[-b | -H | -h | -k | -m | -g | -P] \[-ailn] \[-T type] \[-t] \[filesystem ...]
+
+
+参数
+
+-a 包含全部的文件系统。
+
+-b Use (the default) 512-byte blocks.  This is only useful as a way to override an BLOCKSIZE specification from the environment.
+
+-h 以可读性较高的方式来显示信息。
+
+-H 与-h参数相同，但在计算时是以1000 Bytes为换算单位而非1024 Bytes。
+
+-k 指定区块大小为1024字节。
+
+-l 仅显示本地端的文件系统。
+
+-m 指定区块大小为1048576字节。
+
+-P 使用POSIX的输出格式。
+
+-t<文件系统类型> 仅显示指定文件系统类型的磁盘信息。
+
+-T 显示文件系统的类型。
+
+不同的操作系统下，参数不尽相同。请使用：
+
+`$ man df`
+
+查看文档。
+
+示例：
+
+`df -h /opt`
+
+[参考](http://wiki.51osos.com/wiki/Df)
+
+全文完。
