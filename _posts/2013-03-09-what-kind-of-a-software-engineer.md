@@ -3,7 +3,7 @@ layout: post
 title: "你想成为什么样的工程师"
 description: "作为工程师，你的声誉至关重要。它是你在职业生涯中应该积极努力发展的的东西，因为这是区分那些与你能写出同样代码的人的途径。当你经验慢慢丰富时，你得声誉也会慢慢变得重要起来，能够变成你获得或失去新的机会的原因。"
 category: program
-tags: [engineer, software]
+tags: [engineer, software, pmp]
 ---
 {% include JB/setup %}
 
