@@ -16,7 +16,7 @@ tagline: 陈自新的博客
 
 **Links** 
 
-* [4what](http://4what.github.com/cn/)
+* [4what](http://4what.github.com/)
 * [Python](http://www.pyivy.com/)
 * [JavaScript](http://www.jsoops.com/)
 * [Scala](http://www.scalac.com/)
