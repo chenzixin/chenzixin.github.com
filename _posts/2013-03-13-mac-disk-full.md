@@ -72,7 +72,7 @@ du命令显示用于文件的块的数量。如果指定的 File 参数实际上
 3、如果du得不到文件属性，或者无法读取目录，它就报告一个错误，并且会影响命令的退出状态。
 
 
-命令参数：
+参数：
 
 <table class='table table-bordered table-hover table-striped'>
 <tbody>
@@ -135,27 +135,54 @@ du命令显示用于文件的块的数量。如果指定的 File 参数实际上
 df \[-b | -H | -h | -k | -m | -g | -P] \[-ailn] \[-T type] \[-t] \[filesystem ...]
 
 
-**参数**
+参数：
 
--a 包含全部的文件系统。
-
--b Use (the default) 512-byte blocks.  This is only useful as a way to override an BLOCKSIZE specification from the environment.
-
--h 以可读性较高的方式来显示信息。
-
--H 与-h参数相同，但在计算时是以1000 Bytes为换算单位而非1024 Bytes。
-
--k 指定区块大小为1024字节。
-
--l 仅显示本地端的文件系统。
-
--m 指定区块大小为1048576字节。
-
--P 使用POSIX的输出格式。
-
--t<文件系统类型> 仅显示指定文件系统类型的磁盘信息。
-
--T 显示文件系统的类型。
+<table class='table table-bordered table-hover table-striped'><tbody>
+<tr>
+<th style="width:20%">参数</th>
+<th>释义</th>
+</tr>
+<tr>
+<td>-a</td>
+<td> 包含全部的文件系统。</td>
+</tr>
+<tr>
+<td>-b</td>
+<td> Use (the default) 512-byte blocks. This is only useful as a way to override an BLOCKSIZE specification from the environment.</td>
+</tr>
+<tr>
+<td>-h </td>
+<td>以可读性较高的方式来显示信息。</td>
+</tr>
+<tr>
+<td>-H </td>
+<td>与-h参数相同，但在计算时是以1000 Bytes为换算单位而非1024 Bytes。</td>
+</tr>
+<tr>
+<td>-k </td>
+<td>指定区块大小为1024字节。</td>
+</tr>
+<tr>
+<td>-l </td>
+<td>仅显示本地端的文件系统。</td>
+</tr>
+<tr>
+<td>-m </td>
+<td>指定区块大小为1048576字节。</td>
+</tr>
+<tr>
+<td>-P </td>
+<td>使用POSIX的输出格式。</td>
+</tr>
+<tr>
+<td>-t&lt;文件系统类型&gt; </td>
+<td>仅显示指定文件系统类型的磁盘信息。</td>
+</tr>
+<tr>
+<td>-T </td>
+<td>显示文件系统的类型。</td>
+</tr>
+</tbody></table>
 
 不同的操作系统下，参数不尽相同。请使用：
 
