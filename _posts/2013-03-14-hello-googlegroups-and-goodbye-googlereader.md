@@ -13,6 +13,8 @@ tags: [google, reader, bbs, rss]
 
 973 points by knurdle 6 hours ago | [454 comments](https://news.ycombinator.com/item?id=5371725)
 
+![Google Reader](/assets/images/2013/01/greader.jpg)
+
 博客标题：
 
 A second spring of cleaning
@@ -35,6 +37,8 @@ Google 的说法：
 
 习惯了用 Google Reader 看新闻，这下怎么办？
 
+![Google Reader](/assets/images/2013/01/grm.jpg)
+
 Google 精简无度。
 
 已通过 Google Takeout 下载 Google Reader 数据到本地，期待下一个 Reader 崛起。
@@ -45,19 +49,27 @@ Google 精简无度。
 
 也找了两款 GUI 的 RSS 阅读器：
 
-[小众软件](http://www.appinn.com/)推荐的[Vienna](http://www.vienna-rss.org/)，试用Beta3，还不错，开源，支持 Retina 屏，速度也还好，从 Google Reader 里挑选了一些精品网站，手工订阅，感觉尚好，但不支持分组：
+[小众软件](http://www.appinn.com/)推荐的 [Vienna](http://www.vienna-rss.org/)，试用Beta3，还不错，开源，支持 Retina 屏，速度也还好，从 Google Reader 里挑选了一些精品网站，手工订阅，感觉尚好，但不支持分组：
 
 **Read it Your Way**
 
 >Vienna (are you looking for Vienna, Austria?) is an RSS/Atom reader for Mac OS X, packed with powerful features that help you make sense of the flood of information that is distributed via these formats today. Vienna is continuously being improved and updated, so keep up to date with current development on the forums.
 
-[苹果fans博客](http://www.mac52ipod.cn/post/Apple-NetNewsWire-RSS-Reader-Feed.php)推荐的 [NetNewsWire](http://netnewswireapp.com/mac)，以前是收费软件，但最近变成免费的了。界面更加精致，可同步 Google Reader 数据，但未成功，订阅也不行，网络问题？从截图看，支持分组。
+[苹果 Fans 博客](http://www.mac52ipod.cn/post/Apple-NetNewsWire-RSS-Reader-Feed.php)推荐的 [NetNewsWire](http://netnewswireapp.com/mac)，以前是收费软件，但最近变成免费的了。界面更加精致，可同步 Google Reader 数据，但未成功，订阅也不行，网络问题？从截图看，支持分组。
 
 **Net News Wire for Macintosh**
 
 >Looking for an easy-to-use RSS and Atom reader for your Mac? You’ve found it! The Eddy award-winning NetNewsWire has a familiar three-paned interface and can fetch and display news from millions of different websites and weblogs.
 
 还是 Vienna 好。
+
+[CSDN](http://www.csdn.net/article/2013-03-14/2814497) 发布文章，推荐若干 GR 替代品：
+
+* Feedly 过于华丽，不太习惯
+
+* NetVibes 接近 GR，孙健炜测试过，尚可接受
+
+* NewsBlur 免费版最多可添加64个新闻源
 
 这篇文章还没有完成，已经有人发起保卫 Google Reader 的活动：
 
@@ -67,9 +79,35 @@ Google 精简无度。
 >
 >Christen - 14 Mar 2013 06:57
 
-同时，孙健炜推荐了一个新的好东西，[美味爱读](http://readwise.net/#tl/home)，不是 RSS 订阅工具，但的确能读到优秀的内容，而且偏向程序员。
+同时，孙健炜发现了一个新的好东西，[美味爱读](http://readwise.net/#tl/home)，不是 RSS 订阅工具，但的确能读到优秀的内容，而且偏向程序员。
 
 关于 Reader，到此为止，Google 你折腾掉了我不少的时间，本来我只剩下 10000 多天的日子。
+
+增补：
+
+[Why is Google killing Google Reader?](https://www.quora.com/Google-Reader-Shut-Down-March-2013/Why-is-Google-killing-Google-Reader)
+
+Let's be clear that this has nothing to do with revenue vs operating costs. Reader never made money directly (though you could maybe attribute some of Feedburner and AdSense for Feeds usage to it), and it wasn't the goal of the product.
+
+Reader has been fighting for approval/survival at Google since long before I was a PM for the product. I'm pretty sure Reader was threatened with de-staffing at least three times before it actually happened. It was often for some reason related to social:
+
+* 2008 - let's pull the team off to build OpenSocial
+
+* 2009 - let's pull the team off to build Buzz
+
+* 2010 - let's pull the team off to build Google+
+
+It turns out they decided to kill it anyway in 2010, even though most of the engineers opted against joining G+. Ironically, I think the reason Google always wanted to pull the Reader team off to build these other social products was that the Reader team actually understood social (and tried a lot of experiments over the years that informed the larger social features at the company). Reader's social features also evolved very organically in response to users, instead of being designed top-down like some of Google's other efforts.
+
+I suspect that it survived for some time after being put into maintenance because they believed it could still be a useful source of content into G+. Reader users were always voracious consumers of content, and many of them filtered and shared a great deal of it.
+
+But after switching the sharing features over to G+ (the so called "share-pocalypse") along with the redesigned UI, my guess is that usage just started to fall - particularly around sharing. I know that my sharing basically stopped completely once the redesign happened [3]. Though Google did ultimately fix a lot of the UI issues, the sharing (and therefore content going into G+) would never recover.
+
+So with dwindling usefulness to G+, (likely) dwindling or flattening usage due to being in maintenance, and Google's big drive to focus in the last couple of years, what choice was there but to kill the product?
+
+Personally, I think that there is still a lot of value a service like Reader could provide -- particularly in a world with increasing information overload coming us from many different sources. But Reader at Google was pigeonholed as an RSS-reader explicitly, and didn't have a chance to grow beyond that to explore that space. But that's neither here nor there.
+
+-- Brian Shih, Former Google Reader Product Manager
 
 ----
 
