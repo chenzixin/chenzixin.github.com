@@ -21,7 +21,7 @@ WordPress 也是杰出的 Blog 工具。
 
 也不麻烦，很快就跑起来了：[labsunwp.sinaapp.com](http://labsunwp.sinaapp.com/)
 
-而我的台式机上，还保存着当时从 check out 到本地的 源码，皮肤、插件 一应俱全，我当然选择上传这个版本，据作者的说话，专门针对 SAE 做了优化，对我而言，最重要的就是省事儿。
+而我的台式机上，还保存着当时 check out 到本地的 源码，皮肤、插件 一应俱全，我当然选择上传这个版本，据作者的说法，专门针对 SAE 做了优化，对我而言，最重要的就是省事儿。
 
 ## 第一步：上传代码
 
@@ -29,7 +29,7 @@ WordPress 也是杰出的 Blog 工具。
 
 `$ svn co https://svn.sinaapp.com/[your_app_name]`
 
-将 WordPress 安装文本拷贝到 \[your_app_name]\\1目录下，添加到 svn 版本管理，如果是从官方下载的WordPress 版本，则按照上面的教程修改源文件。
+将 WordPress 安装文件拷贝到 \[your_app_name]\\1目录下，添加到 svn 版本管理，如果是从官方下载的 WordPress，则按照上面的教程修改源文件。
 
 `$ svn add *`
 
@@ -43,7 +43,7 @@ WordPress 也是杰出的 Blog 工具。
 
 初始化 Memcache 初期没有多少访问量，我只配了 5M 的空间； 
 
-新建一个 Storage 域名，比如 `cloud`，这个域名要和 
+新建一个 Storage 域名，比如 `wordpress`，这个域名要和 
 
 `wp-includes/functions.php`
 
@@ -66,7 +66,7 @@ WordPress 会自动跳转到安装界面，For SAE 能看到醒目的提示：
 
 ## 第四步：最后增强
 
-1、安装必要的插件，比如 语法高亮，防垃圾评论，可在后台直接搜索安装；
+1、安装必要的插件，比如 语法高亮，防垃圾评论等，可在后台直接搜索安装；
 
 2、安装皮肤； 
 
