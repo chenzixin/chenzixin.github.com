@@ -29,7 +29,7 @@ WordPress 也是杰出的 Blog 工具。
 
 `$ svn co https://svn.sinaapp.com/[your_app_name]`
 
-将 WordPress 安装文本拷贝到 \[your_app_name]\1目录下，添加到 svn 版本管理，如果是从官方下载的WordPress 版本，则按照上面的教程修改源文件。
+将 WordPress 安装文本拷贝到 \[your_app_name]\\1目录下，添加到 svn 版本管理，如果是从官方下载的WordPress 版本，则按照上面的教程修改源文件。
 
 `$ svn add *`
 
@@ -154,6 +154,7 @@ WordPress固定链接设置技巧：
 </tr>
 </tbody></table>
 
+全文完。
 
 
 

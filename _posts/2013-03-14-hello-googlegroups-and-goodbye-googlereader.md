@@ -101,7 +101,7 @@ It turns out they decided to kill it anyway in 2010, even though most of the eng
 
 I suspect that it survived for some time after being put into maintenance because they believed it could still be a useful source of content into G+. Reader users were always voracious consumers of content, and many of them filtered and shared a great deal of it.
 
-But after switching the sharing features over to G+ (the so called "share-pocalypse") along with the redesigned UI, my guess is that usage just started to fall - particularly around sharing. I know that my sharing basically stopped completely once the redesign happened [3]. Though Google did ultimately fix a lot of the UI issues, the sharing (and therefore content going into G+) would never recover.
+But after switching the sharing features over to G+ (the so called "share-pocalypse") along with the redesigned UI, my guess is that usage just started to fall - particularly around sharing. I know that my sharing basically stopped completely once the redesign happened. Though Google did ultimately fix a lot of the UI issues, the sharing (and therefore content going into G+) would never recover.
 
 So with dwindling usefulness to G+, (likely) dwindling or flattening usage due to being in maintenance, and Google's big drive to focus in the last couple of years, what choice was there but to kill the product?
 
