@@ -143,7 +143,7 @@ WordPress固定链接设置技巧：
 <td>比如 48</td>
 </tr>
 <tr>
-<td>%category</td>
+<td>%category%</td>
 <td>基于文章分类，子分类会处理成“分类/子分类”这种形式</td>
 <td>比如 code</td>
 </tr>
