@@ -43,7 +43,7 @@ WordPress 也是杰出的 Blog 工具。
 
 初始化 Memcache 初期没有多少访问量，我只配了 5M 的空间； 
 
-新建一个 Storage 域名，比如 `wordpress`，这个域名要和 
+新建一个 Storage (Public) 域名，比如 `wordpress`，这个域名要和 
 
 `wp-includes/functions.php`
 
