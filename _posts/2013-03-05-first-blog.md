@@ -2,7 +2,7 @@
 layout: post
 title: "第一篇日志"
 description: "A Test Post."
-category: test
+category: program
 tags: [test, demo]
 ---
 {% include JB/setup %}
