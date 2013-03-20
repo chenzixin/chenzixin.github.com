@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "脉搏网申请通过 同时开始使用 WeicoPro"
+title: "开始使用脉搏网和 WeicoPro"
 description: "脉搏网申请通过 同时开始使用 WeicoPro"
 category: blog
 tags: [vmaibo, weibo, weico]
