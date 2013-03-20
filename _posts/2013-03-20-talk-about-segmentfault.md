@@ -7,7 +7,7 @@ tags: [typecho, segmentfault, php]
 ---
 {% include JB/setup %}
 
-在学习 [Linux .bash_profile .bashrc]() 的时候，发现了 [SegmentFault](http://segmentfault.com)：
+在学习 [Linux .bash_profile .bashrc](http://www.chenzixin.com/program/2013/03/20/bash_profile-and-bash_rc/) 的时候，发现了 [SegmentFault](http://segmentfault.com)：
 
 >给我一个答案，我能改变世界
 
