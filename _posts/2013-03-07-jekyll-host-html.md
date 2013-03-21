@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "在 Jekyll 中展示精彩的 CSS3 效果 TBC"
-description: ""
-category: 
+title: "在 Jekyll 中展示精彩的 CSS3 效果"
+description: "在 Jekyll 中展示精彩的 CSS3 效果"
+category: program
 tags: [html, css3]
 ---
 {% include JB/setup %}
@@ -524,7 +524,7 @@ box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.2), inset 0 12px 20px 6px rgba(0,0,0,0.
 分析：...
 
 
-待续...
+全文暂完。
 
 
 
