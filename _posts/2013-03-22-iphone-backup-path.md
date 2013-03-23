@@ -9,7 +9,7 @@ tags: [iphone, mac, backup]
 
 iPhone 在 Mac OS X 下备份文件的存储路径：
 
->~/Library/application support/mobilesync 
+>~/Library/application\ support/mobilesync 
 
 只是 Lion 将用户下面的资料库瘾藏了。
 
@@ -17,7 +17,9 @@ iPhone 在 Mac OS X 下备份文件的存储路径：
 
  `commnd + shift + G`
 
-输入以上路径并回车。
+输入以下路径并回车：
+
+>~/Library/application support/mobilesync 
 
 打开 Backup 里面的就是。
 
