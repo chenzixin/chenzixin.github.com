@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "你好 Google Groups 再见 Reader"
-description: ""
+description: <p>Google Reader 被不少互联网资讯控誉为最有价值的 Google 服务之一，此次关停事件自然引来诸多非议。</p><p>实际上，Google 一直都有着突然砍掉自家服务的光荣传统，如果你是一名 Google 服务的老用户，应该对此见怪不怪并积怨已久了。受最近 Google Reader 被关停的刺激，国外有人在网站中以网络坟场的姿态纪念 Google 死去的服务。人们可以在这个 <a href='http://www.slate.com/articles/technology/map_of_the_week/2013/03/google_reader_joins_graveyard_of_dead_google_products.html' target='_blank'>Google 坟场</a>中献花，表达对过去的 Google 服务的追忆。作为 Google 刀下新鬼，Google Reader 目前获得了最多的鲜花，截至发稿为止已有 83,073 朵鲜花放在Google Reader 墓碑前。</p>"
 category: google
 tags: [google, reader, bbs, rss]
 ---

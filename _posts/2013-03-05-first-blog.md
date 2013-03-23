@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "第一篇日志"
-description: "A Test Post."
+description: "<p>我的第一篇博客，此为测试页面！</p><p>非常优秀的服务！</p><p>一定要紧缩战线，不要盲目扩张，职场不太喜欢万金油，只青睐某些领域的专家。</p><p>本地 DokuWiki + Confluence，线上 SAE + Github，坚持，成就实力。</p>"
 category: program
 tags: [test, demo]
 ---

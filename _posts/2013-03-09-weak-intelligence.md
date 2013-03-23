@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "犯弱智错误是每个程序员的必修课"
-description: "犯弱智错误是每个程序员的必修课"
+description: "<p>这一段笔记，源自 Hacker News 宕机之后，OSChina 上转载的一篇文章，《为什么 Hacker News 昨晚一夜宕机》，因为<b>犯弱智错误是每个程序员的必修课</b>。</p><p>另外，礼貌是非常重要的修养，冷静和理性，是人的优秀特质，考虑他人的感受，更加难能可贵。程序员首先是人，每天和机器打交道，也不要忘记修身。</p>"
 category: program
 tags: [error]
 ---

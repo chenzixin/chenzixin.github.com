@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linux .bash_profile .bashrc 什么区别"
-description: ""
+description: "<p>以前公司的 Linux 貌似写 .bash_profile 是不管用的，所以一些 alias 和 PS1 都是写在 bashrc 里，现在自己的电脑反过来了，bashrc 不管用，要写 bash_profile。</p><p>这两个文件到底有什么区别？是不是有哪里可以配置，让用户登陆的时候去加载某个文件的？</p>"
 category: program 
 tags: [linux, bash]
 ---
@@ -74,7 +74,7 @@ alias cdsc='cd ~/GitHub/scalac/'
 
 ## Q：
 
->以前公司的Linux貌似写.bash_profile是不管用的，所以一些alias和PS1都是写在bashrc里，现在自己的电脑反过来了，bashrc不管用，要写 bash_profile。
+>以前公司的 Linux 貌似写 .bash_profile 是不管用的，所以一些 alias 和 PS1 都是写在 bashrc 里，现在自己的电脑反过来了，bashrc 不管用，要写 bash_profile。
 
 >这两个文件到底有什么区别？是不是有哪里可以配置，让用户登陆的时候去加载某个文件的？
 

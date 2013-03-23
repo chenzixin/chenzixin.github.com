@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "我和 Wamp 的故事"
-description: "从 2005 年开始直到今天，我一直在使用 WampServer，感情很深。"
+description: "<p>从 2005 年开始直到今天，我一直在使用 WampServer，感情很深。</p><p>我以自己的视角来写这款软件，也是对网事的回忆。</p><p>最初结识 Wamp，记得它的名字还是 Wamp5，是为了在本地搭建一个 Discuz! 论坛，傻瓜式安装，几乎零配置，对当时身为<a href='http://www.pcgames.com.cn' target='_blank'>游戏网</a>编辑的我，再合适不过了。</p>"
 category: program
 tags: [wamp, ssi, apache, mysql, php]
 ---

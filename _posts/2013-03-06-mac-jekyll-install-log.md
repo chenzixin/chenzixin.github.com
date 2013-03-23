@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mac OS X 安装 Jekyll 记录"
-description: ""
+description: "<p>我知道网上有很多这样的日志，绝不少我这一篇，但网传三分钟建一个 Jekyll Blog，窃以为那只是理想状况，现实生活中，往往是有很多意外的。</p><p>我不知道你是从哪里结识 Jekyll，一个好的引路人，也能节约你不少的时间，比如 <a href='http://jekyllbootstrap.com/' target='_blank'>JekyllBootstrap</a>，用他的 Repository 快速生成，比按照<a href='http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html' target='_blank'>阮一峰</a>的步骤手工搭建，要快上不少。不过，后者更能让你理解 Jekyll 的运作原理。</p><p>我的工作环境：Mac OS X 10.8.2</p>"
 category: program
 tags: [jekyll]
 ---

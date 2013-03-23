@@ -1,11 +1,15 @@
 ---
 layout: post
 title: "Mac OS X Spotlight 快捷键"
-description: "Mac OS X Spotlight 快捷键"
+description: "<p>Spotlight 是 Mac OS X v10.4 的一项快速、随打即找、系统支援的桌面搜寻特色。使用 Metadata 搜寻引擎，Spotlight 被设计为可以找到任何位于电脑中广泛的项目，包含文件、图片、音乐、应用程式、系统喜好设定控制台，也可以是文件或是PDF中指定的字。Spotlight 在使用者的硬碟中建立 Metadata 关键字的资料库，一开始当 Mac OS X 10.4 被安装后，接著会持续在背景更新。</p><p>Spotlight 是个很实用的工具，它的一切便利，都来源于它超快的检索速度，多使用它，可以减少我们打开 Finder 和 Lunchpad 的次数。</p>"
 category: program
 tags: [spotlight, key, mac, finder]
 ---
 {% include JB/setup %}
+
+
+Spotlight 是 Mac OS X v10.4 的一项快速、随打即找、系统支援的桌面搜寻特色。使用 Metadata 搜寻引擎，Spotlight 被设计为可以找到任何位于电脑中广泛的项目，包含文件、图片、音乐、应用程式、系统喜好设定控制台，也可以是文件或是PDF中指定的字。Spotlight 在使用者的硬碟中建立 Metadata 关键字的资料库，一开始当 Mac OS X 10.4 被安装后，接著会持续在背景更新。
+
 
 Spotlight 是个很实用的工具，它的一切便利，都来源于它超快的检索速度，多使用它，可以减少我们打开 Finder 和 Lunchpad 的次数。
 

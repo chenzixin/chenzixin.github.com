@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Talk about SegmentFault"
-description: ""
+description: "<p>SegmentFault 的目标：</p>
+<p>我们一直避免把这个社区建立成类似 Quora 的社会化问答社区，比起那些更注重人与人之间关系的网站，我们更加注重问题之间的关系，并使用问题把人关联起来，因此对开发者来说，你可以花一下午的时间回答或者查看你所感兴趣的问题，也可以在我们的网站找到答案后就立即闪人去干自己的事。</p><p>专注于产品，服务于用户。希望能聚合国内优秀的开发者，技术人员一起打造一个有价值的社区。</p>"
 category: program
 tags: [typecho, segmentfault, php]
 ---

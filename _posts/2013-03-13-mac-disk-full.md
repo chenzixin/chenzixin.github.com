@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linux 磁盘空间管理"
-description: "Linux 磁盘空间管理的两个命令 du df"
+description: "<p>磁盘是 Linux 系统中一项非常重要的资源，如何对其进行有效的管理直接关系到整个系统的性能问题。对 Linux 磁盘管理稍微有一些学习和经验的朋友们应该都知道 df、du 和 fdisk 这三个常用命令：df 用于检查文件系统磁盘占用情况，du 检查磁盘空间占用情况，而 fdisk 用于磁盘分区。</p><p>本文主要针对Mac OS X，讲解 du df 命令。</p>"
 category: mac
 tags: [mac, linux]
 ---
@@ -38,6 +38,8 @@ No matter how big your hard disk is, somehow it always gets filled. This can hap
 我只能这样安慰自己，虽然只用了三个多月，但是我已经基本适应其操作，并且在这台电脑上，做了很多有价值的事情，因此我具备了冲刺七月的能力，这笔钱，我已经提前赚回来了！
 
 继续磁盘空间的问题。
+
+磁盘是Linux系统中一项非常重要的资源，如何对其进行有效的管理直接关系到整个系统的性能问题。对Linux磁盘管理稍微有一些学习和经验的朋友们应该都知道 df、du 和 fdisk 这三个常用命令：df 用于检查文件系统磁盘占用情况，du 检查磁盘空间占用情况，而 fdisk 用于磁盘分区。
 
 ## du 命令
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sina SAE WordPress 搭建笔记"
-description: ""
+description: "<p>作为程序员，我更倾向于用 Jekyll 这样的程序写笔记，但是，我们毕竟身在高墙之内，万一 GitHub 永远的被隔离在外，我们也只能用 WordPress 之类的工具了。</p><p>WordPress 也是杰出的 Blog 工具。</p><p>最初开通 Sina SAE 的时候，我安装的应用就是 WordPress for SAE，当时还可免费安装。一年之后，开通服务和实名认证赠送的云豆全部用完，我只好先删除应用，将一些相对有价值的文章，手工转录到 GitHub。</p><p>但没过多久，我就通过了开发者认证，应用免租金，而且对 SAE 的架构也熟悉了一些，于是重新搭建 Blog，作为灾备。</p>"
 category: program
 tags: [sina, sae, wp, wordpress]
 ---

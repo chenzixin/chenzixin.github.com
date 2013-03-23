@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "开始使用脉搏网和 WeicoPro"
-description: "脉搏网申请通过 同时开始使用 WeicoPro"
+description: "<p>RSS 衰落，有人猜测是因为微博阅读的兴起，但是浏览微博又非常浪费时间，于是决定申请。</p><p>流程很简单，关注并同意协议就可以，脉搏会私信通知审核结果。</p><p>另外，在手机平台，我购买了 WeicoPro，主要看重其内置 百度 和 搜狗 输入法，终于能在微博上用五笔了，而且 6 块钱买断广告，也挺值的！</p>"
 category: blog
 tags: [vmaibo, weibo, weico]
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linux 常用压缩解压命令"
-description: "Linux 常用压缩解压命令"
+description: "<p>压缩、解压是日常电脑操作中常用的工具，Windows 平台之下，似乎并没有太多的学问，大多数人用一款破解的 WinRAR 全部搞定，开源爱好者可能会选择 <a href='http://sparanoid.com/lab/7z/' target='_blank'>7Zip</a>，而熟练操作 <a href='http://www.ghisler.com/' target='_blank'>Total Commander</a> 的高手，用其内置的 压缩/解压 工具即可。</p><p>本文主要记录 Linux 平台下常用的 压缩/解压 命令，作为日常安装软件时的速查手册，深入分析就没有了。</p><p>别小看了压缩，水很深，比如 LZMA2 算法。更多压缩的学问，以后还会保持关注。</p>"
 category: linux
 tags: [zip, tar, linux]
 ---

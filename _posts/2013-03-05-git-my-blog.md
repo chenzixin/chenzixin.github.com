@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitHub 博客搭建成功"
-description: "Start Blog My Life."
+description: "<p>今天整了一天的 <a href='http://jekyllrb.com/' target='_blank'>Jekyll</a> ，将自己手上的域名，都指向了 <a href='https://github.com/mojombo/jekyll' target='_blank'>GitHub</a>。</p><p>花钱了，投入精力了，以后要专注写作！</p><p>和一位之前的同事聊天，她已经进了电信行业，跨度不小，过程很痛苦，不过我感觉挺值的，电信有大家风范。</p><p>其实最近挺低落的，老婆昨天在电话中和人说，感觉我们公司快倒闭了，有些夸张，不过，网络广告的增长点，的确不好找了。</p><p>同事问我是不是想跳，我说暂时还没有这个想法，但是我至少要有跳的实力。</p>"
 category: blog
 tags: [git, blog, aizhan, alexa, iwebchoice]
 ---

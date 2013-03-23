@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "垃圾邮件中淘宝"
-description: "淘宝的 EDM 很文艺"
+description: "<p>自从有了邮件，几乎同时就有了垃圾邮件，这是互联网中清理不掉的特种病毒。删除垃圾邮件，未免要浪费一些工作时间，但是从另一个角度，有些垃圾邮件，或者订阅邮件，可能还有利用的价值。</p><p>比如 Twitter 经常发一些邮件，提醒这个，推荐那个，我一般也会粗略的看看，学英语的不错材料。</p>"
 category: blog
 tags: [edm, mail, english]
 ---

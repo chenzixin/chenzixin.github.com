@@ -1,8 +1,9 @@
 ---
 layout: post
-category : lessons
-title: "Jekyll 介绍"
-tagline: "Supporting tagline"
+category : program
+title: "Jekyll 简介"
+description: "<p>Jekyll 是一个静态站点生成器，它会根据网页源码生成静态文件。它提供了模板、变量、插件等功能，所以实际上可以用来编写整个网站。</p><p>Jekyll 不需要数据库支持。但是可以配合第三方服务，例如 Disqus。最关键的是 Jekyll 可以免费部署在 Github 上，而且可以绑定自己的域名。</p>"
+tagline: "A Python Newbie"
 tags : [intro, beginner, jekyll, tutorial]
 ---
 {% include JB/setup %}
