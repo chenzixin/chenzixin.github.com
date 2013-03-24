@@ -48,6 +48,7 @@ To activate your account, please click the following link: http://pastebin.com/a
 Below you can find your login data:
 
 Username: user
+
 Password: [**hidden for security reasons**]
 
 You can follow Pastebin at Twitter and Facebook.
