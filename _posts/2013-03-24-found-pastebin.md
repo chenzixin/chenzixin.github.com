@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "发现在线分享文本的应用 Pastebin"
+title: "发现在线分享文本的应用 Peastebin"
 description: "<p>因为 PyCon 2013 的 Adria Richards 事件，发现了一个很有意思的应用 Pastbin。</p><p>一开始我也怀疑，在云笔记流行的今天，这类应用，还有市场吗？不过，仔细思考，它和云笔记是不冲突的，侧重于文本的分享，而笔记更多是个人记录。而且 pastebin 经过这么多年的发展，用户体验不错，细节的设计贴心，特别是针对程序员的语法高亮，个人很喜欢。</p><p>Pastebin.com 还有开放的 API 使用，也是大家风范。</p><p>Pastebin 对未注册用户也开放使用，是否有限制还不太清楚，不过既然喜欢，我也注册了自己的账号，记下注册信息和邮件提醒，也是学英文的机会。</p>"
 category: program
 tags: [cloud, note, pastebin, wiki]
 ---
 {% include JB/setup %}
 
-因为 PyCon 2013 的 Adria Richards 事件，发现了一个很有意思的应用 Pastbin。
+因为 PyCon 2013 的 Adria Richards 事件，发现了一个很有意思的应用 Pastebin。
 
 先看下来自 [WikiPedia](http://en.wikipedia.org/wiki/Pastebin) 的释义：
 

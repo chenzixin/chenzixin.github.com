@@ -7,6 +7,8 @@ tags: [programmer, about]
 ---
 {% include JB/setup %}
 
+## Pycon events
+
 据说这事，最先是在 Hacker News 上火起来的，OSchina 也作了[翻译报导](http://www.oschina.net/news/38824/pycon-events)：
 
 这两天，一年一度的 Python 编程语言大会PyCon正在加州的 Santa Clara 市举行。但是在 Hacker News 和 Reddit 上掀起波浪的不是大会的内容，而是发生在 PyCon 上的一件琐事，现在已经被半开玩笑的命名为“PyCon 事件”。
@@ -43,7 +45,7 @@ Wordpress.com 上的文章，引想网友热评，Hacker News 上亦掀起轩然
 
 不过在闲逛的时候，发现 Adria Richards 的博客关于页面，做得真是不错：
 
-[About](http://butyoureagirl.com/about/#aboutme)
+##[About](http://butyoureagirl.com/about/#aboutme)
 
 >Adria solves business problems with technology solutions and is a Developer Evangelist at SendGrid.
 
@@ -65,7 +67,7 @@ Wordpress.com 上的文章，引想网友热评，Hacker News 上亦掀起轩然
 
 有非常明确的人生目标，让须眉汗颜：
 
-Life Goals
+####Life Goals
 
 * Build a Ruby App for something I’m passionate about
 * **Find an amazing guy to be my Über super awesome boyfriend**
@@ -87,6 +89,8 @@ Life Goals
 * Launch a tech startup (4 great ideas in my notebook) - On Hold
 
 关键她还列出了从2008年到2012年已经完成的目标，好励志！
+
+把目标写在纸上，像手撕日历一样，完成一项，勾划一条，不白活一回。
 
 
 
