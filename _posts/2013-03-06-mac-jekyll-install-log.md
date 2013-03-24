@@ -18,13 +18,12 @@ tags: [jekyll]
 
 访问 [Jekyll Bootstrap](http://jekyllbootstrap.com/)，按照指引操作（注册 GitHub 账号这里就不说了，非常简单），如果这一步出错：
 
-`
+```java
 $ git push origin master
-`
-{% highlight ruby%}
+
 Permission denied (publickey).
 fatal: The remote end hung up unexpectedly
-{% endhighlight %}
+```
 
 你可能要生成 SSH Keys，参考文章：
 
@@ -139,10 +138,10 @@ $ rake post title="Hello World"
 
 解决办法：
 
-`cd c:\Ruby193\lib\ruby\gems\1.9.1\gems\pygments.rb-0.3.7\vendor\pygments-main\
-` 
-
-`python stepup.py install`
+```tex
+cd c:\Ruby193\lib\ruby\gems\1.9.1\gems\pygments.rb-0.3.7\vendor\pygments-main
+python stepup.py install
+```
 
 会在 Python\scripts 目录下 生成 pygmentize.exe
 
@@ -158,10 +157,17 @@ $ rake post title="Hello World"
 
 第二：测试 代码高亮
 
-
-![代码高亮](/assets/images/2013/01/highlight.png)
-
-注：目前还不知道怎样在 Jekyll 中贴 模版代码，只能截图，还不太清晰。
+{% raw %}
+>{% highlight ruby %}
+>
+>require 'redcarpet'
+>
+>markdown = Redcarpet.new("Hello World!")
+>
+>puts markdown.to_html
+>
+>{% endhighlight %}
+{% endraw %}
 
 第三：检查 \_config.yml
 

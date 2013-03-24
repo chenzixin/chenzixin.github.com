@@ -15,24 +15,24 @@ tags: [zip, tar, linux]
 
 ##1.tar
 
-{% highlight ruby %}
-tar -cf archive.tar foo bar # Create archive.tar from files foo and bar.
-tar -tvf archive.tar # List all files in archive.tar verbosely.
-tar -xf archive.tar # Extract all files from archive.tar.
+{% highlight tex %}
+$ tar -cf archive.tar foo bar # Create archive.tar from files foo and bar.
+$ tar -tvf archive.tar # List all files in archive.tar verbosely.
+$ tar -xf archive.tar # Extract all files from archive.tar.
 
-tar -zcvf archive.tgz foobar/ # Use gzip
+$ tar -zcvf archive.tgz foobar/ # Use gzip
 
-tar -zxvf archive.tgz # 解压至当前shell执行目录下
-tar -zxvf archive.tgz -C foobar/ #解压至指定路径
+$ tar -zxvf archive.tgz # 解压至当前shell执行目录下
+$ tar -zxvf archive.tgz -C foobar/ #解压至指定路径
 {% endhighlight%}
 
 ##2.zip
 
-{% highlight ruby %}
-zip archive.zip foo bar
-zip -r archive.zip foobar/
+{% highlight java %}
+$ zip archive.zip foo bar
+$ zip -r archive.zip foobar/
 
-unzip archive.zip
+$ unzip archive.zip
 {% endhighlight%}
 
 ##3.option
@@ -68,9 +68,10 @@ x – extract files from archive
 
 2 ). Extract a single directory or multiple directories
 
-`$ tar xvf archive_file.tar /path/to/dir/`
-
-`$ tar xvf archive_file.tar /path/to/dir1/ /path/to/dir2/`
+```java
+$ tar xvf archive_file.tar /path/to/dir/
+$ tar xvf archive_file.tar /path/to/dir1/ /path/to/dir2/
+```
 
 3 ). Extract group of files from  archives using regular expression
 
@@ -78,16 +79,18 @@ x – extract files from archive
 
 4 ). Adding a file or directory to an existing archive using option -r
 
-`$ tar rvf archive_name.tar newfile`
-
-`$ tar rvf archive_name.tar newdir/`
+```java
+$ tar rvf archive_name.tar newfile
+$ tar rvf archive_name.tar newdir/
+```
 
 *Note: You cannot add file or directory to a compressed archive.*
 
 5 ). Subsection compression
 
-`tar cvzpf - somedir | split -b 500m`
-
-`cat x* > somedir.tar.gz`
+```java
+tar cvzpf - somedir | split -b 500m
+cat x* > somedir.tar.gz
+```
 
 全文完。
