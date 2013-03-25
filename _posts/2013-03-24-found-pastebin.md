@@ -57,5 +57,5 @@ Kind regards,
 
 The Pastebin Team 
 
-注意，Pastebin 在邮件中隐藏了密码，我又想想了 Simpleframework 在邮件中使用明文密码的事件。当然，大公司一般都不会犯这种错误。
+注意，Pastebin 在邮件中隐藏了密码，我又想起了 Simpleframework 在邮件中使用明文密码的事件。当然，大公司一般都不会犯这种错误。
 
