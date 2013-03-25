@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "善用 Google Chrome"
-description: "<p>自从更换 Mac 以来，就再也没有用过本来还算熟悉的快捷键。各种操作都是鼠标点来点去，严重影响效率。今天狠心重学：</p><p>管理收藏夹：option + command + B</p><p>历史：command + Y</p><p>下载：command + shift + J</p><p>设置：command + ,</p><p>清理缓存：shift + command + delete</p><p>查看源码：option + commad + U</p><p>开者工具：option + commad + I</p><p>JS控制台：option + commad + J</p>"
+description: "<p>自从更换 Mac 以来，就再也没有用过本来还算熟悉的快捷键。各种操作都是鼠标点来点去，严重影响效率。今天狠心重学：</p><table width='80%'><tbody><tr><td>管理收藏夹</td><td> ⌥ + ⌘ + B</td><td>历史</td><td>⌘ + Y</td></tr><tr><td>显隐收藏夹</td><td>⇧ + ⌘ + B</td><td>打印</td><td>⌘ + P</td></tr><tr><td>查找</td><td>⌘ + F</td><td>存储</td><td>⌘ + S</td></tr><tr><td>下载</td><td>⌘ + ⇧ + J</td><td>设置</td><td>⌘ + ,</td></tr><tr><td>清理缓存</td><td>⇧ + ⌘ + ⌫</td><td>查看源码</td><td>⌥ + ⌘ + U</td></tr><tr><td>开者工具</td><td>⌥ + ⌘ + I</td><td>JS控制台</td><td>⌥ + ⌘ + J</td></tr></tbody></table><br/><p>知道什么叫效率吗？</p>"
 category: program
 tags: [google, chrome]
 ---
@@ -11,35 +11,48 @@ tags: [google, chrome]
 
 自从更换 Mac 以来，就再也没有用过本来还算熟悉的快捷键。各种操作都是鼠标点来点去，严重影响效率。今天狠心重学：
 
-显隐收藏夹：shift + command + B 
-
-管理收藏夹：option + command + B
-
-打印：command + P
-
-查找：command + F
-
-存储：command + S
-
-历史：command + Y
-
-下载：shift + command + J
-
-设置：command + ,
-
-清理缓存：shift + command + delete
-
-查看源码：option + commad + U
-
-开者工具：option + commad + I
-
-JS控制台：option + commad + J
-
-隐身模式：shift + command + N
-
-----
+<table class="table table-bordered table-hover table-striped"><tbody>
+<tr>
+<td>管理收藏夹</td>
+<td> ⌥ + ⌘ + B</td>
+<td>历史</td>
+<td>⌘ + Y</td>
+</tr>
+<tr>
+<td>显隐收藏夹</td>
+<td>⇧ + ⌘ + B</td>
+<td>打印</td>
+<td>⌘ + P</td>
+</tr>
+<tr>
+<td>查找</td>
+<td>⌘ + F</td>
+<td>存储</td>
+<td>⌘ + S</td>
+</tr>
+<tr>
+<td>下载</td>
+<td>⌘ + ⇧ + J</td>
+<td>设置</td>
+<td>⌘ + , </td>
+</tr>
+<tr>
+<td>清理缓存</td>
+<td>⇧ + ⌘ + ⌫</td>
+<td>查看源码</td>
+<td>⌥ + ⌘ + U</td>
+</tr>
+<tr>
+<td>开者工具</td>
+<td>⌥ + ⌘ + I </td>
+<td>JS控制台</td>
+<td>⌥ + ⌘ + J</td>
+</tr>
+</tbody></table>
 
 ###隐身模式
+
+隐身模式：`⇧ + ⌘ + N`
 
 记录一下隐身模式，今天第一次真正使用：
 
