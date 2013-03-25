@@ -23,7 +23,7 @@ tags: [google, chrome]
 
 历史：command + Y
 
-下载：command + shift + J
+下载：shift + command + J
 
 设置：command + ,
 
@@ -35,7 +35,7 @@ tags: [google, chrome]
 
 JS控制台：option + commad + J
 
-隐身模式：command + shift + N
+隐身模式：shift + command + N
 
 ----
 
