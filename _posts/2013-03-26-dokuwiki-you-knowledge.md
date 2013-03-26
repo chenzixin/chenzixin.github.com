@@ -125,3 +125,16 @@ Assign category tags to wiki pages. (previous authors: Esther Brunner)
 Quite intuitive? *emphasis*, **strong**, etc.
 </markdown>
 ```
+
+####5. rename plugin
+
+DokuWiki 默认不支持词条重命名，这里有几个插件可供选择：
+
+*  [editx](https://www.dokuwiki.org/plugin:editx) ✔ 测试通过
+*  [mediarename](https://www.dokuwiki.org/plugin:mediarename) Adora Belle untested.
+
+诚如它的目标：小公司文件需求而開發的Wiki引擎
+
+简明轻快，但是功能不能和 Confluence 相比。
+
+
