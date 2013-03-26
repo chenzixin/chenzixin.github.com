@@ -222,8 +222,6 @@ border-bottom: 1px solid #dcdbda;
 {%endhighlight%}
 
 
-
-
 ### 苹果页面包装
 
 演示：[Apple Page Wrapper](/demo/box-shadow/apple-page-wrapper.html)
@@ -259,8 +257,6 @@ border-right: 1px solid #dadada;
 }
 {%endhighlight%}
 
-
-
 ### 苹果内容框效果
 
 演示：[Apple Content Box](/demo/box-shadow/apple-content-box.html)
@@ -291,8 +287,6 @@ float: left;
 margin: 0 0 0 30px;
 }
 {%endhighlight%}
-
-
 
 ### 精选链接
 
@@ -351,8 +345,6 @@ text-align: center;
 }
 {%endhighlight%}
 
-
-
 ### 帧内图片
 
 演示：[Framed Images](/demo/box-shadow/framed-images.html)
@@ -371,8 +363,6 @@ padding: 8px;
 box-shadow: 1px 2px 1px #d1d1d1;
 }
 {%endhighlight%}
-
-
 
 ### 具有焦点亮度效果的文本框
 
@@ -418,8 +408,6 @@ box-shadow: inset 0 1px rgba(34, 25, 25, 0.2), 0 1px rgba(255, 255, 255, 0.6), 0
 -webkit-box-shadow: inset 0 1px rgba(34, 25, 25, 0.2), 0 1px rgba(255, 255, 255, 0.6), 0 0 7px rgba(235, 82, 82, 0.5);
 }
 {%endhighlight%}
-
-
 
 ### 弹性阴影按钮
 
