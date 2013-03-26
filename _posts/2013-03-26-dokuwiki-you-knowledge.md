@@ -137,4 +137,29 @@ DokuWiki 默认不支持词条重命名，这里有几个插件可供选择：
 
 简明轻快，但是功能不能和 Confluence 相比。
 
+### 三、配置
+
+#### 1. 禁用升级自检
+
+<https://www.dokuwiki.org/update_check>
+
+If you don't want to upgrade to an announced release you can simply increase the number in doku.php. 
+
+note: in older versions, this number was at the top of the file ./conf/msg.
+
+OR
+
+Advanced Settings - updatecheck
+
+Check for updates and security warnings? DokuWiki needs to contact update.dokuwiki.org for this feature.
+
+NO
+
+#### 2. 禁用trace
+
+you can disable it by setting the breadcrumbs config option to 0.
+
+
+一个不错的个人Wiki：<http://wiki.lynxworks.eu/start>
+
 

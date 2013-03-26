@@ -123,3 +123,8 @@ ChentekiMacBook-Pro:chenzixin Christen$ gollum --help
 	from /Users/Christen/.rvm/gems/ruby-1.9.3-p392/bin/ruby_noexec_wrapper:14:in `eval'
 	from /Users/Christen/.rvm/gems/ruby-1.9.3-p392/bin/ruby_noexec_wrapper:14:in `<main>'
 ```
+
+这里有一个博客，可供参考：<https://blog.theroux.ca/ruby/Markdown-based-wiki-using-gollum/>
+
+博主的引擎，也是 Jekyll。
+
