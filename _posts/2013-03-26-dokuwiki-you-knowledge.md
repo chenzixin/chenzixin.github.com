@@ -7,7 +7,7 @@ tags: [php, wiki, pmp]
 ---
 {% include JB/setup %}
 
-### 概述
+### 一、概述
 
 It’s better when it’s simple.
 
@@ -33,9 +33,9 @@ DokuWiki 是由 Andreas Gohr 在2004年7月开发出来的。7月，第一个官
 *   没有所見即所得的编辑器：DokuWiki 不提供所见即所得的编辑器，但有提供编辑工具条。
 
 
-### 插件
+### 二、插件
 
-####Color
+####1. Color
 ----
 
 <https://www.dokuwiki.org/plugin:color>
@@ -60,8 +60,10 @@ $ chmod -R a+rX color
 <color blue/lightgrey>text</color>
 ```
 
-####Arctic
+####2. Arctic
 ----
+
+侧边栏插件，看起来更像 CMS 了
 
 <https://www.dokuwiki.org/template:arctic>
 
@@ -88,14 +90,14 @@ It is possible to create this page right in the wiki. Go to any page of your wik
 
 >注：在线安装插件，必须给 wiki/lib/plugins read + write 权限
 
-####Tag
+####3. Tag
 ----
 
 Assign category tags to wiki pages. (previous authors: Esther Brunner)
 
 <https://www.dokuwiki.org/plugin:tag>
 
-####Markdownextra
+####4. Markdownextra
 ----
 
 <https://www.dokuwiki.org/plugin:markdownextra>
