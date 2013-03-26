@@ -19,7 +19,7 @@ tags: [html, css3]
 
 延伸：[20 Hottest Trends To Watch Out For In 2013](http://www.hongkiat.com/blog/web-design-trend-2013/)
 
-# 固定顶部工具栏
+### 固定顶部工具栏
 
 演示：[Fixed Top Toolbar](/demo/box-shadow/fixed-top-toolbar.html)
 
@@ -45,9 +45,9 @@ z-index: 999999;
 }
 {%endhighlight%}
 
-分析：...
 
-# 下拉式导航菜单
+
+### 下拉式导航菜单
 
 演示：[Sub Navigation Dropdown](/demo/box-shadow/sub-navigation-dropdown.html)
 
@@ -104,9 +104,9 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=180, Colo
 }
 {%endhighlight%}
 
-分析：...
 
-# 带光泽阴影按钮
+
+### 带光泽阴影按钮
 
 演示：[Glossy Shadow Button](/demo/box-shadow/glossy-shadow-button.html)
 
@@ -172,9 +172,9 @@ background-image: linear-gradient(to bottom,#005ab4 0,#175ea6 100%);
 }
 {%endhighlight%}
 
-分析：...
 
-# 弹出通知栏
+
+### 弹出通知栏
 
 演示：[Notifications Flyout Menu](/demo/box-shadow/notifications-flyout-menu.html)
 
@@ -222,9 +222,9 @@ border-bottom: 1px solid #dcdbda;
 {%endhighlight%}
 
 
-分析：
 
-# 苹果页面包装
+
+### 苹果页面包装
 
 演示：[Apple Page Wrapper](/demo/box-shadow/apple-page-wrapper.html)
 
@@ -259,9 +259,9 @@ border-right: 1px solid #dadada;
 }
 {%endhighlight%}
 
-分析：
 
-# 苹果内容框效果
+
+### 苹果内容框效果
 
 演示：[Apple Content Box](/demo/box-shadow/apple-content-box.html)
 
@@ -292,9 +292,9 @@ margin: 0 0 0 30px;
 }
 {%endhighlight%}
 
-分析：
 
-# 精选链接
+
+### 精选链接
 
 演示：[Apple Feature Links](/demo/box-shadow/apple-feature-links.html)
 
@@ -351,9 +351,9 @@ text-align: center;
 }
 {%endhighlight%}
 
-分析：
 
-# 帧内图片
+
+### 帧内图片
 
 演示：[Framed Images](/demo/box-shadow/framed-images.html)
 
@@ -372,9 +372,9 @@ box-shadow: 1px 2px 1px #d1d1d1;
 }
 {%endhighlight%}
 
-分析：
 
-# 具有焦点亮度效果的文本框
+
+### 具有焦点亮度效果的文本框
 
 演示：[Glowing Input Fields](/demo/box-shadow/glowing-input-fields.html)
 
@@ -419,9 +419,9 @@ box-shadow: inset 0 1px rgba(34, 25, 25, 0.2), 0 1px rgba(255, 255, 255, 0.6), 0
 }
 {%endhighlight%}
 
-分析：
 
-# 弹性阴影按钮
+
+### 弹性阴影按钮
 
 演示：[Elastic Shadow Buttons](/demo/box-shadow/elastic-shadow-buttons.html)
 
@@ -521,7 +521,7 @@ box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.2), inset 0 12px 20px 6px rgba(0,0,0,0.
 {%endhighlight%}
 
 
-分析：...
+
 
 
 全文暂完。
