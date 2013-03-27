@@ -136,6 +136,10 @@ What is a Wiki and 10 Reasons to Use One - Atlassian Confluence
 
 4what 的经验之谈。为什么这听起来这么不通顺？不是我说的，只是理解了精神，未听清楚原话怎么表达的。
 
+用英文说可能更利索一些：
+
+> Last update of previous version.
+
 但是很遗憾，升级很顺利，在 3.2 的后台，运行 Backup Confluence Data，会得到一个压缩包，包含附件和 XML 化的数据。安装 3.5.17 到最后一步，选择从从其它 Wiki 恢复数据即可。软件版本升级，一般数据结构都会有变动，有的甚至更换了存储引擎（3.2 MyISAM，3.7.17 InnoDB)，把数据导出为 XML，实在是精明之选！
 
 ----
