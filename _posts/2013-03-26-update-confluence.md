@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "升级 Confluence 至 3.5.17"
-description: ""
+description: "<p>自从 2009 年我找到 Confluence 之后，对其它的 Wiki 引擎，就再也没有发掘的兴趣了，很专一。</p><p>你会问，为什么写 BBS6 文档，又搞一套 DokuWiki？主要还是看重它的轻，不依赖数据库，只要有 PHP 环境就可以跑起来（其实 Confluence 也是支持嵌入式数据库的，只是 Java 的主机，远没有 PHP 普及）。</p><p>但文档还没有开始写，DokuWiki 的各种局限性开始暴露，虽然尝试用 MarkDown 插件、侧边栏插件、文字颜色插件、改名插件 等程序来增强，但最终在发现 Confluence 支持将整个空间导出为 HTML 之后，立刻决定放弃 DokuWiki，虽然它的默认主题很好看，虽然它支持分段编辑。</p>"
 category: program
 tags: [wiki, pmp]
 ---
