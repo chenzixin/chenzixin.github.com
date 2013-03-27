@@ -20,12 +20,12 @@ tags: [wiki, pmp]
 <tr><td>HDwiki</td><td><a href="http://www.baike.com/">互动百科</a>的引擎</td><td> <a href="http://kaiyuan.hudong.com/">官网</a></td></tr>
 <tr><td>trac</td><td>曾用来管理亲子项目的开发 集成 Wiki</td><td><a href="http://trac.edgewall.org/">官网</a></td></tr>
 <tr><td>redmine</td><td>Ruby 开发的全功能项目管理工具 集成 Wiki</td><td><a href="http://www.redmine.org/">官网</a></td></tr>
-<tr><td>Twiki</td><td>Perl 开发的 Wiki 引擎 印象中曾得到 Yahoo 的大力支持 企业Wiki的首选</td><td><a href="http://twiki.org/">官网</a></td></tr>
+<tr><td>Twiki</td><td>Perl 开发的 Wiki 引擎 印象中曾得到 Yahoo 的大力支持 企业 Wiki 的首选</td><td><a href="http://twiki.org/">官网</a></td></tr>
 <tr><td>Pwyky</td><td>Python 开发的 30KB 单文件 Wiki 引擎</td><td><a href="http://infomesh.net/pwyky/">官网</a></td></tr>
 <tr><td>MoinMoin</td><td>Python 开发的优秀的开源 Wiki 引擎</td><td><a href="http://moinmo.in/">官网</a></td></tr>
 <tr><td>JspWiki</td><td>因为是 Java 开发的 当年毛翔曾极力推荐 但界面很魔兽</td><td><a href="http://www.jspwiki.org/">官网</a></td></tr>
-<tr><td>DokuWiki</td><td>开源wiki引擎程序 运行于 PHP 环境下 小企业知识管理首选</td><td><a href="https://www.dokuwiki.org/dokuwiki">官网</a></td></tr>
-<tr><td>Xwiki</td><td>Java 编写的基于 LGPL 协议发布的开源 Wiki和应用平台 很像 Confluence</td><td><a href="http://www.xwiki.org/xwiki/bin/view/Main/WebHome">官网</a></td></tr>
+<tr><td>DokuWiki</td><td>开源 Wiki 引擎程序 运行于 PHP 环境下 小企业知识管理首选</td><td><a href="https://www.dokuwiki.org/dokuwiki">官网</a></td></tr>
+<tr><td>Xwiki</td><td>Java 编写的基于 LGPL 协议发布的开源 Wiki 和应用平台 很像 Confluence</td><td><a href="http://www.xwiki.org/xwiki/bin/view/Main/WebHome">官网</a></td></tr>
 <tr><td>Confluence</td><td>这个是重点 无法超越 我喜欢的 Spring JetBrains 都用它 <a href="https://confluence.atlassian.com/display/ALLDOC/Confluence+Documentation+Directory">文档</a>很好</td><td><a href="http://www.atlassian.com/software/confluence/">官网</a></td></tr>
 </table>
 
