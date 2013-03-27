@@ -26,7 +26,7 @@ tags: [wiki, pmp]
 <tr><td>JspWiki</td><td>因为是 Java 开发的 当年毛翔曾极力推荐 但界面很魔兽</td><td><a href="http://www.jspwiki.org/">官网</a></td></tr>
 <tr><td>DokuWiki</td><td>开源wiki引擎程序 运行于 PHP 环境下 小企业知识管理首选</td><td><a href="https://www.dokuwiki.org/dokuwiki">官网</a></td></tr>
 <tr><td>Xwiki</td><td>Java 编写的基于 LGPL 协议发布的开源 Wiki和应用平台 很像 Confluence</td><td><a href="http://www.xwiki.org/xwiki/bin/view/Main/WebHome">官网</a></td></tr>
-<tr><td>Confluence</td><td>这个是重点 无法超越 我喜欢的 Spring JetBrains 都用它</td><td><a href="http://www.atlassian.com/software/confluence/">官网</a></td></tr>
+<tr><td>Confluence</td><td>这个是重点 无法超越 我喜欢的 Spring JetBrains 都用它 <a href="https://confluence.atlassian.com/display/ALLDOC/Confluence+Documentation+Directory">文档</a>很好</td><td><a href="http://www.atlassian.com/software/confluence/">官网</a></td></tr>
 </table>
 
 唉，寻找，安装，配置这些程序，浪费的，都是我的生命啊！折腾有风险，入行需谨慎。
