@@ -17,7 +17,7 @@ tags: [wiki, pmp]
 <table class="table table-bordered table-hover table-striped">
 <tr>
 <td>MediaWiki</td> <td><a href="http://zh.wikipedia.org/">维基百科</a>引擎</td> <td><a href="http://www.mediawiki.org/wiki/MediaWiki">官网</a></td></tr>
-<tr><td>HDwiki</td><td><a href="http://www.baike.com/">互动百科</a>的引擎</td><td> <a href="http://kaiyuan.hudong.com/">官网</a></td></tr>
+<tr><td>HDwiki</td><td><a href="http://www.baike.com/">互动百科</a>引擎</td><td> <a href="http://kaiyuan.hudong.com/">官网</a></td></tr>
 <tr><td>trac</td><td>曾用来管理亲子项目的开发 集成 Wiki</td><td><a href="http://trac.edgewall.org/">官网</a></td></tr>
 <tr><td>redmine</td><td>Ruby 开发的全功能项目管理工具 集成 Wiki</td><td><a href="http://www.redmine.org/">官网</a></td></tr>
 <tr><td>Twiki</td><td>Perl 开发的 Wiki 引擎 印象中曾得到 Yahoo 的大力支持 企业 Wiki 的首选</td><td><a href="http://twiki.org/">官网</a></td></tr>
