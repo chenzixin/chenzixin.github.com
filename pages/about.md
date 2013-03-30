@@ -32,8 +32,6 @@ __Focus__
 
 <mailto:chenzixin@vip.163.com>
 
-----
-
 __Works__
 
 <table class="table table-striped">
