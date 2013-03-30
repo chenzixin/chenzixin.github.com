@@ -20,9 +20,19 @@ __Focus__
 * [JavaScript](http://www.jsoops.com/)
 * CSS
 * SEO
-* English
 * Advertising Supported
-* Chinese Ancient Culture
+
+**So you want to know a little bit more about me?**
+
+<p class='justify'>My name is Chen Zixin, I am a Chinese software engineer currently living in Dongcheng District of Beijing with my wife and a cat.</p>
+
+<p class='justify'>When I was young, I wanted to be a lawyer. That was before I got a job as a game editor in PConline since early 2004. From then on, I got a lot of chances to take part in web application design, and interact with programers. As time goes on, I knew I would be a developer. I never stopped writing code since 2007.</p>
+
+<p class='justify'>I still enjoy Chinese Ancient Culture and Hard Pen Calligraphic. It’s probably because I used to be a liberal art student in Hust. You can contact me via email: </p>
+
+<mailto:chenzixin@vip.163.com>
+
+----
 
 __Works__
 
