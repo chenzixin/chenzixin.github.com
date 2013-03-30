@@ -75,3 +75,7 @@ font-size: 14px;
 font-weight: normal;
 line-height: 25px;
 }
+
+.justify {
+  text-align:justify; text-justify:inter-ideograph
+}
