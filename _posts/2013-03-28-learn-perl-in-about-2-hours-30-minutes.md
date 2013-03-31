@@ -23,44 +23,10 @@ This document is intended to be informative, not evangelical. It is aimed at peo
 
 This document is intended to be as short as possible, but no shorter.
 
-## Preliminary notes
+#### Preliminary notes
 
 <p class='justify'>The following can be said of almost every declarative statement in this document: "that's not, strictly speaking, true; the situation is actually a lot more complicated". If you see a serious lie, point it out, but I reserve the right to preserve certain critical lies-to-children.</p>
 
 <p class='justify'>Throughout this document I'm using example print statements to output data but not explicitly appending line breaks. This is done to prevent me from going crazy and to give greater attention to the actual string being printed in each case, which is invariably more important. In many examples, this results in alotofwordsallsmusheduptogetherononeline if the code is run in reality. Try to ignore this.</p>
 
-## Hello world
-
-A Perl script is a text file with the extension **.pl**.
-
-Here's the full text of **helloworld.pl**:
-
-```perl
-use strict;
-use warnings;
-
-print "Hello world";
-```
-
-Perl scripts are interpreted by the Perl interpreter, **perl** or **perl.exe**:
-
-```
-perl helloworld.pl [arg0 [arg1 [arg2 ...]]]
-```
-
-<p class='justify'>A few immediate notes. Perl's syntax is highly permissive and it will allow you to do things which result in ambiguous-looking statements with unpredictable behaviour. There's no point in me explaining what these behaviours are, because you want to avoid them. The way to avoid them is to put <b>use strict; use warnings;</b> at the very top of every Perl script or module that you create. Statements of the form <b>use foo;</b> are pragmas. A pragma is a signal to <b>perl.exe</b>, which takes effect when initial syntactic validation is being performed, before the program starts running. These lines have no effect when the interpreter encounters them at run time.</p>
-
-The symbol **#** begins a comment. A comment lasts until the end of the line. Perl has no block comment syntax.
-
-未完……
-
-
-
-
-
-
-
-
-
-
-
+Read more: [www.chenzixin.com](/static/perl/index.html) or [qntm.org](http://qntm.org/perl).
