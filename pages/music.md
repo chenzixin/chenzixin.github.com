@@ -41,7 +41,7 @@ description: "我听过的音乐，专辑和印象深刻的单曲。"
 
 - No Strings Attached（2000）
 
- I Want You Back Bye Bye Bye 《It's Gonna Be Me This I Promise you
+ I Want You Back Bye Bye Bye It's Gonna Be Me This I Promise you
 
 #### [BREEZE](http://www.bluedesert.dk/breeze.html)
 
