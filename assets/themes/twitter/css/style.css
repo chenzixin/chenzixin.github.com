@@ -77,26 +77,5 @@ line-height: 25px;
 }
 
 .justify {
-  text-align:justify; text-justify:inter-ideograph
-}
-
-.progress-bar {
-  background-color:#efefef;
-  width:200px;
-  height:16px;
-  box-shadow:inset 0 0 1px 0 #000;
-}
-
-.progress-bar span {
-  display:inline-block;
-/*  width:20px;*/
-  height:12px;
-  padding-bottom: 2.5px;
-  margin-left: 1px;
-
-}
-
-.green span{
-  background-image:-webkit-gradient(linear,0% 0%,0% 100%,from(#4bb444),to(#30a72f));
-  background-image:-moz-linear-gradient(-90deg,#4bb444,#30a72f);
+  text-align:justify; text-justify:inter-ideograph;
 }

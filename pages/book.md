@@ -2,6 +2,7 @@
 layout: page
 title: "我的书单"
 description: ""
+
 ---
 {% include JB/setup %}
 
@@ -9,9 +10,17 @@ description: ""
 
 ----
 
+
+
 #### [南渡北归·南渡](http://book.douban.com/subject/5399227/)
 
-<div class="progress-bar green"><span style="width:30%;"></span></div>
+<script>
+  $(function(){
+    console.log('jQuery');
+  });
+</script>
+
+<div class="progress"><div class="bar" style="width: 45%;"></div></div>
 <br>
 作者：岳南
 
@@ -27,7 +36,7 @@ description: ""
 识分子的生活、学术、精神与情操，搜罗宏富，规模宏大，意旨宏远，堪称中国知识分子抗战时期的群雕。
 
 #### [邓小平时代](http://book.douban.com/subject/20424526/)
-<div class="progress-bar green"><span style="width:10%;"></span></div>
+<div class="progress"><div class="bar" style="width: 15%;"></div></div>
 <br>
 作者：傅高义
 
@@ -66,7 +75,7 @@ description: ""
 ----
 
 #### [无奈的追寻·清代文人心理透视](http://book.douban.com/subject/1114392/)
-<div class="progress-bar green"><span style="width:99%;"></span></div>
+<div class="progress"><div class="bar" style="width: 100%;"></div></div>
 <br>
 作者：韩进廉
 
