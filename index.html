@@ -33,10 +33,13 @@ title: 萍水相逢
 
 {% endfor %}
 
+<!-- 分页 -->
+
 {% if paginator.total_pages > 1 %}
 
 <div class="pagination">
     <ul>
+    <li><a href="/">First</a></li>
     {% if paginator.previous_page %}
         <li class="prev">
         {% if paginator.previous_page == 1 %}<a href="/">&larr; Previous</a>
@@ -52,7 +55,7 @@ title: 萍水相逢
         {% else %}<li><a href="/">1</a></li>
         {% endif %}
 
-        {% for count in (2..paginator.total_pages) %}
+        {% for count in (2..paginator.total_pages) limit:13 %}
             {% if paginator.page == count %}<li class="disabled"><a>{{ count }}</a></li>
             {% else %}<li><a href="/page{{ count }}">{{ count }}</a></li>
             {% endif %}
@@ -64,7 +67,9 @@ title: 萍水相逢
     {% else %}
         <li class="next disabled"><a>Next &rarr;</a></li>
     {% endif %}
+        <li><a href="/page{{paginator.total_pages}}">Last</a></li>
     </ul>
+
 </div>
 {% endif %}
 
