@@ -14,9 +14,9 @@ description: ""
 
 #### [南渡北归·南渡](http://book.douban.com/subject/5399227/)
 
-<script>
+<script type="text/javascript">
   $(function(){
-    console.log('jQuery');
+    //console.log('jQuery');
   });
 </script>
 
