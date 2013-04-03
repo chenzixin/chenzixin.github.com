@@ -76,6 +76,14 @@ font-weight: normal;
 line-height: 25px;
 }
 
+.warning {
+border-left: 5px solid #c41200;
+}
+
+h1 {
+font-size: 28.5px;
+}
+
 .justify {
   text-align:justify; text-justify:inter-ideograph;
 }
