@@ -55,7 +55,7 @@ title: 萍水相逢
         {% else %}<li><a href="/">1</a></li>
         {% endif %}
 
-        {% for count in (2..paginator.total_pages) limit:13 %}
+        {% for count in (2..paginator.total_pages) limit:11 %}
             {% if paginator.page == count %}<li class="disabled"><a>{{ count }}</a></li>
             {% else %}<li><a href="/page{{ count }}">{{ count }}</a></li>
             {% endif %}
