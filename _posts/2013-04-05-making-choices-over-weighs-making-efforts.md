@@ -45,9 +45,11 @@ package main
 import "fmt"
 
 func main() {
-	sum := 0
-	for i := 0; i <= 100000000; i++ {
+	var sum int64 = 0
+	var i int64 = 0
+	for i <= 100000000 {
 		sum += i
+		i++
 	}
 	fmt.Println("Go: The sum of the numbers is", sum)
 }
