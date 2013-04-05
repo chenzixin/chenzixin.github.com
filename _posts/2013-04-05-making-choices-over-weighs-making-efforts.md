@@ -18,7 +18,7 @@ int main (int argc, const char * argv[])
 {
 	long long number, sum;
 	sum = 0;
-	for ( number = 1; number <= 1000000000; number++ )
+	for ( number = 1; number <= 100000000; number++ )
 	   sum += number;
 	printf("C: The sum of the numbers is %lld.\n", sum );
 	return 0;
@@ -31,7 +31,7 @@ int main (int argc, const char * argv[])
 ```javascript
 var number, sum;
 sum = 0;
-for ( number = 1; number <= 1000000000; number++ )
+for ( number = 1; number <= 100000000; number++ )
    sum += number;
 
 console.log("Node: The sum of the numbers is " + sum );
@@ -46,7 +46,7 @@ import "fmt"
 
 func main() {
 	sum := 0
-	for i := 0; i <= 1000000000; i++ {
+	for i := 0; i <= 100000000; i++ {
 		sum += i
 	}
 	fmt.Println("Go: The sum of the numbers is", sum)
@@ -56,7 +56,7 @@ func main() {
 #### Python
 
 ```python
-r = range(1, 10000 + 1)
+r = range(1, 100000000 + 1)
 
 sum = 0
 
@@ -69,7 +69,7 @@ print 'Python: The sum of the numbers is %d' % sum
 #### Ruby
 
 ```ruby
-r = 1..10000
+r = 1..100000000
 
 sum = 0
 
@@ -82,9 +82,17 @@ puts "Ruby: The sum of the numbers is #{sum}"
 
 然后增加尾数的大小，考验他们的运算速度：
 
-- Node 的效率高得惊人，感觉逆天了，比 C 还快？还是因为 C 中 sum 越界了？
+```
+c  5000000050000000 0.5s
+js 5000000050000000 0.2s
+go 5000000050000000 243.345ms
+rb 5000000050000000 15.7s
+py 5000000050000000 23.5s
+```
 
-- Go 的速度也很快，直逼 C，不过我暂不会使用 BigInt，求和也越界；
+- Node 的效率高得惊人，感觉逆天了，比 C 还快？
+
+- Go 的速度也超越了 C，看来从事这种儿科运算，用 C 有点委曲它老人家了；
 
 - Ruby 1.9.3 的性能，要比 Python 2.7.2 好；
 
