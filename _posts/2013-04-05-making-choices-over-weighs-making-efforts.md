@@ -9,7 +9,7 @@ tags: [c, go, python, node, ruby]
 
 两个星期之前，我下载了一本书 C 语言的电子书，《Leaning C on the Mac》，仿照书上的例子，写了一段代码：
 
-#### 高斯数学
+#### Gauß
 
 ```c
 #include <stdio.h>
