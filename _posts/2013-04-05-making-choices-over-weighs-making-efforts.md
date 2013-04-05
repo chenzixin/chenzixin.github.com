@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Making Choices Over Weighs Making Efforts"
+title: "Choice is More Important than Hard Work"
 description: "<p>两个星期之前，我下载了一本书 C 语言的电子书，《Leaning C on the Mac》，仿照书上的例子，写了一段代码，计算高斯数学。今天，又分别用 Node Go Python 和 Ruby 写了相同的逻辑，主要是为了复习他们的循环写法。</p><p>完成同样的任务，耗时相差很远，不是这些语言的解释器不努力，关键取决于我们的选择。</p><p>选择比努力重要。</p>"
 category: program
 tags: [c, go, python, node, ruby]
