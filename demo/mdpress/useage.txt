@@ -1,0 +1,1 @@
+mdpress ppt.md --latex
