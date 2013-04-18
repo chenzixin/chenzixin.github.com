@@ -6,12 +6,12 @@ By Christen
 = data-x="4000" data-y="3000" data-scale="4" id=overview
 # 纯文本万岁
 
-- _以后 PPT 就是这种形式了_
-- 为什么要学习 **数学**
-- 为什么要重视 **英语**
+- _以后 Presentation 就是这种形式了_
+- 为什么我喜欢 **纯文本资料**
+- 微软的 PowerPoint 有什么不好
 
 ----
-= data-x="4000" data-y="0" data-scale="4" id=code
+= data-x="3000" data-y="-3000" data-scale="4" id=go
 
 # Go 语言代码示例
 
@@ -31,6 +31,7 @@ switch i {
 ```
 
 ----
+= data-x="-3000" data-y="-5000" data-scale="2" id=charts
 # 图表组件
 
 >Google Chart 是用户体验最好的图表工具，没有之一。
@@ -38,27 +39,34 @@ switch i {
 ![go](https://code.google.com/p/go/logo?cct=1363647092)
 
 ----
-= data-x="1000" data-scale="2" id=other
+= data-x="1000" data-scale="2" id=html
 # 这里测试HTML
 
 ```
-&lt;!DOCTYPE html&gt;<br />
-&lt;html&gt;<br />
-&lt;head&gt;<br />
-&nbsp;&lt;meta http-equiv="Content-Type" charset=UTF-8" &gt;<br />
-&nbsp;&lt;meta content="IE=edge,chrome=1" &gt;<br />
-&nbsp;&lt;meta name="ROBOTS" content="NOARCHIVE"&gt;
- ```
+&lt;!DOCTYPE HTML&gt;
+&lt;html&gt;
+&lt;body&gt;
+&lt;video width=&quot;320&quot; height=&quot;240&quot; controls=&quot;controls&quot;&gt;
+&nbsp; &lt;source src=&quot;movie.mp4&quot; type=&quot;video/mp4&quot;&gt;
+&nbsp; &lt;source src=&quot;movie.ogg&quot; type=&quot;video/ogg&quot;&gt;
+&nbsp; &lt;source src=&quot;movie.webm&quot; type=&quot;video/webm&quot;&gt;
+Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```
 
 ----
-= data-z="-1000"  data-rotate="90"
+= data-z="-1000"  data-rotate="90" id=think
 
-# 感觉不错 
+# 思考 
 
 1. 朝鲜人为什么那么无畏？
-2. 印度人为什么那么牛逼？
+2. 印度的计算机产业为何如此发达？
 
 ----
+= data-y="-1000"  data-rotate="30" id=code
+
 # 再贴一段代码
 ```
 $ hg clone http://selenic.com/repo/hello
@@ -70,6 +78,8 @@ $ hg push
 ```
 
 ----
+= data-y="0" id=end
+
 # 谢谢
 
 ### Q & A
