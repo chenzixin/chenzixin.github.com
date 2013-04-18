@@ -3,7 +3,7 @@
 By Christen
 
 ----
-= data-x="4000" data-y="3000" data-scale="4" id=overview
+= data-x="4000" data-y="3000" data-scale="4" id=text
 # 纯文本万岁
 
 - _以后 Presentation 就是这种形式了_
@@ -21,26 +21,26 @@ switch i {
         fmt.Println("one")
     case 2:
         fmt.Println("two")
-    case 3:
-        fmt.Println("three")
-    case 4,5,6:
+    case 3,4,5:
         fmt.Println("four, five, six")
     default:
         fmt.Println("invalid value!")
 }
 ```
+<br/>
+![go](https://code.google.com/p/go/logo?cct=1363647092)
 
 ----
-= data-x="-3000" data-y="-5000" data-scale="2" id=charts
+= data-x="-3000" data-y="-5000" data-scale="2"   data-rotate="270" id=charts
 # 图表组件
 
 >Google Chart 是用户体验最好的图表工具，没有之一。
 
-![go](https://code.google.com/p/go/logo?cct=1363647092)
+![go](img/charts.jpg)
 
 ----
 = data-x="1000" data-scale="2" id=html
-# 这里测试HTML
+#  基本的HTML5模版
 
 ```
 &lt;!DOCTYPE HTML&gt;
@@ -57,7 +57,7 @@ Your browser does not support the video tag.
 ```
 
 ----
-= data-z="-1000"  data-rotate="90" id=think
+= data-z="-1000"  data-rotate="60" id=think
 
 # 思考 
 
@@ -67,7 +67,7 @@ Your browser does not support the video tag.
 ----
 = data-y="-1000"  data-rotate="30" id=code
 
-# 再贴一段代码
+# Mercurial 命令
 ```
 $ hg clone http://selenic.com/repo/hello
 $ cd hello
@@ -77,15 +77,28 @@ $ hg commit -m 'My changes'
 $ hg push
 ```
 ----
-=  data-x="-1000"  data-rotate="30" id=latex
+=  data-x="-1000"  data-rotate="90" id=latex
 
 # Latex Support
+
+数学公式
 
 $$e^{\imath\pi} = -1$$
 $$\frac{d}{dx}\left( \int_{0}^{x} f(u)\,du\right)=f(x)$$
 
 ----
-= data-y="0" id=end
+=  data-x="-3000" id=tech
+
+# 技术支持
+
+- [mdpress](http://documentup.com/egonschiele/mdpress)
+- [Impress](http://bartaz.github.io/impress.js/#/bored)
+- [MathJax](http://www.mathjax.org/)
+- [Ruby](http://www.ruby-lang.org/zh_cn/)
+- [Sublime](http://www.sublimetext.com/)
+
+----
+= id=end
 
 # 谢谢
 
