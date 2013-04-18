@@ -22,7 +22,7 @@ switch i {
     case 2:
         fmt.Println("two")
     case 3,4,5:
-        fmt.Println("four, five, six")
+        fmt.Println("three, four, five")
     default:
         fmt.Println("invalid value!")
 }
