@@ -76,6 +76,13 @@ $ hg add (new files)
 $ hg commit -m 'My changes'
 $ hg push
 ```
+----
+=  data-x="-1000"  data-rotate="30" id=latex
+
+# Latex Support
+
+$$e^{\imath\pi} = -1$$
+$$\frac{d}{dx}\left( \int_{0}^{x} f(u)\,du\right)=f(x)$$
 
 ----
 = data-y="0" id=end
