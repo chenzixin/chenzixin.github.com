@@ -3,7 +3,7 @@
 By Christen
 
 ----
-= data-x="4000" data-y="3000" data-scale="4" id=text
+= data-x="0" data-y="3000" data-scale="4" id=text
 # 纯文本万岁
 
 - _以后 Presentation 就是这种形式了_
@@ -11,7 +11,7 @@ By Christen
 - 微软的 PowerPoint 有什么不好
 
 ----
-= data-x="3000" data-y="-3000" data-scale="4" id=go
+= data-x="0" data-y="-3000" data-scale="0.5" id=go
 
 # Go 语言代码示例
 
@@ -31,7 +31,7 @@ switch i {
 ![go](https://code.google.com/p/go/logo?cct=1363647092)
 
 ----
-= data-x="-3000" data-y="-5000" data-scale="2"   data-rotate="270" id=charts
+= data-x="-3000" data-y="0" data-scale="2"   data-rotate="270" id=charts
 # 图表组件
 
 >Google Chart 是用户体验最好的图表工具，没有之一。
@@ -39,7 +39,7 @@ switch i {
 ![go](img/charts.jpg)
 
 ----
-= data-x="1000" data-scale="2" id=html
+= data-x="1000" data-z="5000" data-rotate-x="30" data-rotate-y="-30" id=html
 #  基本的HTML5模版
 
 ```
@@ -76,15 +76,6 @@ $ hg add (new files)
 $ hg commit -m 'My changes'
 $ hg push
 ```
-----
-=  data-x="-1000"  data-rotate="90" id=latex
-
-# Latex Support
-
-数学公式
-
-$$e^{\imath\pi} = -1$$
-$$\frac{d}{dx}\left( \int_{0}^{x} f(u)\,du\right)=f(x)$$
 
 ----
 =  data-x="-3000" id=tech

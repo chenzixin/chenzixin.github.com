@@ -1,0 +1,9 @@
+----
+=  data-x="-1000"  data-rotate="90" id=latex
+
+# Latex Support
+
+数学公式
+
+$$e^{\imath\pi} = -1$$
+$$\frac{d}{dx}\left( \int_{0}^{x} f(u)\,du\right)=f(x)$$
