@@ -32,7 +32,6 @@ build_lists: true
 - 数码频道 Digital
 - 产品报价 IT Product Library
 - 资讯频道 News
-- 企业频道 Enterprise
 - 摄影部落 Photo Blog
 - 软件频道 Software
 - 下载中心 Download
