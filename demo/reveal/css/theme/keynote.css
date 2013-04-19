@@ -5,17 +5,18 @@
  *
  * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
-/*********************************************
+/*********************************************   
  * GLOBAL STYLES
  *********************************************/
 body {
   background: #add9e4;
-  background: linear-gradient(top,  #000 0%,#636172 100%); 
   background: -moz-linear-gradient(top, #000 0%, #636172 100%);
   background: -webkit-linear-gradient(top,  #000 0%,#636172 100%);
   background: -ms-linear-gradient(top, rgb(0, 0, 0), rgb(99, 97, 116));
   background: -o-linear-gradient(top, rgb(0, 0, 0), rgb(99, 97, 116));
-  background-color: #f7fbfc; }
+  background: linear-gradient(top,  #000 0%,#636172 100%); 
+  background-color: #f7fbfc;
+  }
 
 .reveal {
   font-family: "Open Sans", sans-serif;
