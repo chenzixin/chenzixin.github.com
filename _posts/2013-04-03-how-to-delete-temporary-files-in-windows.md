@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Delete Temporary Files in Windows"
+title: "使用批处理删除 Windows 临时文件"
 description: "<p>马大姐日理万机，小小的 C 盘，一向不堪重负，正常情况下，不出一个月，就会空间告急。去年我曾手工帮她清理过几次，以下应用软件是占地大户，删除之后，大概有 6G 左右的可用空间：</p><p>Roaming 目录</p><ul><li><p>Apple</p></li><li><p>QQ</p></li><li><p>Foxmail</p></li></ul><blockquote class='warning'>注：都是临时文件，而非邮件附件，也不是聊天记录。</blockquote>"
 category: pogram
 tags: [bat, windows]

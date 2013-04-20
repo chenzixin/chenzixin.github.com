@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Greatest Computer Programmer"
+title: "世界上最伟大的程序员"
 description: "<p>计算机编程是一种艺术形式，就如同人们谱写诗歌和音乐。</p><p>高德纳（Donald Ervin Knuth，1938年1月10日－），出生于密尔沃基，美国著名计算机科学家，斯坦福大学计算机系荣誉退休教授。高德纳教授被誉为现代计算机科学的鼻祖，在计算机科学及数学领域发表了多部具广泛影响的论文和著作。高德纳最为人知的事迹是，他是《计算机程序设计艺术》（The Art of Computer Programming）的作者。此书是计算机科学界最受高度敬重的参考书籍之一。他创造了算法分析的领域，在数个理论计算机科学的分支做出基石一般的贡献，此外还是排版软件 TEX 和字体设计系统 Metafont 的发明人。</p>"
 category: blog
 tags: [program]

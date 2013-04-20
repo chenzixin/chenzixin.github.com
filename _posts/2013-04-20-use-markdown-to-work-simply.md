@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Use Markdown to Work Simply"
+title: "使用 Markdown 改进你的工作"
 description: "<p>其实很多年以前，从国外的网站下载软件，我就留意过，根目录下常有 README.md 这样的文件，可用记事本打开，一般是软件说明和安装指南等，但是从未深入的研究过 md 的含义。</p><p>直到 January 11, 2013，天才黑客 Aaron Swartz 自杀，我才知道，原来世界上有这么优秀的文档工具。</p>"
 category: program
 tags: [markdown, md]
@@ -14,7 +14,7 @@ tags: [markdown, md]
 
 直到 January 11, 2013，天才黑客 Aaron Swartz 自杀，我才知道，原来世界上有这么优秀的文档工具。
 
-## 生世
+## 身世
 
 ### Markdown
 

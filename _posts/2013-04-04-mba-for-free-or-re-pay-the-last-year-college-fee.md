@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MBA for Free or Pay the Last Year Tuition Again"
+title: "免费攻读 MBA 还是重缴最后一年的学费"
 description: "<p>这是一个真实的梦，刚刚醒来。</p><p>梦中的我，大四在读，某天，辅导员通知我，有个组织在搞一个什么活动，要注英语过了六级的学生，才有资格参加。我遍问 35 位同学，最后竟然只有我一个过了 CET6，好吧，走。</p><p>接待我的人，与我年龄相仿，在路上，我才知道详情：</p><ol><li><p>这是某 MBA 学校 和部分 211 大学合作举办的活动，中国最好的 MBA！</p></li><li><p>未来三个月，将和来自全国的顶尖大学生一起集中培训；</p></li><li><p>在最后的结业考试中，成绩优异者，免费读 MBA；</p></li><li><p>不合格的人，需要重缴第四年的学费，推迟一年毕业；</p></li></ol>"
 category: blog
 tags: [dream, mba]

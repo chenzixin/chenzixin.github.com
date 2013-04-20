@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Learning Go the Basics"
+title: "Go 语言基础"
 description: "<p>我一向比较崇拜 Google 的产品，虽然现在的 Google 已经没有之前那么可爱，但是毕竟它骨子里还是一家商业公司，互相理解。</p><p>在冷落 Python 之后，Google 主推自己的 Go 语言，一直听闻在性能上相当不错，语法也很干净，上周又简单的实测了一下运算速度，真的表现优异。考虑到公司在某些领域已经开始应用，我也应该 Hello World 一下了。</p><p>在 <a href='http://coolshell.cn/'>CoolShell</a> 上找到两篇很不错的入门文章，转载学习：</p><p><a href='http://coolshell.cn/articles/8460.html'>Go 语言简介（上）— 语法</a></p><p><a href='http://coolshell.cn/articles/8489.html'>Go 语言简介（下）— 特性</a></p><p>很欣赏 CoolShell 的坚持，如果我从2009年坚持流水到现在，应该也有不错的积累了。</p>"
 category: program
 tags: [go]
