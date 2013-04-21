@@ -108,14 +108,6 @@ py 5000000050000000 23.5s
 
 选择比努力重要。
 
-----
-
-如何学会600多种编程语言
-
-http://www.iteye.com/news/27401
-
-http://en.wikipedia.org/wiki/List_of_programming_languages
-
 
 
 
