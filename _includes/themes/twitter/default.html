@@ -37,11 +37,21 @@
   <!-- atom & rss feed -->
   <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
   <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+  <style type="text/css">
+    .mt50{
+      margin-top: 50px;
+    }
+
+    .mt60{
+      margin-top: 60px;
+    }
+  </style>
 
   <script type="text/javascript">
     $(function () {
       if($.ua.platform.mobile){
         $("#sidebar").hide();
+        $("#mainContent").css("margin-top", "-50px");
       }
     });
   </script>
@@ -64,7 +74,7 @@
             <a href="/tags.html">标签</a>
           </li>
           <li>
-            <a href="/pages/about.html">关于</a>
+            <a href="http://www.chenzixin.com/pages/about.html">关于</a>
           </li>
           <li>
             <form id="search" action="http://google.com/search" method="get" accept-charset="utf-8" style="padding-top:5px;margin-bottom:-4px">
@@ -79,7 +89,7 @@
   <div class="container">
 
     <div class="row">
-      <div class="span3"  style="margin-top: 60px;">
+      <div class="span3 mt60">
         <ul class="nav nav-list affix" id="sidebar">
         {% assign categories_list = site.categories %}
         <li class="active nav-header"><a href="#"><h6>Category List</h6></a></li>
@@ -103,7 +113,7 @@
 
       </div>
 
-      <div class="span9" style="margin-top: 50px;">
+      <div class="span9 mt50" id="mainContent">
         {{ content }}
         <hr>
         <footer>
