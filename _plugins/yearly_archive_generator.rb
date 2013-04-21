@@ -1,5 +1,4 @@
-module Jekyll
-# module TravisSwicegoodGenerators
+module TravisSwicegoodGenerators
   class YearlyArchivePage < BaseArchivePage
     attr_accessor :posts
 
