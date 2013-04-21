@@ -4,14 +4,14 @@ module TravisSwicegoodGenerators
 
     def layout_err_msg
       "
-Hold your horses!  yearly_archive_generator plugin, here.
+        Hold your horses!  yearly_archive_generator plugin, here.
 
-You've enabled me but haven't added a yearly_archive layout.
-At least put an empty file there or I'm not going to run.
+        You've enabled me but haven't added a yearly_archive layout.
+        At least put an empty file there or I'm not going to run.
 
-Missing file:
-  %s/%s.html
-" % ["_layouts", @layout]
+        Missing file:
+          %s/%s.html
+      " % ["_layouts", @layout]
     end
 
     def initialize(site, year, posts)

@@ -1,0 +1,526 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  
+  <meta name="author" content="Christen">
+
+  <!-- Enable responsive viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="/assets/themes/twitter/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/themes/twitter/img/favicon.ico" type="image/ico">
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <script src="/assets/themes/christen/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+  <script src="/assets/themes/christen/js/jquery.ua.min.js" type="text/javascript"></script>
+
+  <!-- Le styles -->
+  <link href="/assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
+  <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+  <link href="/assets/themes/twitter/css/pygments.css" rel="stylesheet" type="text/css" media="all">
+
+  <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  <!-- atom & rss feed -->
+  <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+  <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  <script type="text/javascript">
+    $(function () {
+      if($.ua.platform.mobile){
+        $("#sidebar").hide();
+      }
+    });
+  </script>
+
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="navbar-inner">
+      <div class="container-narrow">
+        <a class="brand" href="/">Let's Go</a>
+        <ul class="nav">
+          <li>
+            <a href="/categories.html">分类</a>
+          </li>
+          <li>
+            <a href="/archive.html">归档</a>
+          </li>
+          <li>
+            <a href="/tags.html">标签</a>
+          </li>
+          <li>
+            <a href="/pages/about.html">关于</a>
+          </li>
+          <li>
+            <form id="search" action="http://google.com/search" method="get" accept-charset="utf-8" style="padding-top:5px;margin-bottom:-4px">
+              <input type="search" name="q" results="0" placeholder="Search" style="width:125px">
+              <input type="hidden" name="q" value="site:chenzixin.com"></form>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="span3" style="margin-top: 3px;">
+        <ul class="nav nav-list affix" id="sidebar">
+        
+        <li class="active nav-header"><a href="#"><h6>Category List</h6></a></li>
+        
+        <li>
+          <a href="/categories.html#program-ref">
+            PROGRAM
+            <span>(33)</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/categories.html#life-ref">
+            LIFE
+            <span>(4)</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/categories.html#blog-ref">
+            BLOG
+            <span>(17)</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/categories.html#linux-ref">
+            LINUX
+            <span>(1)</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/categories.html#mac-ref">
+            MAC
+            <span>(1)</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/categories.html#google-ref">
+            GOOGLE
+            <span>(1)</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/categories.html#pmp-ref">
+            PMP
+            <span>(8)</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/categories.html#history-ref">
+            HISTORY
+            <span>(2)</span>
+          </a>
+        </li>
+        
+          <li class="active nav-header"><a href="#"><h6>New Posts</h6></a></li>
+          
+            
+          <li>
+            <a href="/program/2013/04/20/use-markdown-to-work-simply">使用 Markdown 改进你的工作</a>
+          </li>
+          
+            
+            
+          <li>
+            <a href="/pmp/2013/04/10/3-ways-to-become-a-better-developer">三个方法让你成为更优秀的程序员</a>
+          </li>
+          
+            
+            
+          <li>
+            <a href="/program/2013/04/09/learning-go-the-basics">Go 语言基础</a>
+          </li>
+          
+            
+            
+          <li>
+            <a href="/program/2013/04/05/making-choices-over-weighs-making-efforts">选择比努力重要</a>
+          </li>
+          
+            
+            
+          <li>
+            <a href="/blog/2013/04/04/the-greatest-computer-programmer">世界上最伟大的程序员</a>
+          </li>
+          
+            
+            
+          <li>
+            <a href="/blog/2013/04/04/mba-for-free-or-re-pay-the-last-year-college-fee">免费攻读 MBA 还是重缴学费</a>
+          </li>
+          
+            
+            
+          <li>
+            <a href="/pmp/2013/04/04/be-careful-to-be-sifted-out">警惕在变动中出局</a>
+          </li>
+          
+            
+        </ul>
+
+      </div>
+
+      <div class="span9">
+        <h2>2013 共有文章 62 篇</h2>
+<ul class="nav nav-tabs nav-stacked">
+
+
+<!-- <li><a href ="/program/2013/04/20/use-markdown-to-work-simply">2013-04-20 | 使用 Markdown 改进你的工作</a></li> -->
+<li><a href ="/program/2013/04/20/use-markdown-to-work-simply">04/20/13 | 使用 Markdown 改进你的工作</a></li>
+
+
+
+<!-- <li><a href ="/pmp/2013/04/10/3-ways-to-become-a-better-developer">2013-04-10 | 三个方法让你成为更优秀的程序员</a></li> -->
+<li><a href ="/pmp/2013/04/10/3-ways-to-become-a-better-developer">04/10/13 | 三个方法让你成为更优秀的程序员</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/04/09/learning-go-the-basics">2013-04-09 | Go 语言基础</a></li> -->
+<li><a href ="/program/2013/04/09/learning-go-the-basics">04/09/13 | Go 语言基础</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/04/05/making-choices-over-weighs-making-efforts">2013-04-05 | 选择比努力重要</a></li> -->
+<li><a href ="/program/2013/04/05/making-choices-over-weighs-making-efforts">04/05/13 | 选择比努力重要</a></li>
+
+
+
+<!-- <li><a href ="/pmp/2013/04/04/be-careful-to-be-sifted-out">2013-04-04 | 警惕在变动中出局</a></li> -->
+<li><a href ="/pmp/2013/04/04/be-careful-to-be-sifted-out">04/04/13 | 警惕在变动中出局</a></li>
+
+
+
+<!-- <li><a href ="/blog/2013/04/04/mba-for-free-or-re-pay-the-last-year-college-fee">2013-04-04 | 免费攻读 MBA 还是重缴学费</a></li> -->
+<li><a href ="/blog/2013/04/04/mba-for-free-or-re-pay-the-last-year-college-fee">04/04/13 | 免费攻读 MBA 还是重缴学费</a></li>
+
+
+
+<!-- <li><a href ="/blog/2013/04/04/the-greatest-computer-programmer">2013-04-04 | 世界上最伟大的程序员</a></li> -->
+<li><a href ="/blog/2013/04/04/the-greatest-computer-programmer">04/04/13 | 世界上最伟大的程序员</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/04/03/how-to-delete-temporary-files-in-windows">2013-04-03 | 使用批处理删除 Windows 临时文件</a></li> -->
+<li><a href ="/program/2013/04/03/how-to-delete-temporary-files-in-windows">04/03/13 | 使用批处理删除 Windows 临时文件</a></li>
+
+
+
+<!-- <li><a href ="/pmp/2013/04/03/how-to-impove-your-work-as-a-programer">2013-04-03 | 程序员如何提升自己</a></li> -->
+<li><a href ="/pmp/2013/04/03/how-to-impove-your-work-as-a-programer">04/03/13 | 程序员如何提升自己</a></li>
+
+
+
+<!-- <li><a href ="/pmp/2013/04/03/leading-fresh-man">2013-04-03 | 新人培养经验</a></li> -->
+<li><a href ="/pmp/2013/04/03/leading-fresh-man">04/03/13 | 新人培养经验</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/31/learn-to-program-from-sina-sae">2013-03-31 | 向 Sina SAE 学习编程</a></li> -->
+<li><a href ="/program/2013/03/31/learn-to-program-from-sina-sae">03/31/13 | 向 Sina SAE 学习编程</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/28/learn-perl-in-about-2-hours-30-minutes">2013-03-28 | 两个半小时学习 Perl 语言</a></li> -->
+<li><a href ="/program/2013/03/28/learn-perl-in-about-2-hours-30-minutes">03/28/13 | 两个半小时学习 Perl 语言</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/28/learn-lua">2013-03-28 | 学习 Lua 笔记</a></li> -->
+<li><a href ="/program/2013/03/28/learn-lua">03/28/13 | 学习 Lua 笔记</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/26/update-confluence">2013-03-26 | 升级 Confluence 至 3.5.17</a></li> -->
+<li><a href ="/program/2013/03/26/update-confluence">03/26/13 | 升级 Confluence 至 3.5.17</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/26/install-gollum-failed">2013-03-26 | 安装 GitHub Wiki 引擎 gollum 失败</a></li> -->
+<li><a href ="/program/2013/03/26/install-gollum-failed">03/26/13 | 安装 GitHub Wiki 引擎 gollum 失败</a></li>
+
+
+
+<!-- <li><a href ="/pmp/2013/03/26/dokuwiki-you-knowledge">2013-03-26 | 用 Dokuwiki 管理小团队知识</a></li> -->
+<li><a href ="/pmp/2013/03/26/dokuwiki-you-knowledge">03/26/13 | 用 Dokuwiki 管理小团队知识</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/25/why-nginx-not-apache">2013-03-25 | 为什么使用 Nginx 而不是 Apache</a></li> -->
+<li><a href ="/program/2013/03/25/why-nginx-not-apache">03/25/13 | 为什么使用 Nginx 而不是 Apache</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/25/talk-about-chrome">2013-03-25 | 善用 Google Chrome</a></li> -->
+<li><a href ="/program/2013/03/25/talk-about-chrome">03/25/13 | 善用 Google Chrome</a></li>
+
+
+
+<!-- <li><a href ="/history/2013/03/25/shiji-qingzi-guanjun-songyi">2013-03-25 | 史记摘抄 宋义 料事如神</a></li> -->
+<li><a href ="/history/2013/03/25/shiji-qingzi-guanjun-songyi">03/25/13 | 史记摘抄 宋义 料事如神</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/25/more-about-jekyll">2013-03-25 | Jekyll 使用笔记</a></li> -->
+<li><a href ="/program/2013/03/25/more-about-jekyll">03/25/13 | Jekyll 使用笔记</a></li>
+
+
+
+<!-- <li><a href ="/history/2013/03/25/shiji-chenying">2013-03-25 | 史记摘抄 陈婴 为人低调</a></li> -->
+<li><a href ="/history/2013/03/25/shiji-chenying">03/25/13 | 史记摘抄 陈婴 为人低调</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/24/found-pastebin">2013-03-24 | 发现在线分享文本的应用 Peastebin</a></li> -->
+<li><a href ="/program/2013/03/24/found-pastebin">03/24/13 | 发现在线分享文本的应用 Peastebin</a></li>
+
+
+
+<!-- <li><a href ="/blog/2013/03/24/feedly-and-xiango">2013-03-24 | Feedly 和鲜果都是不错的选择</a></li> -->
+<li><a href ="/blog/2013/03/24/feedly-and-xiango">03/24/13 | Feedly 和鲜果都是不错的选择</a></li>
+
+
+
+<!-- <li><a href ="/pmp/2013/03/24/about-rtx-photo">2013-03-24 | RTX 使用心得</a></li> -->
+<li><a href ="/pmp/2013/03/24/about-rtx-photo">03/24/13 | RTX 使用心得</a></li>
+
+
+
+<!-- <li><a href ="/blog/2013/03/23/what-is-felicity">2013-03-23 | 什么是幸福</a></li> -->
+<li><a href ="/blog/2013/03/23/what-is-felicity">03/23/13 | 什么是幸福</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/23/online-exam">2013-03-23 | 在线考试系统设计</a></li> -->
+<li><a href ="/program/2013/03/23/online-exam">03/23/13 | 在线考试系统设计</a></li>
+
+
+
+<!-- <li><a href ="/blog/2013/03/23/learn-from-edm">2013-03-23 | 垃圾邮件中淘宝</a></li> -->
+<li><a href ="/blog/2013/03/23/learn-from-edm">03/23/13 | 垃圾邮件中淘宝</a></li>
+
+
+
+<!-- <li><a href ="/blog/2013/03/23/a-motivational-woman-grogrammer">2013-03-23 | 一位很励志的女程序员</a></li> -->
+<li><a href ="/blog/2013/03/23/a-motivational-woman-grogrammer">03/23/13 | 一位很励志的女程序员</a></li>
+
+
+
+<!-- <li><a href ="/blog/2013/03/23/i-still-love-you">2013-03-23 | 你若安好 便是晴天</a></li> -->
+<li><a href ="/blog/2013/03/23/i-still-love-you">03/23/13 | 你若安好 便是晴天</a></li>
+
+
+
+<!-- <li><a href ="/blog/2013/03/22/iphone-backup-path">2013-03-22 | iPhone 在 Mac OS X 下的备份路径</a></li> -->
+<li><a href ="/blog/2013/03/22/iphone-backup-path">03/22/13 | iPhone 在 Mac OS X 下的备份路径</a></li>
+
+
+
+<!-- <li><a href ="/blog/2013/03/22/effective-resume">2013-03-22 | 高效的简历是怎样炼成的</a></li> -->
+<li><a href ="/blog/2013/03/22/effective-resume">03/22/13 | 高效的简历是怎样炼成的</a></li>
+
+
+
+<!-- <li><a href ="/blog/2013/03/21/write-long-article">2013-03-21 | 学会写深度长文</a></li> -->
+<li><a href ="/blog/2013/03/21/write-long-article">03/21/13 | 学会写深度长文</a></li>
+
+
+
+<!-- <li><a href ="/blog/2013/03/20/vmaibo-and-weico">2013-03-20 | 开始使用脉搏网和 WeicoPro</a></li> -->
+<li><a href ="/blog/2013/03/20/vmaibo-and-weico">03/20/13 | 开始使用脉搏网和 WeicoPro</a></li>
+
+
+
+<!-- <li><a href ="/blog/2013/03/20/update-to-ios-613">2013-03-20 | 升级 IOS 到 6.1.3</a></li> -->
+<li><a href ="/blog/2013/03/20/update-to-ios-613">03/20/13 | 升级 IOS 到 6.1.3</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/20/talk-about-segmentfault">2013-03-20 | Talk about SegmentFault</a></li> -->
+<li><a href ="/program/2013/03/20/talk-about-segmentfault">03/20/13 | Talk about SegmentFault</a></li>
+
+
+
+<!-- <li><a href ="/blog/2013/03/20/ms-tmall">2013-03-20 | 微软也开始入驻天猫了</a></li> -->
+<li><a href ="/blog/2013/03/20/ms-tmall">03/20/13 | 微软也开始入驻天猫了</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/20/bash_profile-and-bash_rc">2013-03-20 | Linux .bash_profile .bashrc 什么区别</a></li> -->
+<li><a href ="/program/2013/03/20/bash_profile-and-bash_rc">03/20/13 | Linux .bash_profile .bashrc 什么区别</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/18/sina-sae-wp">2013-03-18 | Sina SAE WordPress 搭建笔记</a></li> -->
+<li><a href ="/program/2013/03/18/sina-sae-wp">03/18/13 | Sina SAE WordPress 搭建笔记</a></li>
+
+
+
+<!-- <li><a href ="/blog/2013/03/14/praised-your-wife">2013-03-14 | 赞扬你的妻子</a></li> -->
+<li><a href ="/blog/2013/03/14/praised-your-wife">03/14/13 | 赞扬你的妻子</a></li>
+
+
+
+<!-- <li><a href ="/pmp/2013/03/14/you-have-the-right-to-grow-up-in-your-own-way">2013-03-14 | 你有权以自己的方式长大</a></li> -->
+<li><a href ="/pmp/2013/03/14/you-have-the-right-to-grow-up-in-your-own-way">03/14/13 | 你有权以自己的方式长大</a></li>
+
+
+
+<!-- <li><a href ="/google/2013/03/14/hello-googlegroups-and-goodbye-googlereader">2013-03-14 | 你好 Google Groups 再见 Reader</a></li> -->
+<li><a href ="/google/2013/03/14/hello-googlegroups-and-goodbye-googlereader">03/14/13 | 你好 Google Groups 再见 Reader</a></li>
+
+
+
+<!-- <li><a href ="/pmp/2013/03/14/my-assistant-quit-herself">2013-03-14 | 我的助理辞职了</a></li> -->
+<li><a href ="/pmp/2013/03/14/my-assistant-quit-herself">03/14/13 | 我的助理辞职了</a></li>
+
+
+
+<!-- <li><a href ="/mac/2013/03/13/mac-disk-full">2013-03-13 | Linux 磁盘空间管理</a></li> -->
+<li><a href ="/mac/2013/03/13/mac-disk-full">03/13/13 | Linux 磁盘空间管理</a></li>
+
+
+
+<!-- <li><a href ="/blog/2013/03/12/zhou-yafu-nian-gengyao-dp">2013-03-12 | 周亚夫和年羹尧之死 兼悟设计模式</a></li> -->
+<li><a href ="/blog/2013/03/12/zhou-yafu-nian-gengyao-dp">03/12/13 | 周亚夫和年羹尧之死 兼悟设计模式</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/09/doc-value">2013-03-09 | 写文档 写总结 写代码</a></li> -->
+<li><a href ="/program/2013/03/09/doc-value">03/09/13 | 写文档 写总结 写代码</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/09/what-kind-of-a-software-engineer">2013-03-09 | 你想成为什么样的工程师</a></li> -->
+<li><a href ="/program/2013/03/09/what-kind-of-a-software-engineer">03/09/13 | 你想成为什么样的工程师</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/09/wubi-and-i">2013-03-09 | 我与五笔字型</a></li> -->
+<li><a href ="/program/2013/03/09/wubi-and-i">03/09/13 | 我与五笔字型</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/09/wamp-install-log">2013-03-09 | 我和 Wamp 的故事</a></li> -->
+<li><a href ="/program/2013/03/09/wamp-install-log">03/09/13 | 我和 Wamp 的故事</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/09/talk-with-new">2013-03-09 | 和新同事谈话</a></li> -->
+<li><a href ="/program/2013/03/09/talk-with-new">03/09/13 | 和新同事谈话</a></li>
+
+
+
+<!-- <li><a href ="/linux/2013/03/09/linux-zip-cmd">2013-03-09 | Linux 常用压缩解压命令</a></li> -->
+<li><a href ="/linux/2013/03/09/linux-zip-cmd">03/09/13 | Linux 常用压缩解压命令</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/09/weak-intelligence">2013-03-09 | 犯弱智错误是每个程序员的必修课</a></li> -->
+<li><a href ="/program/2013/03/09/weak-intelligence">03/09/13 | 犯弱智错误是每个程序员的必修课</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/08/mac-spotlight-keymaps">2013-03-08 | Mac OS X Spotlight 快捷键</a></li> -->
+<li><a href ="/program/2013/03/08/mac-spotlight-keymaps">03/08/13 | Mac OS X Spotlight 快捷键</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/08/god-is-in-the-details">2013-03-08 | 上帝在细节中</a></li> -->
+<li><a href ="/program/2013/03/08/god-is-in-the-details">03/08/13 | 上帝在细节中</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/08/git-usage">2013-03-08 | Git 使用笔记</a></li> -->
+<li><a href ="/program/2013/03/08/git-usage">03/08/13 | Git 使用笔记</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/07/somebody-in-a-small-dev-team">2013-03-07 | 分部小团队研发的困境</a></li> -->
+<li><a href ="/program/2013/03/07/somebody-in-a-small-dev-team">03/07/13 | 分部小团队研发的困境</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/07/small-team-pmp-skills">2013-03-07 | 小团队的管理技巧</a></li> -->
+<li><a href ="/program/2013/03/07/small-team-pmp-skills">03/07/13 | 小团队的管理技巧</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/07/10-commandments-of-good-source-control">2013-03-07 | 源代码管理十诫摘抄</a></li> -->
+<li><a href ="/program/2013/03/07/10-commandments-of-good-source-control">03/07/13 | 源代码管理十诫摘抄</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/07/jekyll-host-html">2013-03-07 | 在 Jekyll 中展示精彩的 CSS3 效果</a></li> -->
+<li><a href ="/program/2013/03/07/jekyll-host-html">03/07/13 | 在 Jekyll 中展示精彩的 CSS3 效果</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/06/mac-jekyll-install-log">2013-03-06 | Mac OS X 安装 Jekyll 记录</a></li> -->
+<li><a href ="/program/2013/03/06/mac-jekyll-install-log">03/06/13 | Mac OS X 安装 Jekyll 记录</a></li>
+
+
+
+<!-- <li><a href ="/blog/2013/03/06/2013-baidu-webmaster-conference">2013-03-06 | 2013百度站长交流会</a></li> -->
+<li><a href ="/blog/2013/03/06/2013-baidu-webmaster-conference">03/06/13 | 2013百度站长交流会</a></li>
+
+
+
+<!-- <li><a href ="/blog/2013/03/05/git-my-blog">2013-03-05 | GitHub 博客搭建成功</a></li> -->
+<li><a href ="/blog/2013/03/05/git-my-blog">03/05/13 | GitHub 博客搭建成功</a></li>
+
+
+
+<!-- <li><a href ="/program/2013/03/05/first-blog">2013-03-05 | 第一篇日志</a></li> -->
+<li><a href ="/program/2013/03/05/first-blog">03/05/13 | 第一篇日志</a></li>
+
+
+</ul>
+        <hr>
+        <footer>
+          <p>
+            &copy; 2013
+            <a href='https://github.com/chenzixin' target='_blank'>Christen</a>
+            with help from
+            <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+            ,
+            <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+            and
+            <a href="http://4what.github.com/" target="_blank">4what</a>
+            ,  thanks to
+            <a href="https://github.com/chenzixin" target="_blank">GitHub</a>
+            !
+          </p>
+        </footer>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
