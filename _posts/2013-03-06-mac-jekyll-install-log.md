@@ -11,6 +11,8 @@ tags: [jekyll]
 
 我不知道你是从哪里结识 Jekyll，一个好的引路人，也能节约你不少的时间，比如 [JekyllBootstrap](http://jekyllbootstrap.com/)，用他的 Repository 快速生成，比按照[阮一峰](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)的步骤手工搭建，要快上不少。不过，后者更能让你理解 Jekyll 的运作原理。
 
+[官方维基](https://github.com/mojombo/jekyll/wiki)
+
 我的工作环境：Mac OS X 10.8.2
 
 ## 第一步 Hosted Jekyll
