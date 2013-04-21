@@ -45,6 +45,9 @@
     .mt60{
       margin-top: 60px;
     }
+    #sidebar{
+      background-image:linear-gradient(to right, #ffffff, #f2f2f2);
+    }
   </style>
 
   <script type="text/javascript">
@@ -74,7 +77,8 @@
             <a href="/tags.html">标签</a>
           </li>
           <li>
-            <a href="http://www.chenzixin.com/pages/about.html">关于</a>
+            <!-- <a href="http://www.chenzixin.com/pages/about.html">关于</a> -->
+            <a href="/pages/about.html">关于</a>
           </li>
           <li>
             <form id="search" action="http://google.com/search" method="get" accept-charset="utf-8" style="padding-top:5px;margin-bottom:-4px">
@@ -91,17 +95,25 @@
     <div class="row">
       <div class="span3 mt60">
         <ul class="nav nav-list affix" id="sidebar">
-        {% assign categories_list = site.categories %}
-        <li class="active nav-header"><a href="#"><h6>Category List</h6></a></li>
-        {% for category in categories_list %}
-        <li>
-          <a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category[0] }}-ref">
-            {{ category[0] | join: "/" | upcase}}
-            <span>({{ category[1].size }})</span>
-          </a>
-        </li>
-        {% endfor %}
-          <li class="active nav-header"><a href="#"><h6>Recent Posts</h6></a></li>
+          {% assign categories_list = site.categories %}
+          <li class="active nav-header">
+            <a href="#">
+              <h6>Category List</h6>
+            </a>
+          </li>
+          {% for category in categories_list %}
+          <li>
+            <a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category[0] }}-ref">
+              {{ category[0] | join: "/" | upcase}}
+              <span>({{ category[1].size }})</span>
+            </a>
+          </li>
+          {% endfor %}
+          <li class="active nav-header">
+            <a href="#">
+              <h6>Recent Posts</h6>
+            </a>
+          </li>
           {% for post in site.posts offset:0 limit:7 %}
             {% unless post.draft %}
           <li>
