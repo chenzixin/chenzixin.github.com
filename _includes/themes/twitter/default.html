@@ -71,7 +71,7 @@
       <div class="span3" style="margin-top: 3px;">
         <ul class="nav nav-list affix">
         {% assign categories_list = site.categories %}
-        <li class="active nav-header"><a href="#"><h5>Category List</h5></a></li>
+        <li class="active nav-header"><a href="#"><h6>Category List</h6></a></li>
         {% for category in categories_list %}
         <li>
           <a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category[0] }}-ref">
@@ -80,7 +80,7 @@
           </a>
         </li>
         {% endfor %}
-          <li class="active nav-header"><a href="#"><h5>New Posts</h5></a></li>
+          <li class="active nav-header"><a href="#"><h6>New Posts</h6></a></li>
           {% for post in site.posts offset:0 limit:7 %}
             {% unless post.draft %}
           <li>
