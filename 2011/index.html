@@ -36,11 +36,28 @@
   <!-- atom & rss feed -->
   <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
   <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+  <style type="text/css">
+    .mt50{
+      margin-top: 50px;
+    }
+
+    .mt60{
+      margin-top: 60px;
+    }
+    #sidebar{
+      background: linear-gradient(to right, #ffffff, #f2f2f2);
+      background: -moz-linear-gradient(left, #ffffff 0%, #f2f2f2 100%);
+      background: -webkit-linear-gradient(left,  #ffffff 0%,#f2f2f2 100%);
+      background: -ms-linear-gradient(left, rgb(255, 255, 255), rgb(242, 242, 242));
+      background: -o-linear-gradient(left, rgb(255, 255, 255), rgb(242, 242, 242));
+    }
+  </style>
 
   <script type="text/javascript">
     $(function () {
       if($.ua.platform.mobile){
         $("#sidebar").hide();
+        $("#mainContent").css("margin-top", "-50px");
       }
     });
   </script>
@@ -48,7 +65,7 @@
 </head>
 
 <body>
-  <div class="navbar">
+  <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
       <div class="container-narrow">
         <a class="brand" href="/">Let's Go</a>
@@ -63,6 +80,7 @@
             <a href="/tags.html">标签</a>
           </li>
           <li>
+            <!-- <a href="http://www.chenzixin.com/pages/about.html">关于</a> -->
             <a href="/pages/about.html">关于</a>
           </li>
           <li>
@@ -78,69 +96,83 @@
   <div class="container">
 
     <div class="row">
-      <div class="span3" style="margin-top: 3px;">
+      <div class="span3 mt60">
         <ul class="nav nav-list affix" id="sidebar">
-        
-        <li class="active nav-header"><a href="#"><h6>Category List</h6></a></li>
-        
-        <li>
-          <a href="/categories.html#program-ref">
-            PROGRAM
-            <span>(33)</span>
-          </a>
-        </li>
-        
-        <li>
-          <a href="/categories.html#life-ref">
-            LIFE
-            <span>(4)</span>
-          </a>
-        </li>
-        
-        <li>
-          <a href="/categories.html#blog-ref">
-            BLOG
-            <span>(17)</span>
-          </a>
-        </li>
-        
-        <li>
-          <a href="/categories.html#linux-ref">
-            LINUX
-            <span>(1)</span>
-          </a>
-        </li>
-        
-        <li>
-          <a href="/categories.html#mac-ref">
-            MAC
-            <span>(1)</span>
-          </a>
-        </li>
-        
-        <li>
-          <a href="/categories.html#google-ref">
-            GOOGLE
-            <span>(1)</span>
-          </a>
-        </li>
-        
-        <li>
-          <a href="/categories.html#pmp-ref">
-            PMP
-            <span>(8)</span>
-          </a>
-        </li>
-        
-        <li>
-          <a href="/categories.html#history-ref">
-            HISTORY
-            <span>(2)</span>
-          </a>
-        </li>
-        
-          <li class="active nav-header"><a href="#"><h6>New Posts</h6></a></li>
           
+          <li class="active nav-header">
+            <a href="#">
+              <h6>Category List</h6>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories.html#program-ref">
+              PROGRAM
+              <span>(34)</span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories.html#life-ref">
+              LIFE
+              <span>(4)</span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories.html#blog-ref">
+              BLOG
+              <span>(17)</span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories.html#linux-ref">
+              LINUX
+              <span>(1)</span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories.html#mac-ref">
+              MAC
+              <span>(1)</span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories.html#google-ref">
+              GOOGLE
+              <span>(1)</span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories.html#pmp-ref">
+              PMP
+              <span>(8)</span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories.html#history-ref">
+              HISTORY
+              <span>(2)</span>
+            </a>
+          </li>
+          
+          <li class="active nav-header">
+            <a href="#">
+              <h6>Recent Posts</h6>
+            </a>
+          </li>
+          
+            
+          <li>
+            <a href="/program/2013/04/21/jekyll-archive-by-year">Jekyll 按年归档插件</a>
+          </li>
+          
+            
             
           <li>
             <a href="/program/2013/04/20/use-markdown-to-work-simply">使用 Markdown 改进你的工作</a>
@@ -177,17 +209,11 @@
           </li>
           
             
-            
-          <li>
-            <a href="/pmp/2013/04/04/be-careful-to-be-sifted-out">警惕在变动中出局</a>
-          </li>
-          
-            
         </ul>
 
       </div>
 
-      <div class="span9">
+      <div class="span9 mt50" id="mainContent">
         <h2>2011 共有文章 1 篇</h2>
 <ul class="nav nav-tabs nav-stacked">
 
