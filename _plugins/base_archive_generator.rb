@@ -1,4 +1,5 @@
-module TravisSwicegoodGenerators
+module Jekyll
+# module TravisSwicegoodGenerators
   class BaseArchivePage < Jekyll::Page
     def initialize(site, posts)
       if @layout.nil?
