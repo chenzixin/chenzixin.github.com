@@ -69,6 +69,8 @@ Google 一下，发现了[这条](https://twitter.com/Dingpeixuan/statuses/29557
 
 需要注意的是，这个插件可能存在 Bug，上传之前，要检查有没有重复生成条目。
 
+
+
 ### 收获
 
 1. 适当的执著，可能会有意外的惊喜；
@@ -76,6 +78,12 @@ Google 一下，发现了[这条](https://twitter.com/Dingpeixuan/statuses/29557
 2. 发现 GitHub 一个不错的工具 [Gist](https://gist.github.com/chenzixin/5429063)；
 
 	有了这个，[PasteBin](http://www.chenzixin.com/program/2013/03/24/found-pastebin/) 的优势，只剩下匿名分享了。
+
+3. 效果预览
+
+	<http://www.chenzixin.com/2011/>
+	<http://www.chenzixin.com/2012/>
+	<http://www.chenzixin.com/2013/>
 
 
 
