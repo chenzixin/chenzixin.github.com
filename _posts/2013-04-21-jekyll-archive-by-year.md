@@ -69,8 +69,6 @@ Google 一下，发现了[这条](https://twitter.com/Dingpeixuan/statuses/29557
 
 需要注意的是，这个插件可能存在 Bug，上传之前，要检查有没有重复生成条目。
 
-
-
 ### 收获
 
 1. 适当的执著，可能会有意外的惊喜；
