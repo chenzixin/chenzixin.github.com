@@ -77,10 +77,6 @@
   <script type="text/javascript">
     $(function () {
 
-      if($(window).width() > 1200){
-        $(".mt60").show();
-      }
-
       /*IE 6 7 8 都要处理*/
       var ie = $.ua.browser.name == "msie";
       var v6 = $.ua.browser.versionMajor == 6;
@@ -90,6 +86,10 @@
       var ie6 = ie && v6;
       var ie7 = ie && v7;
       var ie8 = ie && v8;
+
+      if($(window).width() > 1200  && !ie6){
+        $(".mt60").show();
+      }
 
       $(window).resize(function() {
         if ($(window).width() > 1200 && !ie6) {
