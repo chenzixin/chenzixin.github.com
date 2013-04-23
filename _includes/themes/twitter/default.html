@@ -44,6 +44,7 @@
 
     .mt60{
       margin-top: 60px;
+      display: none;
     }
     #sidebar{
       background: linear-gradient(to right, #ffffff, #f2f2f2);
@@ -58,11 +59,21 @@
 
   <script type="text/javascript">
     $(function () {
-      if($.ua.platform.mobile){
-        $("#sidebar").hide();
-        $("#mainContent").css("margin-top", "-50px");
+
+      if(!$.ua.platform.mobile && $(window).width() > 1200){
+        $(".mt60").show();
       }
+
+      $(window).resize(function() {
+        if ($(window).width() < 1200) {
+          $(".mt60").hide();
+        } else{
+          $(".mt60").show();
+        }
+      });
+
     });
+
   </script>
 
 </head>
