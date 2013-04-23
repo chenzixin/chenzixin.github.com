@@ -86,22 +86,32 @@
 
       /*IE 6 7 8 都要处理*/
 
+      var ie = $.ua.browser.name == "msie";
+      var ie6 = $.ua.browser.versionMajor == 6;
+      var ie7 = $.ua.browser.versionMajor == 7;
+      var ie8 = $.ua.browser.versionMajor == 8;
+
       $(window).resize(function() {
-        if ($(window).width() < 1200) {
-          $(".mt60").hide();
-        } else{
+        if ($(window).width() > 1200 && !ie6) {
           $(".mt60").show();
+        } else{
+          $(".mt60").hide();
         }
-      });
+      });  
 
-    var oldie = $.ua.browser.name == "msie" && $.ua.browser.versionMajor < 9
+    if (ie && ie6) {
+      $(".mt60").hide();
+    };
 
-    if (oldie) {
+    if (ie && ie7) {
+      $("#sidebar").css("margin-left","-50px");
+    };
+
+    if (ie && ie8) {
       $("#sidebar").css("margin-left","-50px");
     };
 
     });
-
   </script>
 
 </head>
