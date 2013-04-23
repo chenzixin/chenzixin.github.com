@@ -55,14 +55,34 @@
       filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#ffffff', endColorstr='#f2f2f2');
       -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=1, startColorstr='#ffffff', endColorstr='#f2f2f2')";
     }
+
+    .hint {
+        display: none;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 50px;
+        
+        background: rgba(0,0,0,0.5);
+        color: #EEE;
+        text-align: center;
+        
+        font-size: 32px;
+        padding: 20px;
+        
+        z-index: 999;
+    }
+
   </style>
 
   <script type="text/javascript">
     $(function () {
 
-      if(!$.ua.platform.mobile && $(window).width() > 1200){
+      if($(window).width() > 1200){
         $(".mt60").show();
       }
+
+      /*IE 6 7 8 都要处理*/
 
       $(window).resize(function() {
         if ($(window).width() < 1200) {
@@ -72,6 +92,12 @@
         }
       });
 
+    var oldie = $.ua.browser.name == "msie" && $.ua.browser.versionMajor < 9
+
+    if (oldie) {
+      $(".hint").show();
+    };
+
     });
 
   </script>
@@ -79,6 +105,9 @@
 </head>
 
 <body>
+  <div class="hint">
+    <p>For better experience please use <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b>.</p>
+</div>
   <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
       <div class="container-narrow">
