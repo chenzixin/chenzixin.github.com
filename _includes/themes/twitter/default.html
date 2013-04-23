@@ -29,7 +29,7 @@
 
   <!-- Le fav and touch icons -->
   <!-- Update these with your own images
-    <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="shortcut icon" href="images/favicon.ico">
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
@@ -57,22 +57,19 @@
     }
 
     .hint {
-        display: block;
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: 50px;
-        
-        background-color: #000000;
-        /* this works in IE6, IE7, and IE8 */
-        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
-        color: #EEE;
-        text-align: center;
-        
-        font-size: 32px;
-        padding: 20px;
-        
-        z-index: 999;
+      display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 50px;      
+      background-color: #000000;
+      /* this works in IE6, IE7, and IE8 */
+      filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+      color: #EEE;
+      text-align: center;        
+      font-size: 32px;
+      padding: 20px;     
+      z-index: 999;
     }
 
   </style>
@@ -85,11 +82,14 @@
       }
 
       /*IE 6 7 8 都要处理*/
-
       var ie = $.ua.browser.name == "msie";
-      var ie6 = $.ua.browser.versionMajor == 6;
-      var ie7 = $.ua.browser.versionMajor == 7;
-      var ie8 = $.ua.browser.versionMajor == 8;
+      var v6 = $.ua.browser.versionMajor == 6;
+      var v7 = $.ua.browser.versionMajor == 7;
+      var v8 = $.ua.browser.versionMajor == 8;
+
+      var ie6 = ie && v6;
+      var ie7 = ie && v7;
+      var ie8 = ie && v8;
 
       $(window).resize(function() {
         if ($(window).width() > 1200 && !ie6) {
@@ -99,19 +99,11 @@
         }
       });  
 
-    if (ie && ie6) {
-      $(".mt60").hide();
-    };
-
-    if (ie && ie7) {
+    if (ie7 || ie8) {
       $("#sidebar").css("margin-left","-50px");
     };
 
-    if (ie && ie8) {
-      $("#sidebar").css("margin-left","-50px");
-    };
-
-    });
+  });
   </script>
 
 </head>
