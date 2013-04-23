@@ -63,8 +63,10 @@
         right: 0;
         bottom: 50px;
         
-        background: rgba(0,0,0,0.5);
-        color: #C41200;
+        background-color: #000000;
+        /* this works in IE6, IE7, and IE8 */
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+        color: #EEE;
         text-align: center;
         
         font-size: 32px;
