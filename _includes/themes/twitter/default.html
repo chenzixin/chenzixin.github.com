@@ -100,7 +100,11 @@
       });  
 
     if (ie7 || ie8) {
-      $("#sidebar").css("margin-left","-50px");
+      $("#sidebar").css("margin-left", "-50px");
+    };
+
+    if (ie6) {
+      $("#mainContent").css("margin-left", "20px");
     };
 
   });
