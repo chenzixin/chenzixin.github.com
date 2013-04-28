@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "拉里·佩奇 漠视不可能"
-description: "<p>这是三年前的视频了，但是我昨天才第一次在微博上看到。迟到的分享，不过时间掩不住它的光辉。</p><p>Larry Page 2009 at spring commencement</p><p>Get a little crazy, follow your curiosity, and be ambitious about it.</p><p><a href='http://www.youtube.com/watch?v=gUKz8JulJhA'>Part 1</a></p><p><a href='http://www.youtube.com/watch?v=u-4NjMEWdlc'>Part 2</a></p><p>没有梯子的，也可以在 Youku 上看：</p><p>我知道这个世界看起来已支离破碎，但这是一个伟大的时代，在你的一生中可以疯狂些，跟随你的好奇心，积极进取。不要放弃你的梦想。世界需要你们。</p>"
+description: "<p>这是三年前的视频了，但是我昨天才第一次在微博上看到。迟到的分享，时间掩不住它的光辉。</p><p>Larry Page 2009 at spring commencement</p><p>Get a little crazy, follow your curiosity, and be ambitious about it.</p><p><a href='http://www.youtube.com/watch?v=gUKz8JulJhA'>Part 1</a></p><p><a href='http://www.youtube.com/watch?v=u-4NjMEWdlc'>Part 2</a></p><p>没有梯子的，也可以在 Youku 上看：</p><p>我知道这个世界看起来已支离破碎，但这是一个伟大的时代，在你的一生中可以疯狂些，跟随你的好奇心，积极进取。不要放弃你的梦想。世界需要你们。</p>"
 category: blog
 tags: [pmp]
 ---
 {% include JB/setup %}
 
-这是三年前的视频了，但是我昨天才第一次在微博上看到。迟到的分享，不过时间掩不住它的光辉。
+这是三年前的视频了，但是我昨天才第一次在微博上看到。迟到的分享，时间掩不住它的光辉。
 
 Larry Page 2009 at spring commencement
 
