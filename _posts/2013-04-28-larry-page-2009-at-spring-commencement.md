@@ -26,11 +26,10 @@ Get a little crazy, follow your curiosity, and be ambitious about it.
 ### 中文全文
 
 漠视不可能
-　　
-——Google创始人拉里·佩奇在密歇根大学毕业典礼上的演讲
-　　
-文/拉里·佩奇
 
+——Google创始人拉里·佩奇在密歇根大学毕业典礼上的演讲
+
+文/拉里·佩奇
 
 09级的同学，首先我希望大家站起来，向支持你们的亲朋好友挥手致意！展示你们的爱！
 
