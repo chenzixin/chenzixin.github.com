@@ -25,6 +25,14 @@ Atul Katti：
 
 回复  · 51   对Alexander Kostadinov
 
+另外，赠送三辑乔布斯的视频：
+
+- [Steve Jobs gets emotional with Bill Gates about their friendship](http://www.youtube.com/watch?v=astoa8_6Q64)
+
+- [Steve Jobs talks about managing people](http://www.youtube.com/watch?v=f60dheI4ARg)
+
+- [Steve Jobs' Best Video Moments on Stage](http://www.youtube.com/watch?v=uvsuAZFem88&list=SP17677124127540BC)
+
 
 ### 中文全文
 
