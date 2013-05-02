@@ -49,7 +49,7 @@ The Last Lecture: Really Achieving Your Childhood Dreams
 
 	Mac OS X 自带的 GarageBand 就很好，听说很多人都是因为这款软件而购买 Mac，和我的 SONY 便携音箱配合得很好。
 
-3. 字体
+3. 研究字体
 
 	因为方正显仁字体，我花了点时间看字体，总结在自己的 Confluence 中，并在 Mac 中安装了方正妙手字库。我也很穷，真心买不起。
 
