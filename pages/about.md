@@ -24,7 +24,7 @@ __Focus__
 
 **So you want to know a little bit more about me?**
 
-<p class='justify'>My name is Chen Zixin, I am a Chinese software engineer currently living in Dongcheng District of Beijing with my wife and a cat.</p>
+<p class='justify'>My name is Chen Zixin, I am a Chinese software engineer currently living in Dongcheng District of Beijing with my wifi and a cat.</p>
 
 <p class='justify'>When I was young, I wanted to be a lawyer. That was before I got a job as a game editor in PConline since early 2004. From then on, I got a lot of chances to take part in web application design, and interact with programers. As time goes on, I knew I would be a developer. I never stopped writing code since May 25, 2007. Many thanks to Alan, Neil and Guitang Yang.</p>
 
