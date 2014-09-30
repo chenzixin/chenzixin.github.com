@@ -25,4 +25,4 @@ tags: [blog]
 
 二维码：
 
-<img src="http://ww2.sinaimg.cn/bmiddle/436d0379jw1ekukz2yx5qj20zk0zkdjr.jpg" width="200px" height="200px" alt="扫一扫">
+<img src="http://ww2.sinaimg.cn/bmiddle/436d0379jw1ekukz2yx5qj20zk0zkdjr.jpg" width="136px" height="136px" alt="扫一扫">
