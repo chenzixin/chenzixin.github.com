@@ -23,4 +23,4 @@ tags: [blog]
 
 微信号：zixinsay
 
-![扫一扫](http://ww2.sinaimg.cn/bmiddle/436d0379jw1ekukz2yx5qj20zk0zkdjr.jpg)
+![扫一扫](http://ww2.sinaimg.cn/bmiddle/436d0379jw1ekukz2yx5qj20zk0zkdjr.jpg =150x150)
