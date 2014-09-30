@@ -23,4 +23,6 @@ tags: [blog]
 
 微信号：zixinsay
 
-![扫一扫](http://ww2.sinaimg.cn/bmiddle/436d0379jw1ekukz2yx5qj20zk0zkdjr.jpg =150x150)
+二维码：
+
+<img src="http://ww2.sinaimg.cn/bmiddle/436d0379jw1ekukz2yx5qj20zk0zkdjr.jpg" width="200px" height="200px" alt="扫一扫">
