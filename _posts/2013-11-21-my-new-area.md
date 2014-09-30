@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "开通微信写作 记录生活点滴"
-description: "<p>更新有风险，升级需谨慎！</p><p>今年早些时候，我对Github投入了很大的热情，用MarkDown写了很多不伦不类的日志。在我想重新找回感觉的时候，却遭遇OS X的升级，这下彻底Over了，年龄大了，不想折腾了，决定放弃。</p><p>一部分代码存放在Gist：<a href='https://gist.github.com/chenzixin/'>https://gist.github.com/chenzixin/</a>，而对生活的絮叨则转向微信公共平台。</p><img src="http://ww2.sinaimg.cn/bmiddle/436d0379jw1ekukz2yx5qj20zk0zkdjr.jpg" width="136px" height="136px" alt="扫一扫"/>"
+description: "<p>更新有风险，升级需谨慎！</p><p>今年早些时候，我对Github投入了很大的热情，用MarkDown写了很多不伦不类的日志。在我想重新找回感觉的时候，却遭遇OS X的升级，这下彻底Over了，年龄大了，不想折腾了，决定放弃。</p><p>一部分代码存放在Gist：<a href='https://gist.github.com/chenzixin/'>https://gist.github.com/chenzixin/</a>，而对生活的絮叨则转向微信公共平台。</p>"
 category: blog
 tags: [blog]
 ---
