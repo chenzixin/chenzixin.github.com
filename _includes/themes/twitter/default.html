@@ -1,209 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>{{ page.title }}</title>
-  {% if page.description %}
-  <meta name="description" content="{{ page.description | strip_html }}">
-  {% endif %}
-  <meta name="author" content="{{ site.author.name }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description | strip_html }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
 
-  <!-- Enable responsive viewport -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="shortcut icon" href="{{ ASSET_PATH }}/img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="{{ ASSET_PATH }}/img/favicon.ico" type="image/ico">
+    <link rel="shortcut icon" href="{{ ASSET_PATH }}/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{ ASSET_PATH }}/img/favicon.ico" type="image/ico">
 
-  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-  <!--[if lt IE 9]>
-  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-  <script src="/assets/themes/christen/js/jquery-1.8.3.min.js" type="text/javascript"></script>
-  <script src="/assets/themes/christen/js/jquery.ua.min.js" type="text/javascript"></script>
+    <!-- Le styles -->
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="{{ ASSET_PATH }}/css/pygments.css" rel="stylesheet" type="text/css" media="all">
 
-  <!-- Le styles -->
-  <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
-  <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
-  <link href="{{ ASSET_PATH }}/css/pygments.css" rel="stylesheet" type="text/css" media="all">
-
-  <!-- Le fav and touch icons -->
+    <!-- Le fav and touch icons -->
   <!-- Update these with your own images
-  <link rel="shortcut icon" href="images/favicon.ico">
-  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   -->
-  <!-- atom & rss feed -->
-  <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-  <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-  <style type="text/css">
-    .mt50{
-      margin-top: 50px;
-    }
 
-    .mt60{
-      margin-top: 60px;
-      display: none;
-    }
-    #sidebar{
-      background: linear-gradient(to right, #ffffff, #f2f2f2);
-      background: -moz-linear-gradient(left, #ffffff 0%, #f2f2f2 100%);
-      background: -webkit-linear-gradient(left,  #ffffff 0%,#f2f2f2 100%);
-      background: -ms-linear-gradient(left, rgb(255, 255, 255), rgb(242, 242, 242));
-      background: -o-linear-gradient(left, rgb(255, 255, 255), rgb(242, 242, 242));
-      filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#ffffff', endColorstr='#f2f2f2');
-      -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=1, startColorstr='#ffffff', endColorstr='#f2f2f2')";
-    }
+    <!-- atom & rss feed -->
+    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
-    .hint {
-      display: block;
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 50px;      
-      background-color: #000000;
-      /* this works in IE6, IE7, and IE8 */
-      filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
-      color: #EEE;
-      text-align: center;        
-      font-size: 32px;
-      padding: 20px;     
-      z-index: 999;
-    }
+  </head>
 
-  </style>
-
-  <script type="text/javascript">
-    $(function () {
-
-      /*IE 6 7 8 都要处理*/
-      var ie = $.ua.browser.name == "msie";
-      var v6 = $.ua.browser.versionMajor == 6;
-      var v7 = $.ua.browser.versionMajor == 7;
-      var v8 = $.ua.browser.versionMajor == 8;
-
-      var ie6 = ie && v6;
-      var ie7 = ie && v7;
-      var ie8 = ie && v8;
-
-      if($(window).width() > 1200  && !ie6){
-        $(".mt60").show();
-      }
-
-      $(window).resize(function() {
-        if ($(window).width() > 1200 && !ie6) {
-          $(".mt60").show();
-        } else{
-          $(".mt60").hide();
-        }
-      });  
-
-    if (ie7 || ie8) {
-      $("#sidebar").css("margin-left", "-50px");
-    };
-
-    if (ie6) {
-      $("#mainContent").css("margin-left", "20px");
-    };
-
-  });
-  </script>
-
-</head>
-
-<body>
-
-<!--[if lt IE 8]>
-  <div class="hint">
-    <p>For better experience please use <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b>.</p>
-</div>
- <![endif]-->
-
-  <div class="navbar navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container-narrow">
-        <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
-        <ul class="nav">
-          <li>
-            <a href="/categories.html">分类</a>
-          </li>
-          <li>
-            <a href="/archive.html">归档</a>
-          </li>
-          <li>
-            <a href="/tags.html">标签</a>
-          </li>
-          <li>
-            <!-- <a href="http://www.chenzixin.com/pages/about.html">关于</a> -->
-            <a href="/pages/about.html">关于</a>
-          </li>
-          <li>
-            <form id="search" action="http://google.com/search" method="get" accept-charset="utf-8" style="padding-top:5px;margin-bottom:-4px">
-              <input type="search" name="q" results="0" placeholder="Search" style="width:125px">
-              <input type="hidden" name="q" value="site:chenzixin.com"></form>
-          </li>
-        </ul>
+  <body>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container-narrow">
+          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          <ul class="nav">
+            <li><a href="/categories.html">分类</a></li>
+            <li><a href="/archive.html">归档</a></li>
+            <li><a href="/tags.html">标签</a></li>
+            <li><a href="/pages/about.html">关于</a></li>
+            <li><form id="search" action="http://google.com/search" method="get" accept-charset="utf-8" style="padding-top:5px;margin-bottom:-4px"><input type="search" name="q" results="0" placeholder="Search" style="width:125px"><input type="hidden" name="q" value="site:chenzixin.com"></form></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="container">
+    <div class="container-narrow">
 
-    <div class="row">
-      <div class="span3 mt60">
-        <ul class="nav nav-list affix" id="sidebar">
-          {% assign categories_list = site.categories %}
-          <li class="active nav-header">
-            <a href="#">
-              <h6>Category List</h6>
-            </a>
-          </li>
-          {% for category in categories_list %}
-          <li>
-            <a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category[0] }}-ref">
-              {{ category[0] | join: "/" | upcase}}
-              <span>({{ category[1].size }})</span>
-            </a>
-          </li>
-          {% endfor %}
-          <li class="active nav-header">
-            <a href="#">
-              <h6>Recent Posts</h6>
-            </a>
-          </li>
-          {% for post in site.posts offset:0 limit:7 %}
-            {% unless post.draft %}
-          <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-          {% endunless %}
-            {% endfor %}
-        </ul>
-
-      </div>
-
-      <div class="span9 mt50" id="mainContent">
+      <div class="content">
         {{ content }}
-        <hr>
-        <footer>
-          <p>
-            &copy; {{ site.time | date: '%Y' }}
-            <a href='https://github.com/chenzixin' target='_blank'>{{ site.author.name }}</a>
-            with help from
-            <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-            ,
-            <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-            and
-            <a href="http://4what.github.com/" target="_blank">4what</a>
-            ,  thanks to
-            <a href="https://github.com/chenzixin" target="_blank">GitHub</a>
-            !
-          </p>
-        </footer>
       </div>
+      <hr>
+      <footer>
+        <p>&copy; {{ site.time | date: '%Y' }} <a href='https://github.com/chenzixin' target='_blank'>{{ site.author.name }}</a> with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>, <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a> and <a href="http://4what.github.com/" target="_blank">4what</a>.
+        </p>
+      </footer>
+
     </div>
-  </div>
-  {% include JB/analytics %}
-</body>
+
+    {% include JB/analytics %}
+  </body>
 </html>
