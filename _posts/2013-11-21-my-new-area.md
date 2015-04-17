@@ -9,9 +9,9 @@ tags: [blog]
 
 Keep Writing，不知所云。
 
-* [Blog](http://chenzixin.com/)
-* [Note](http://christen.cn/)
-* [Gist](https://gist.github.com/chenzixin/)
+* [博客](http://chenzixin.com/)
+* [笔记](http://christen.cn/)
+* [代码](https://gist.github.com/chenzixin/)
 
 程序员的世界，你不会懂的。
 
