@@ -9,8 +9,8 @@ tags: [blog]
 
 程序员，有他自己的世界。
 
-* [博客](http://shineve.com/)
-* [笔记](http://hiclick.cn/)
+* [博客](https://shineve.com/)
+* [笔记](https://hiclick.cn/)
 
 然而生命中不止有代码，留心观察，还会有很多的感悟，我担心如果不及早用笔记下，等我真的老了，身后就一片空白！
 
